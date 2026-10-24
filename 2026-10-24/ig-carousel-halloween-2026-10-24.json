@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-24",
+  "theme": "Halloween",
+  "words": [
+    "PUMPKIN",
+    "GHOST",
+    "CANDY",
+    "WITCH",
+    "SPIDER"
+  ],
+  "slides": [
+    "/home/claude/-dailywordhunt-media/2026-10-24/ig-carousel-halloween-2026-10-24-1.png",
+    "/home/claude/-dailywordhunt-media/2026-10-24/ig-carousel-halloween-2026-10-24-2.png"
+  ],
+  "caption": "Find all 5 halloween words, then swipe for the answers. Comment how many you got and save it for later. New word search every day; large-print puzzle books at the link in bio.\n\n#wordsearch #puzzle #brainteaser #wordgame #puzzles",
+  "grid": [
+    "NZIWCRBLZVAS",
+    "IUVCYCRNJTZB",
+    "KVLYDNACKSMW",
+    "PFFDUFSLKOVD",
+    "MNFMNPXYHHBU",
+    "UOYWIOPZJGPM",
+    "PGMDXBEZWDLV",
+    "JPEKIDHIZMIG",
+    "HRRBDDCTMCDZ",
+    "SWCZVNTWCYDK",
+    "OCUVKNICLPFA",
+    "TVNGOKWWZQTE"
+  ],
+  "answer_cells": {
+    "PUMPKIN": [
+      [
+        6,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "SPIDER": [
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "GHOST": [
+      [
+        5,
+        9
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        1,
+        9
+      ]
+    ],
+    "CANDY": [
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "WITCH": [
+      [
+        11,
+        6
+      ],
+      [
+        10,
+        6
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        7,
+        6
+      ]
+    ]
+  },
+  "verified_single_occurrence": true
+}
