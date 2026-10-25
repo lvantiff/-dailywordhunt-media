@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-25",
+  "word": "HELMET",
+  "file": "find-helmet-2026-10-25.mp4",
+  "bytes": 352672,
+  "variable": "baseline",
+  "title": "Can You Find HELMET in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word HELMET hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "helmet"
+  ],
+  "grid": [
+    "FMHRWNJSJT",
+    "RVSCMXVTVE",
+    "QDHRVXNDGM",
+    "GEQXDKPEPL",
+    "OJJFYGUXUE",
+    "OPLRZHJGMH",
+    "LSJSVZRWDG",
+    "IZBUGPIQWK",
+    "FXULDRLRBQ",
+    "LIYIODEMCX"
+  ],
+  "answer_cells": [
+    [
+      5,
+      9
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "verified_single_occurrence": true
+}
