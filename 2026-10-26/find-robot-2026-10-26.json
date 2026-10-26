@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-26",
+  "word": "ROBOT",
+  "file": "find-robot-2026-10-26.mp4",
+  "bytes": 363200,
+  "variable": "baseline",
+  "title": "Can You Find ROBOT in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word ROBOT hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "robot"
+  ],
+  "grid": [
+    "EXOZQAIFQU",
+    "FBKQYYQBXG",
+    "WBKFWSFQMM",
+    "QFWGSDOPHQ",
+    "BXYTXCNTFL",
+    "WHILYXEWFG",
+    "ESVTDAMNJP",
+    "ROBOTBYMPC",
+    "CSCKLVDGKP",
+    "GJSKRZGWCM"
+  ],
+  "answer_cells": [
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      4
+    ]
+  ],
+  "verified_single_occurrence": true
+}
