@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-27",
+  "word": "FOREST",
+  "file": "find-forest-2026-10-27.mp4",
+  "bytes": 357452,
+  "variable": "baseline",
+  "title": "Can You Find FOREST in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word FOREST hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "forest"
+  ],
+  "grid": [
+    "ZNSQMAQFNO",
+    "FTVMNMHLWM",
+    "MFORESTNRB",
+    "PMWWDXOHXY",
+    "EYTBENYGKI",
+    "OVNLNOMFAK",
+    "AXFJBFERDT",
+    "LRZAEAZHXI",
+    "PXZGHKWSLH",
+    "MWFSCHUEXZ"
+  ],
+  "answer_cells": [
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ]
+  ],
+  "verified_single_occurrence": true
+}
