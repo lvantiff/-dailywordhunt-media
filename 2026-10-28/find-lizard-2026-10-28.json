@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-28",
+  "word": "LIZARD",
+  "file": "find-lizard-2026-10-28.mp4",
+  "bytes": 346356,
+  "variable": "grid8",
+  "title": "Can You Find LIZARD in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word LIZARD hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "lizard"
+  ],
+  "grid": [
+    "SURDLDWG",
+    "WRGUIQDQ",
+    "DZBJZMYC",
+    "BFPXATTC",
+    "AYKKRLMF",
+    "GDLODAEO",
+    "JOLKMWZN",
+    "GZGSJYQK"
+  ],
+  "answer_cells": [
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      4
+    ]
+  ],
+  "grid_size": 8,
+  "verified_single_occurrence": true
+}
