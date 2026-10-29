@@ -1,0 +1,37 @@
+name: bounty-radar
+
+on:
+  schedule:
+    - cron: "23 10 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bounty-radar
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python -I -m unittest discover -s bounty-radar/tests
+      - name: Scan
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -I bounty-radar/bounty_radar.py
+      - name: Commit results
+        run: |
+          git config user.name "sovereign-bounty-radar"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bounty-radar/data
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "radar: scan $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

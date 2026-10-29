@@ -1,0 +1,117 @@
+{
+  "comment": "Discovery sources for the Sovereign bounty radar. {since7}/{since14}/{since30} are replaced with UTC dates at run time. Tier = sponsor credibility class used by the rubric (see RUBRIC.md).",
+  "program_watch": [
+    {
+      "id": "hhs_simpler_grants",
+      "name": "HHS Simpler Grants paid contributor program",
+      "query": "repo:HHS/simpler-grants-gov is:issue is:open label:\"status: open bounty\"",
+      "tier": "sponsor_program",
+      "eligibility": "us_citizen",
+      "terms_url": "https://github.com/HHS/simpler-grants-gov/blob/main/documentation/bounties/paid-contributor-TOS.md",
+      "payout": "Tremendous to GitHub email after merge; first valid PR wins, $50 runner-up",
+      "label_pages": [
+        "https://github.com/HHS/simpler-grants-gov/labels/status%3A%20open%20bounty"
+      ]
+    },
+    {
+      "id": "hhs_commongrants_funded",
+      "name": "HHS CommonGrants paid contributor program (simpler-grants-protocol)",
+      "query": "repo:HHS/simpler-grants-protocol is:issue is:open label:\"funded: contribution\",\"funded: implementation\"",
+      "tier": "sponsor_program",
+      "eligibility": "us_citizen",
+      "terms_url": "https://github.com/HHS/simpler-grants-protocol/blob/main/PAID_CONTRIBUTOR_TERMS.md",
+      "label_pages": [
+        "https://github.com/HHS/simpler-grants-protocol/labels/funded%3A%20contribution",
+        "https://github.com/HHS/simpler-grants-protocol/labels/funded%3A%20implementation"
+      ],
+      "payout": "Tremendous within ~5 business days of merge; $50-$500; first complete /claim is assigned; one active claim per person; implementation issues are proposal-based (2-week window)"
+    },
+    {
+      "id": "asyncapi_bounty",
+      "name": "AsyncAPI Bounty Program",
+      "query": "org:asyncapi is:issue is:open label:bounty",
+      "tier": "sponsor_program",
+      "eligibility": "open_tiered",
+      "terms_url": "https://www.asyncapi.com/docs/community/010-contribution-guidelines/BOUNTY_PROGRAM",
+      "payout": "Open Collective expense after maintainer confirms; $200 medium / $400 advanced; outside contributors only at maintainer discretion"
+    },
+    {
+      "id": "testcontainers_go_bounty",
+      "name": "Testcontainers for Go sponsor bounties",
+      "query": "repo:testcontainers/testcontainers-go is:issue is:open label:bounty",
+      "tier": "sponsor_program",
+      "eligibility": "open",
+      "terms_url": "https://golang.testcontainers.org/bounty/",
+      "payout": "Open Collective expense after merge; maintainers may keep 20%"
+    },
+    {
+      "id": "freecad_fpa",
+      "name": "FreeCAD FPA bugfix rewards",
+      "query": "repo:FreeCAD/FreeCAD is:issue is:open label:Bounty",
+      "tier": "sponsor_program",
+      "eligibility": "open",
+      "terms_url": "https://fpa.freecad.org/",
+      "payout": "FPA grant/reward after merge"
+    }
+  ],
+  "discovery_queries": [
+    {
+      "id": "funded_label_copycats",
+      "query": "is:issue is:open label:\"funded: contribution\",\"funded: implementation\" -repo:HHS/simpler-grants-protocol",
+      "tier": "label_only"
+    },
+    {
+      "id": "copycat_open_bounty_label",
+      "query": "is:issue is:open label:\"status: open bounty\" -repo:HHS/simpler-grants-gov",
+      "tier": "label_only"
+    },
+    {
+      "id": "size_bounty_labels",
+      "query": "is:issue is:open label:\"bounty:S\",\"bounty:M\",\"bounty:L\",\"bounty:XL\" updated:>={since30}",
+      "tier": "label_only"
+    },
+    {
+      "id": "paid_contributor_program_text",
+      "query": "is:issue is:open \"paid contributor program\" updated:>={since30}",
+      "tier": "sponsor_program"
+    },
+    {
+      "id": "generic_bounty_label",
+      "query": "is:issue is:open label:bounty no:assignee updated:>={since7}",
+      "tier": "label_only"
+    },
+    {
+      "id": "bounty_dollar_title",
+      "query": "is:issue is:open \"bounty\" \"$\" in:title no:assignee updated:>={since7}",
+      "tier": "label_only"
+    },
+    {
+      "id": "bounty_amount_body",
+      "query": "is:issue is:open \"Bounty: $\" in:body no:assignee updated:>={since14}",
+      "tier": "label_only"
+    },
+    {
+      "id": "opire_reward_comment",
+      "query": "is:issue is:open \"opire\" \"reward\" in:comments updated:>={since14}",
+      "tier": "platform_escrow"
+    }
+  ],
+  "excluded_repos": [
+    "tenstorrent/tt-metal",
+    "SecureBananaLabs/bug-bounty",
+    "Scottcjn/rustchain-bounties",
+    "UnsafeLabs/Bounty-Hunters",
+    "OphirPay/OphirPay",
+    "VARUN3WARE/textkit-bounty",
+    "LarryE135/dsh-bounty",
+    "claude-builders-bounty/claude-builders-bounty"
+  ],
+  "excluded_owners": [
+    "UnsafeLabs",
+    "ClankerNation",
+    "CaravanaCloud",
+    "SecureBananaLabs"
+  ],
+  "comment_exclusions": "Mirrors revenue/bounty-pipeline/discovery-state.json program_exclusions and team-memory bait verdicts (2026-10-04). Add a repo here only with a written reason in SOURCES.md.",
+  "comment_platforms": "Algora-escrowed bounties (label '💎 Bounty') are not scanned: Algora's terms ban AI agents (bounty/BOUNTY-FIRST-TIME-RIGHT-CHECKLIST-2026-10-03.md). BountyHub requires human authorship. See SOURCES.md."
+}
