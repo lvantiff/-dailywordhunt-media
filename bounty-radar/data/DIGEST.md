@@ -1,121 +1,102 @@
-# Bounty radar digest 2026-10-29 21:03Z
+# Bounty radar digest 2026-10-29 21:11Z
 
 Discovery only. A listing here is not a claim, a submission or money. Deep-review items still need the submission gate (sponsor terms, claim rules, competing PRs, payout path) before anyone works them.
 
-Candidates: 687. New this run: 687. API calls: 290.
+Candidates: 687. New this run: 3. API calls: 534.
 
-## Deep Review (91)
+## Deep Review (15)
 
-- 97 | [HHS/simpler-grants-protocol#1370](https://github.com/HHS/simpler-grants-protocol/issues/1370) | $500 | sponsor_program | open PRs 0, claims 0 **NEW**  
+- 97 | [HHS/simpler-grants-protocol#1370](https://github.com/HHS/simpler-grants-protocol/issues/1370) | $500 | sponsor_program | open PRs 0, claims 0  
   [Implementation] Build a CommonGrants API for a grants data source
-- 97 | [HHS/simpler-grants-protocol#1369](https://github.com/HHS/simpler-grants-protocol/issues/1369) | $500 | sponsor_program | open PRs 0, claims 0 **NEW**  
+- 97 | [HHS/simpler-grants-protocol#1369](https://github.com/HHS/simpler-grants-protocol/issues/1369) | $500 | sponsor_program | open PRs 0, claims 0  
   [Implementation] Build a CommonGrants plugin for a grants system (Python or TypeScript)
-- 81 | [HHS/simpler-grants-protocol#355](https://github.com/HHS/simpler-grants-protocol/issues/355) | $125 | sponsor_program | open PRs 0, claims 0 **NEW**  
+- 81 | [HHS/simpler-grants-protocol#355](https://github.com/HHS/simpler-grants-protocol/issues/355) | $125 | sponsor_program | open PRs 0, claims 0  
   [Website] Fix two screen reader issues on the API docs page (skip link, dropdown label)
-- 79 | [HHS/simpler-grants-protocol#1228](https://github.com/HHS/simpler-grants-protocol/issues/1228) | $50 | sponsor_program | open PRs 0, claims 0 **NEW**  
+- 79 | [HHS/simpler-grants-protocol#1228](https://github.com/HHS/simpler-grants-protocol/issues/1228) | $50 | sponsor_program | open PRs 0, claims 0  
   [Dev tool] Validate settings at startup and add `DATABASE_URL` to the Hono.js API template
-- 78 | [HHS/simpler-grants-protocol#356](https://github.com/HHS/simpler-grants-protocol/issues/356) | $250 | sponsor_program | open PRs 0, claims 1 **NEW**  
-  [Website] Add automated accessibility checks (axe) to website CI
-- 76 | [ZcashCommunityGrants/zcashcommunitygrants#522](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/522) | $50000 | label_only | open PRs 0, claims 0 **NEW**  
-  Grant Application - Zynova: Online Zcash Privacy Education and Adoption Programme
-- 73 | [HHS/simpler-grants-protocol#1352](https://github.com/HHS/simpler-grants-protocol/issues/1352) | amount unknown | sponsor_program | open PRs 0, claims 0 **NEW**  
-  [Catch-all] Implementation issues
-- 69 | [Sidiora-Labs/paxeer-monorepo#1232](https://github.com/Sidiora-Labs/paxeer-monorepo/issues/1232) | $50000 | label_only | open PRs ?, claims ? **NEW**  
+- 79 | [Sidiora-Labs/paxeer-monorepo#1232](https://github.com/Sidiora-Labs/paxeer-monorepo/issues/1232) | $50000 | label_only | open PRs 0, claims 0  
   Conflicting Security Policies: No Bug Bounty vs. Advertised Rewards ($50k)
-- 69 | [dev-kp-eloper/BountyScout#1694](https://github.com/dev-kp-eloper/BountyScout/issues/1694) | $20000 | label_only | open PRs ?, claims ? **NEW**  
-  🎯 Bounty Alert: 13 New Opportunityies found
-- 69 | [freedom-winds/BountyScout#1347](https://github.com/freedom-winds/BountyScout/issues/1347) | $20000 | label_only | open PRs ?, claims ? **NEW**  
-  🎯 Bounty Alert: 10 New Opportunityies found
-- 69 | [airdropia/earn-ops#24](https://github.com/airdropia/earn-ops/issues/24) | $1000 | label_only | open PRs ?, claims ? **NEW**  
-  bounty digest 2026-10-29
-- 69 | [freedom-winds/BountyScout#1344](https://github.com/freedom-winds/BountyScout/issues/1344) | $1000 | label_only | open PRs ?, claims ? **NEW**  
-  🎯 Bounty Alert: 8 New Opportunityies found
-- 69 | [airdropia/earn-ops#22](https://github.com/airdropia/earn-ops/issues/22) | $1000 | label_only | open PRs ?, claims ? **NEW**  
-  bounty digest 2026-10-28
-- 69 | [airdropia/earn-ops#18](https://github.com/airdropia/earn-ops/issues/18) | $1000 | label_only | open PRs ?, claims ? **NEW**  
-  bounty digest 2026-10-26
-- 69 | [Rohank143/BountyScout#32](https://github.com/Rohank143/BountyScout/issues/32) | $7000 | label_only | open PRs ?, claims ? **NEW**  
-  🎯 Bounty Alert: 13 New Opportunityies found
-- 69 | [dev-kp-eloper/BountyScout#1688](https://github.com/dev-kp-eloper/BountyScout/issues/1688) | $7000 | label_only | open PRs ?, claims ? **NEW**  
-  🎯 Bounty Alert: 11 New Opportunityies found
-- 69 | [freedom-winds/BountyScout#1341](https://github.com/freedom-winds/BountyScout/issues/1341) | $10000 | label_only | open PRs ?, claims ? **NEW**  
-  🎯 Bounty Alert: 12 New Opportunityies found
-- 69 | [airdropia/earn-ops#19](https://github.com/airdropia/earn-ops/issues/19) | $50000 | label_only | open PRs ?, claims ? **NEW**  
-  superteam digest 2026-10-26
-- 69 | [airdropia/earn-ops#23](https://github.com/airdropia/earn-ops/issues/23) | $50000 | label_only | open PRs ?, claims ? **NEW**  
-  superteam digest 2026-10-28
-- 69 | [airdropia/earn-ops#26](https://github.com/airdropia/earn-ops/issues/26) | $50000 | label_only | open PRs ?, claims ? **NEW**  
-  superteam digest 2026-10-29
-- 66 | [zhangjiayang6835-cyber/bounty-plaza#4152](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4152) | $250 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty] 💰 Bounty Seguro ($$250): [Bounty] Preserve RFC 7239 `Forwarded` host author
-- 66 | [zhangjiayang6835-cyber/bounty-plaza#4143](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4143) | $250 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty] Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_
-- 66 | [WholeTroutMedia/oss-verification-sandbox#2](https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/2) | $350 | label_only | open PRs ?, claims ? **NEW**  
-  Flush buffered window elements when `_quorum_epoch_barrier_7c2b` timer preempts idle pull
-- 66 | [alfrexo95/bounty-bot#60](https://github.com/alfrexo95/bounty-bot/issues/60) | $250 | label_only | open PRs ?, claims ? **NEW**  
-  💰 Bounty Seguro ($$250): [Bounty] 💰 Bounty Seguro ($$250): [Bounty] 💰 Bount
-- 66 | [WholeTroutMedia/oss-verification-sandbox#1](https://github.com/WholeTroutMedia/oss-verification-sandbox/issues/1) | $250 | label_only | open PRs ?, claims ? **NEW**  
-  Preserve RFC 7239 `Forwarded` host authority in sub-mounted ASGI `Request.scope_for`
+- 78 | [HHS/simpler-grants-protocol#356](https://github.com/HHS/simpler-grants-protocol/issues/356) | $250 | sponsor_program | open PRs 0, claims 1  
+  [Website] Add automated accessibility checks (axe) to website CI
+- 76 | [sybil-solutions/local-ai-registry#262](https://github.com/sybil-solutions/local-ai-registry/issues/262) | $1000 | label_only | open PRs 0, claims 0  
+  Bounty ledger: claims, submissions and payouts
+- 73 | [HHS/simpler-grants-protocol#1352](https://github.com/HHS/simpler-grants-protocol/issues/1352) | amount unknown | sponsor_program | open PRs 0, claims 0  
+  [Catch-all] Implementation issues
+- 68 | [paraloom-labs/paraloom-core#1276](https://github.com/paraloom-labs/paraloom-core/issues/1276) | $300 | label_only | open PRs 0, claims 0  
+  [BOUNTY] High: Soundness & Validation Gaps in Mainnet Ceremony Cutover Pipeline (zkey_json_to_arkworks, circom_reduction
+- 67 | [xpex-systems-ai/GXEON-AI#452](https://github.com/xpex-systems-ai/GXEON-AI/issues/452) | $350 | label_only | open PRs 0, claims 0  
+  GXEON PAID-WORK #002 — TokenGems/Jupiter docs review (research ready, no submission or payout)
+- 67 | [immanueltella-web/quantum-media-os.#1](https://github.com/immanueltella-web/quantum-media-os./issues/1) | $250 | label_only | open PRs 0, claims 0  
+  💷 XOOL Penniless Agent — first £1 target
+- 66 | [alston-personal/agentmanager#2003](https://github.com/alston-personal/agentmanager/issues/2003) | $3000 | label_only | open PRs 0, claims 1  
+  Bounty Golden Path v1: qualified paid-issue discovery → governed execution → verified payout
+- 62 | [openai/codex#37585](https://github.com/openai/codex/issues/37585) | amount unknown | sponsor_program | open PRs 0, claims 0  
+  [Contributor Credits] Reward substantial verified bug-reporting work with additional Work/Codex usage
+- 60 | [syscoin/syscoin-gitcoin#1](https://github.com/syscoin/syscoin-gitcoin/issues/1) | $2400 | label_only | open PRs 0, claims 0  
+  Syscoin-Ethereum Bridge Bounty Tier 1: The ERC-20 project [up to 35k SYS ( X) approximately $2400 ]
+- 60 | [syscoin/syscoin-gitcoin#2](https://github.com/syscoin/syscoin-gitcoin/issues/2) | $1000 | label_only | open PRs 0, claims 0  
+  Syscoin-Ethereum Bridge Bounty Tier 2: The Blockchain Professional [up to 15k SYS ( X) approximately $1000 ]
 
-## Watch (90)
+## Watch (75)
 
-- 59 | [zhangjiayang6835-cyber/bounty-plaza#4107](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4107) | $100 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty] USDC-quoted pairs not having the correct marketcap displayed in tools
-- 59 | [XHToken/Spark-X2.6#16](https://github.com/XHToken/Spark-X2.6/issues/16) | $100 | label_only | open PRs ?, claims ? **NEW**  
+- 62 | [paraloom-labs/paraloom-core#1258](https://github.com/paraloom-labs/paraloom-core/issues/1258) | $150 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Medium: Missing init_asset_vault, set_asset_deposit_cap, and set_min_token_stake instruction builders, discrimi
+- 62 | [paraloom-labs/paraloom-core#1230](https://github.com/paraloom-labs/paraloom-core/issues/1230) | $150 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Medium: Merkle root history capacity mismatch between on-chain verifier (64) and off-chain tree (256) causes se
+- 62 | [paraloom-labs/paraloom-core#1242](https://github.com/paraloom-labs/paraloom-core/issues/1242) | $150 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Medium: paraloom validator withdraw-unbonded omits idempotent ATA creation, causing AccountNotInitialized failu
+- 62 | [paraloom-labs/paraloom-wallet#133](https://github.com/paraloom-labs/paraloom-wallet/issues/133) | $150 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Medium: buildDepositInstruction omits merkle_tree PDA account and uses obsolete DEPOSIT_DISCRIMINATOR, causing 
+- 62 | [paraloom-labs/paraloom-core#1246](https://github.com/paraloom-labs/paraloom-core/issues/1246) | $150 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Low: Case-insensitive shielded address self-transfer bypass dropping payBlind locally, and non-USDC SPL decimal
+- 62 | [paraloom-labs/paraloom-wallet#127](https://github.com/paraloom-labs/paraloom-wallet/issues/127) | $150 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Medium: routeSwap and swapReconcile cast 64-bit bigint amounts to JavaScript Number, causing IEEE-754 precision
+- 62 | [paraloom-labs/paraloom-core#1236](https://github.com/paraloom-labs/paraloom-core/issues/1236) | $150 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Medium: transact_ingress submit_handler omits duplicate nullifier and canonical field checks, burning consensus
+- 62 | [paraloom-labs/paraloom-wallet#173](https://github.com/paraloom-labs/paraloom-wallet/issues/173) | $150 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Medium: Empty-signature note wipe in markNoteSpent and v2 136-hex shielded address rejection in shieldedAddress
+- 62 | [paraloom-labs/paraloom-core#1254](https://github.com/paraloom-labs/paraloom-core/issues/1254) | $150 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Medium: NullifierSet::check_batch allows intra-batch duplicate nullifiers and insert_batch returns inflated cou
+- 62 | [paraloom-labs/paraloom-core#1247](https://github.com/paraloom-labs/paraloom-core/issues/1247) | $150 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Medium: transact_ingress submit_handler admits oversized proofs, fee-overflow amounts, and zero recipients, cau
+- 62 | [paraloom-labs/paraloom-wallet#140](https://github.com/paraloom-labs/paraloom-wallet/issues/140) | $150 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Low: Case-insensitive shielded address self-transfer bypass dropping payBlind locally, and non-USDC SPL decimal
+- 62 | [Agenta-AI/agenta#7914](https://github.com/Agenta-AI/agenta/issues/7914) | $100 | label_only | open PRs ?, claims ?  
+  Automation instructions that start with "/" or "$" reach the agent as empty text
+- 59 | [XHToken/Spark-X2.6#16](https://github.com/XHToken/Spark-X2.6/issues/16) | $100 | label_only | open PRs ?, claims ?  
   HER Hack-Astron #7 | Spark-X2.6 Open Source AI for Good Challenge｜公益应用场景挑战赛
-- 59 | [zhangjiayang6835-cyber/bounty-plaza#1915](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1915) | $105 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty] [Bounty: $105] Preserve burnTxHash when Stellar confirmation polling hits transi
-- 59 | [blake-guthrie/GLASS#1](https://github.com/blake-guthrie/GLASS/issues/1) | $100 | label_only | open PRs ?, claims ? **NEW**  
+- 59 | [blake-guthrie/GLASS#1](https://github.com/blake-guthrie/GLASS/issues/1) | $100 | label_only | open PRs ?, claims ?  
   USDC-quoted pairs not having the correct marketcap displayed in tools
-- 59 | [habibdxb01/bounty-watcher#8](https://github.com/habibdxb01/bounty-watcher/issues/8) | $150 | label_only | open PRs ?, claims ? **NEW**  
-  📋 2 open bounties right now
-- 59 | [zhangjiayang6835-cyber/bounty-plaza#1910](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1910) | $125 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty] [Bounty: $125] Add structured progress callbacks to transfer()
-- 59 | [zhangjiayang6835-cyber/bounty-plaza#4109](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4109) | $100 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty] 💰 Bounty Seguro ($$100): [Bounty] USDC-quoted pairs not having the correct 
-- 59 | [zhangjiayang6835-cyber/bounty-plaza#4080](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4080) | $150 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty] 📋 2 open bounties right now
-- 59 | [alfrexo95/bounty-bot#28](https://github.com/alfrexo95/bounty-bot/issues/28) | $100 | label_only | open PRs ?, claims ? **NEW**  
-  💰 Bounty Seguro ($$100): 💰 Bounty Seguro ($$100): [Bounty] 💰 Bounty Seguro 
-- 59 | [zhangjiayang6835-cyber/bounty-plaza#4110](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/4110) | $100 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty] 💰 Bounty Seguro ($$100): 💰 Bounty Seguro ($$100): [Bounty] 💰 Bounty Seguro 
-- 59 | [zhangjiayang6835-cyber/bounty-plaza#1913](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1913) | $105 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty] [Bounty: $105] Tolerate transient Iris failures in getAttestation and resolveBur
-- 59 | [alfrexo95/bounty-bot#21](https://github.com/alfrexo95/bounty-bot/issues/21) | $100 | label_only | open PRs ?, claims ? **NEW**  
-  💰 Bounty Seguro ($$100): [Bounty] USDC-quoted pairs not having the correct 
-- 59 | [alfrexo95/bounty-bot#27](https://github.com/alfrexo95/bounty-bot/issues/27) | $100 | label_only | open PRs ?, claims ? **NEW**  
-  💰 Bounty Seguro ($$100): [Bounty] 💰 Bounty Seguro ($$100): [Bounty] USDC-qu
-- 59 | [zhangjiayang6835-cyber/bounty-plaza#1912](https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/1912) | $105 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty] [Bounty: $105] checkStellarRecipientReady must not report RPC outages as missing
-- 59 | [paraloom-labs/paraloom-core#1189](https://github.com/paraloom-labs/paraloom-core/issues/1189) | $150 | label_only | open PRs ?, claims ? **NEW**  
-  [BOUNTY] Medium: CPI ordering violation in slash_validator (SVM balance isolation), unguarded zero-lamport mutation, and
-- 59 | [paraloom-labs/paraloom-core#1215](https://github.com/paraloom-labs/paraloom-core/issues/1215) | $150 | label_only | open PRs ?, claims ? **NEW**  
+- 59 | [paraloom-labs/paraloom-core#1215](https://github.com/paraloom-labs/paraloom-core/issues/1215) | $150 | label_only | open PRs ?, claims ?  
   [BOUNTY] Medium: Unchecked and Uninitialized Validator Token ATA in paraloom-cli validator register and register_validat
-- 59 | [paraloom-labs/paraloom-core#1218](https://github.com/paraloom-labs/paraloom-core/issues/1218) | $150 | label_only | open PRs ?, claims ? **NEW**  
-  [BOUNTY] Medium: Missing SPL asset instruction builders (deposit_note_spl, init_asset_vault, set_asset_deposit_cap, set_
-- 59 | [paraloom-labs/paraloom-core#1220](https://github.com/paraloom-labs/paraloom-core/issues/1220) | $150 | label_only | open PRs ?, claims ? **NEW**  
+- 59 | [paraloom-labs/paraloom-core#1220](https://github.com/paraloom-labs/paraloom-core/issues/1220) | $150 | label_only | open PRs ?, claims ?  
   [BOUNTY] Medium: Missing slash_validator and update_reputation instruction builders, discriminators, and derive_slashed_
-- 59 | [paraloom-labs/paraloom-core#1156](https://github.com/paraloom-labs/paraloom-core/issues/1156) | $150 | label_only | open PRs ?, claims ? **NEW**  
+- 59 | [paraloom-labs/paraloom-core#1189](https://github.com/paraloom-labs/paraloom-core/issues/1189) | $150 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Medium: CPI ordering violation in slash_validator (SVM balance isolation), unguarded zero-lamport mutation, and
+- 59 | [paraloom-labs/paraloom-core#1218](https://github.com/paraloom-labs/paraloom-core/issues/1218) | $150 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Medium: Missing SPL asset instruction builders (deposit_note_spl, init_asset_vault, set_asset_deposit_cap, set_
+- 59 | [paraloom-labs/paraloom-core#1156](https://github.com/paraloom-labs/paraloom-core/issues/1156) | $150 | label_only | open PRs ?, claims ?  
   [BOUNTY] Medium: peer_id_from_multiaddr extracts the first /p2p/<peer_id> instead of trailing target PeerId on p2p-circu
-- 59 | [freedom-winds/BountyScout#1315](https://github.com/freedom-winds/BountyScout/issues/1315) | $100 | label_only | open PRs ?, claims ? **NEW**  
-  🎯 Bounty Alert: 8 New Opportunityies found
-- 57 | [illbnm/homelab-stack#10](https://github.com/illbnm/homelab-stack/issues/10) | $280 | label_only | open PRs ?, claims ? **NEW**  
-  [BOUNTY $280] Observability — Prometheus + Grafana + Loki + Alerting
-- 57 | [illbnm/homelab-stack#8](https://github.com/illbnm/homelab-stack/issues/8) | $250 | label_only | open PRs ?, claims ? **NEW**  
-  [BOUNTY $250] Robustness — 国内网络适配 + 环境鲁棒性
-- 57 | [illbnm/homelab-stack#9](https://github.com/illbnm/homelab-stack/issues/9) | $300 | label_only | open PRs ?, claims ? **NEW**  
-  [BOUNTY $300] SSO — Authentik 统一身份认证
-- 57 | [hledgerorg/hledger#2648](https://github.com/hledgerorg/hledger/issues/2648) | $419 | label_only | open PRs ?, claims ? **NEW**  
-  Support simple arithmetic expressions in posting amounts
-- 57 | [Spectral-Finance/lux#100](https://github.com/Spectral-Finance/lux/issues/100) | $300 | label_only | open PRs ?, claims ? **NEW**  
-  Cargo Package Management Integration $300
+- 57 | [sybil-solutions/local-ai-registry#370](https://github.com/sybil-solutions/local-ai-registry/issues/370) | $50 | label_only | open PRs ?, claims ?  
+  Support: NVIDIA GeForce RTX 5060 Laptop GPU 8 GB (Blackwell) + $50 bounty request
+- 57 | [ariahendrawan-sudo/project-a#15](https://github.com/ariahendrawan-sudo/project-a/issues/15) | $50 | label_only | open PRs ?, claims ?  
+  Bounty Scout — 2026-10-26
+- 57 | [commaai/opendbc#2017](https://github.com/commaai/opendbc/issues/2017) | $3000 | platform_escrow | open PRs 3, claims 0  
+  [$3000 bounty] BYD port
+- 56 | [illbnm/homelab-stack#14](https://github.com/illbnm/homelab-stack/issues/14) | $200 | platform_escrow | open PRs 0, claims 0  
+  [BOUNTY $200] Testing — 自动化测试套件
+- 55 | [paraloom-labs/paraloom-core#1277](https://github.com/paraloom-labs/paraloom-core/issues/1277) | $300 | label_only | open PRs 1, claims 0  
+  [BOUNTY] High: Soundness & Validation Gaps in Mainnet Ceremony Cutover Pipeline (zkey_json_to_arkworks, circom_reduction
+- 55 | [pursekeeper/api#58](https://github.com/pursekeeper/api/issues/58) | $20000 | label_only | open PRs 0, claims 0  
+  Superteam Earn (superteam.fun) firsthand inventory — the largest real-settlement board in this 31-board census by an ord
 
 ## Rejections by gate
 
-- excluded_repo: 95
+- aggregator_mirror_or_grant: 259
+- excluded_repo: 94
 - noncash_reward: 47
-- platform_bans_ai_agents: 32
-- already_solved: 13
+- platform_bans_ai_agents: 31
+- already_solved: 16
 - assigned_to_other: 3
 
 ## Source coverage
@@ -129,7 +110,7 @@ Candidates: 687. New this run: 687. API calls: 290.
 - copycat_open_bounty_label: total 0, retrieved 0, complete True
 - size_bounty_labels: total 11, retrieved 11, complete True
 - paid_contributor_program_text: total 4, retrieved 4, complete True
-- generic_bounty_label: total 373, retrieved 300, complete False
-- bounty_dollar_title: total 843, retrieved 300, complete False
-- bounty_amount_body: total 3621, retrieved 300, complete False
+- generic_bounty_label: total 374, retrieved 300, complete False
+- bounty_dollar_title: total 844, retrieved 300, complete False
+- bounty_amount_body: total 3622, retrieved 300, complete False
 - opire_reward_comment: total 71, retrieved 70, complete False
