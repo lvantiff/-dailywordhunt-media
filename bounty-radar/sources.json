@@ -120,10 +120,6 @@
       "query": "filename:PAID_CONTRIBUTOR_TERMS.md"
     },
     {
-      "id": "bounty_md",
-      "query": "filename:BOUNTY.md bounty"
-    },
-    {
       "id": "bounties_md",
       "query": "filename:BOUNTIES.md"
     },

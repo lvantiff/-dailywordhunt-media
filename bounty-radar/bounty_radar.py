@@ -51,6 +51,12 @@ BANNED_PLATFORM_RE = re.compile(r"algora\.io|\U0001F48E Bounty|bountyhub\.dev", 
 # Bounty aggregators, mirrors, digests and grant applications: not the canonical paid issue.
 MIRROR_TITLE_RE = re.compile(r"bounty alert|digest|open bounties right now|bounty seguro|new opportunit|grant application|\bairdrop", re.I)
 MIRROR_REPO_RE = re.compile(r"bount|earn|airdrop|sandbox|radar|scout|watcher|hunter", re.I)
+# Another contributor's own security/bug report filed for a program's reward: not a sponsor-posted task we can take.
+REPORTER_OWNED_RE = re.compile(r"^\s*\[(?:bug )?bounty\]\s*(?:critical|high|medium|low|info)\b", re.I)
+# Agent-experiment, tracker and meta issues that mention money but are not tasks.
+META_TITLE_RE = re.compile(r"bounty ledger|conflicting .*polic|penniless|paid-work #|first [\u00a3$]\d|bounty golden path|roadmap|tracker|contributor credits", re.I)
+# Documentation files that are about security reporting or learning, not a payer's program.
+LEAD_PATH_NOISE_RE = re.compile(r"bug[-_ ]?bount|security|pentest|hacker|hackthebox|vuln|curl|awesome|handbook|resources|checklist|cheat|learn|tutorial|recipes", re.I)
 PREFERRED_LANGS = {"Python", "TypeScript", "JavaScript", "Go", "HTML", "CSS", "Shell", "Markdown"}
 
 
@@ -124,6 +130,9 @@ class GitHub:
     def search_code(self, query):
         """Return (items, total_count). Code search allows ~10 requests a minute, so callers must pace."""
         res = self.get("/search/code", {"q": query, "per_page": 50}, retries=1)
+        if res is None and not self.out_of_time():
+            time.sleep(45)
+            res = self.get("/search/code", {"q": query, "per_page": 50}, retries=1)
         if res is None:
             return [], None
         return res.get("items", []), res.get("total_count", 0)
@@ -160,6 +169,8 @@ def discover_programs(gh, cfg, known):
         for it in items:
             repo = (it.get("repository") or {}).get("full_name")
             if not repo or repo in known or repo.split("/")[0] in cfg.get("excluded_owners", []):
+                continue
+            if LEAD_PATH_NOISE_RE.search(it.get("path") or "") or LEAD_PATH_NOISE_RE.search(repo.split("/")[-1]):
                 continue
             lead = leads.setdefault(repo, {"repo": repo, "files": [], "queries": []})
             if it.get("path") not in lead["files"]:
@@ -275,6 +286,10 @@ def score(c, now):
         gates.append("already_solved")
     if c.get("banned_platform"):
         gates.append("platform_bans_ai_agents")
+    if c.get("tier") != "sponsor_program" and REPORTER_OWNED_RE.search(c.get("title", "")):
+        gates.append("reporter_owned_security_submission")
+    if c.get("tier") != "sponsor_program" and META_TITLE_RE.search(c.get("title", "")):
+        gates.append("meta_or_agent_experiment")
     if c.get("tier") != "sponsor_program" and (MIRROR_TITLE_RE.search(c.get("title", "")) or
                                                MIRROR_REPO_RE.search(c.get("repo", "").split("/")[-1])):
         gates.append("aggregator_mirror_or_grant")

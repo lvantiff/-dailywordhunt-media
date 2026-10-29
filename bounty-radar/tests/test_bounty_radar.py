@@ -113,6 +113,23 @@ class ScoreTests(unittest.TestCase):
         _, v, _ = br.score(self.base(repo="HHS/simpler-grants-gov", title="Pagination"), NOW)
         self.assertEqual(v, "deep_review")
 
+    def test_reporter_owned_and_meta_rejected(self):
+        for title, gate in [("[BOUNTY] High: Soundness gaps in ceremony pipeline", "reporter_owned_security_submission"),
+                            ("Bounty ledger: claims, submissions and payouts", "meta_or_agent_experiment"),
+                            ("\U0001F4B7 XOOL Penniless Agent first \u00a31 target", "meta_or_agent_experiment")]:
+            _, v, reasons = br.score(self.base(tier="label_only", title=title), NOW)
+            self.assertEqual(v, "rejected")
+            self.assertIn(gate, reasons)
+        _, v, _ = br.score(self.base(tier="sponsor_program", title="[BOUNTY] High: x"), NOW)
+        self.assertEqual(v, "deep_review")
+
+    def test_program_leads_skip_security_docs(self):
+        gh = FakeGitHub(search={})
+        gh.code = {"filename:X": [{"repository": {"full_name": "a/b"}, "path": "docs/bug-bounty.md"},
+                                  {"repository": {"full_name": "c/d"}, "path": "CONTRIBUTING.md"}]}
+        leads = br.discover_programs(gh, {"program_discovery": [{"id": "q", "query": "filename:X"}]}, set())
+        self.assertEqual([l["repo"] for l in leads], ["c/d"])
+
     def test_unenriched_cannot_be_deep_review(self):
         _, v, reasons = br.score(self.base(enriched=False), NOW)
         self.assertEqual(v, "watch")
