@@ -46,6 +46,9 @@ AMOUNT_RE = re.compile(
 )
 # Payout runs through a platform whose terms ban AI agents (Algora) or require human authorship (BountyHub).
 BANNED_PLATFORM_RE = re.compile(r"algora\.io|\U0001F48E Bounty|bountyhub\.dev", re.I)
+# Bounty aggregators, mirrors, digests and grant applications: not the canonical paid issue.
+MIRROR_TITLE_RE = re.compile(r"bounty alert|digest|open bounties right now|bounty seguro|new opportunit|grant application|\bairdrop", re.I)
+MIRROR_REPO_RE = re.compile(r"bount|earn|airdrop|sandbox|radar|scout|watcher|hunter", re.I)
 PREFERRED_LANGS = {"Python", "TypeScript", "JavaScript", "Go", "HTML", "CSS", "Shell", "Markdown"}
 
 
@@ -230,6 +233,9 @@ def score(c, now):
         gates.append("already_solved")
     if c.get("banned_platform"):
         gates.append("platform_bans_ai_agents")
+    if c.get("tier") != "sponsor_program" and (MIRROR_TITLE_RE.search(c.get("title", "")) or
+                                               MIRROR_REPO_RE.search(c.get("repo", "").split("/")[-1])):
+        gates.append("aggregator_mirror_or_grant")
     if gates:
         return 0, "rejected", gates
 
@@ -285,6 +291,9 @@ def score(c, now):
 
     pts = max(0, min(100, pts))
     verdict = "deep_review" if pts >= 60 else "watch" if pts >= 40 else "logged"
+    if verdict == "deep_review" and not c.get("enriched", True):
+        verdict = "watch"  # competition and AI policy not checked yet
+        reasons.append("not_enriched")
     if amt is None and c.get("tier") != "sponsor_program":
         verdict = "logged"  # no stated cash and no program terms: nothing to act on yet
         reasons.append("no_stated_amount")
@@ -319,7 +328,7 @@ def build_candidate(issue, source, sources_cfg):
     }
 
 
-def scan(gh, cfg, now, max_enrich=80):
+def scan(gh, cfg, now, max_enrich=150):
     run = {"started_at": iso(now), "queries": [], "errors": []}
     found = {}
     sources = [dict(s, kind="program") for s in cfg.get("program_watch", [])] + \
@@ -435,7 +444,7 @@ def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--sources", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "sources.json"))
     ap.add_argument("--out", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"))
-    ap.add_argument("--max-enrich", type=int, default=80)
+    ap.add_argument("--max-enrich", type=int, default=150)
     args = ap.parse_args(argv)
     with open(args.sources, encoding="utf-8") as f:
         cfg = json.load(f)

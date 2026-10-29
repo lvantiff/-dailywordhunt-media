@@ -14,6 +14,7 @@ Implemented in `score()` in `bounty_radar.py`. The scanner applies it automatica
 | Reward is points, XP, testnet tokens, RTC or "unpaid" | Not cash. |
 | A merged PR already references the issue | Already solved. |
 | Payout runs through Algora or BountyHub | Their terms ban AI agents or need human authorship. |
+| Aggregator, mirror, digest or grant application (outside sponsor programs) | Bounty-alert bots and "bounty plaza" repos copy other issues; grant applications are not bounties. The canonical issue is what counts. |
 
 Also rejected by the daily review, not by the scanner: any entry fee, deposit or paid tool (spend is $0), any step needing a CAPTCHA, KYC or owner sign-in that isn't already done, and contests or "best submission wins" prizes.
 
@@ -35,6 +36,7 @@ Also rejected by the daily review, not by the scanner: any entry fee, deposit or
 - **40-59 watch**: kept in the ledger and re-scored daily.
 - **Under 40 logged**: recorded only.
 - No stated amount and no sponsor program terms: capped at logged, because there is nothing to act on.
+- Not yet enriched (competition and AI policy unchecked, past the per-run enrichment budget): capped at watch.
 
 ## What the score is not
 

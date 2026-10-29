@@ -90,6 +90,20 @@ class ScoreTests(unittest.TestCase):
             self.assertEqual((s, v), (0, "rejected"))
             self.assertIn(gate, reasons)
 
+    def test_mirrors_and_grants_rejected(self):
+        for kw in ({"title": "\U0001F3AF Bounty Alert: 13 New Opportunities found"}, {"title": "Grant Application - X"},
+                   {"repo": "someone/bounty-plaza", "title": "Fix parser"}, {"repo": "a/earn-ops", "title": "x"}):
+            _, v, reasons = br.score(self.base(tier="label_only", **kw), NOW)
+            self.assertEqual(v, "rejected")
+            self.assertIn("aggregator_mirror_or_grant", reasons)
+        _, v, _ = br.score(self.base(repo="HHS/simpler-grants-gov", title="Pagination"), NOW)
+        self.assertEqual(v, "deep_review")
+
+    def test_unenriched_cannot_be_deep_review(self):
+        _, v, reasons = br.score(self.base(enriched=False), NOW)
+        self.assertEqual(v, "watch")
+        self.assertIn("not_enriched", reasons)
+
     def test_competition_lowers_score(self):
         clean, _, _ = br.score(self.base(), NOW)
         crowded, _, _ = br.score(self.base(open_prs=4, claim_comments=3), NOW)
