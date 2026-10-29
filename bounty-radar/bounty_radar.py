@@ -69,13 +69,17 @@ def parse_ts(s):
 
 
 class GitHub:
-    def __init__(self, token=None, max_calls=900):
+    def __init__(self, token=None, max_calls=900, max_seconds=1080):
         self.token = token
+        self.deadline = time.time() + max_seconds
         self.calls = 0
         self.max_calls = max_calls
         self.errors = []
 
-    def get(self, path, params=None, accept="application/vnd.github+json"):
+    def out_of_time(self):
+        return time.time() > self.deadline
+
+    def get(self, path, params=None, accept="application/vnd.github+json", retries=4):
         if self.calls >= self.max_calls:
             raise RuntimeError("call budget exhausted")
         url = path if path.startswith("http") else API + path
@@ -84,7 +88,7 @@ class GitHub:
         headers = {"Accept": accept, "User-Agent": UA, "X-GitHub-Api-Version": "2022-11-28"}
         if self.token:
             headers["Authorization"] = "Bearer " + self.token
-        for attempt in range(4):
+        for attempt in range(retries):
             self.calls += 1
             req = urllib.request.Request(url, headers=headers)
             try:
@@ -101,7 +105,7 @@ class GitHub:
                     except ValueError:
                         return body  # raw file contents
             except urllib.error.HTTPError as e:
-                if e.code in (403, 429) and attempt < 3:
+                if e.code in (403, 429) and attempt < retries - 1:
                     retry = e.headers.get("Retry-After")
                     time.sleep(int(retry) if retry and retry.isdigit() else 20 * (attempt + 1))
                     continue
@@ -110,7 +114,7 @@ class GitHub:
                 self.errors.append({"url": url, "status": e.code})
                 return None
             except (urllib.error.URLError, TimeoutError) as e:
-                if attempt < 3:
+                if attempt < retries - 1:
                     time.sleep(2 ** (attempt + 1))
                     continue
                 self.errors.append({"url": url, "error": str(e)})
@@ -119,7 +123,7 @@ class GitHub:
 
     def search_code(self, query):
         """Return (items, total_count). Code search allows ~10 requests a minute, so callers must pace."""
-        res = self.get("/search/code", {"q": query, "per_page": 50})
+        res = self.get("/search/code", {"q": query, "per_page": 50}, retries=1)
         if res is None:
             return [], None
         return res.get("items", []), res.get("total_count", 0)
@@ -146,9 +150,13 @@ class GitHub:
 
 def discover_programs(gh, cfg, known):
     """Find repos whose own docs describe a paid-contributor or bounty program. Leads for review, not candidates."""
-    leads = {}
+    leads, failures = {}, 0
     for q in cfg.get("program_discovery", []):
+        if failures >= 2 or gh.out_of_time():
+            break  # code search is rate limited hard; never let it eat the run
         items, total = gh.search_code(q["query"])
+        if total is None:
+            failures += 1
         for it in items:
             repo = (it.get("repository") or {}).get("full_name")
             if not repo or repo in known or repo.split("/")[0] in cfg.get("excluded_owners", []):
@@ -397,7 +405,7 @@ def scan(gh, cfg, now, max_enrich=150):
     # Enrich the most promising first: program-watch, then amount, then freshness.
     order = sorted(found.values(), key=lambda c: (TIER_POINTS.get(c["tier"], 0), c["amount_usd"] or 0, c["updated_at"]), reverse=True)
     for i, c in enumerate(order):
-        if c["excluded"] or i >= max_enrich:
+        if c["excluded"] or i >= max_enrich or gh.out_of_time():
             c["enriched"] = False
             continue
         if c["repo"] not in repo_cache:

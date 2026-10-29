@@ -35,6 +35,9 @@ class FakeGitHub:
 
     code = {}
 
+    def out_of_time(self):
+        return False
+
     def search_code(self, query):
         return self.code.get(query, []), len(self.code.get(query, []))
 
@@ -58,6 +61,12 @@ class AmountTests(unittest.TestCase):
 
     def test_ignores_tiny_and_huge(self):
         self.assertIsNone(br.extract_amount("", "$1 fix", "$900000 raise"))
+
+
+class BudgetTests(unittest.TestCase):
+    def test_time_budget(self):
+        self.assertTrue(br.GitHub(max_seconds=-1).out_of_time())
+        self.assertFalse(br.GitHub(max_seconds=600).out_of_time())
 
 
 class AIPolicyTests(unittest.TestCase):
