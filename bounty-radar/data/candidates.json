@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T21:56:27Z",
+ "generated_at": "2026-10-29T22:06:12Z",
  "candidates": [
   {
    "key": "HHS/simpler-grants-protocol#1370",
@@ -208,57 +208,6 @@
    ]
   },
   {
-   "key": "Sidiora-Labs/paxeer-monorepo#1232",
-   "url": "https://github.com/Sidiora-Labs/paxeer-monorepo/issues/1232",
-   "repo": "Sidiora-Labs/paxeer-monorepo",
-   "number": 1232,
-   "title": "Conflicting Security Policies: No Bug Bounty vs. Advertised Rewards ($50k)",
-   "labels": [
-    "bug"
-   ],
-   "state": "open",
-   "created_at": "2026-10-29T20:18:07Z",
-   "updated_at": "2026-10-29T20:21:23Z",
-   "assignees": [],
-   "comments": 1,
-   "amount_usd": 50000.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_amount_body",
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "repo_archived": false,
-   "repo_stars": 544,
-   "repo_language": "Go",
-   "repo_pushed_at": "2026-10-29T22:01:17Z",
-   "repo_created_at": "2026-08-14T19:56:00Z",
-   "open_prs": 0,
-   "merged_prs": 0,
-   "closed_prs": 0,
-   "claim_comments": 0,
-   "maintainer_comments": 0,
-   "other_comments": 1,
-   "ai_policy": {
-    "banned": false
-   },
-   "enriched": true,
-   "score": 79,
-   "verdict": "deep_review",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:50000.0+20",
-    "competition:0+25",
-    "age_days:0+10",
-    "eligibility:open+6",
-    "fit+10"
-   ]
-  },
-  {
    "key": "HHS/simpler-grants-protocol#356",
    "url": "https://github.com/HHS/simpler-grants-protocol/issues/356",
    "repo": "HHS/simpler-grants-protocol",
@@ -312,57 +261,6 @@
    ]
   },
   {
-   "key": "sybil-solutions/local-ai-registry#262",
-   "url": "https://github.com/sybil-solutions/local-ai-registry/issues/262",
-   "repo": "sybil-solutions/local-ai-registry",
-   "number": 262,
-   "title": "Bounty ledger: claims, submissions and payouts",
-   "labels": [
-    "bounty-ledger"
-   ],
-   "state": "open",
-   "created_at": "2026-10-14T22:11:01Z",
-   "updated_at": "2026-10-29T20:22:12Z",
-   "assignees": [],
-   "comments": 0,
-   "amount_usd": 1000.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_amount_body",
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "repo_archived": false,
-   "repo_stars": 279,
-   "repo_language": "HTML",
-   "repo_pushed_at": "2026-10-29T20:22:14Z",
-   "repo_created_at": "2026-08-26T12:39:46Z",
-   "open_prs": 0,
-   "merged_prs": 0,
-   "closed_prs": 0,
-   "claim_comments": 0,
-   "maintainer_comments": 0,
-   "other_comments": 0,
-   "ai_policy": {
-    "banned": false
-   },
-   "enriched": true,
-   "score": 76,
-   "verdict": "deep_review",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:1000.0+20",
-    "competition:0+25",
-    "age_days:14+7",
-    "eligibility:open+6",
-    "fit+10"
-   ]
-  },
-  {
    "key": "HHS/simpler-grants-protocol#1352",
    "url": "https://github.com/HHS/simpler-grants-protocol/issues/1352",
    "repo": "HHS/simpler-grants-protocol",
@@ -411,66 +309,18 @@
    ]
   },
   {
-   "key": "paraloom-labs/paraloom-core#1276",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1276",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1276,
-   "title": "[BOUNTY] High: Soundness & Validation Gaps in Mainnet Ceremony Cutover Pipeline (zkey_json_to_arkworks, circom_reduction, and r1cs_export)",
+   "key": "solana-foundation/program-examples#755",
+   "url": "https://github.com/solana-foundation/program-examples/issues/755",
+   "repo": "solana-foundation/program-examples",
+   "number": 755,
+   "title": "tokens/token-swap: add the native (Solana Native) flavor \u2014 example currently ships anchor-only",
    "labels": [],
    "state": "open",
-   "created_at": "2026-10-29T11:47:11Z",
-   "updated_at": "2026-10-29T11:51:38Z",
+   "created_at": "2026-10-20T16:45:50Z",
+   "updated_at": "2026-10-29T22:07:53Z",
    "assignees": [],
-   "comments": 1,
-   "amount_usd": 300.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "repo_archived": false,
-   "repo_stars": 10,
-   "repo_language": "Rust",
-   "repo_pushed_at": "2026-10-29T05:29:05Z",
-   "repo_created_at": "2025-03-16T19:26:09Z",
-   "open_prs": 0,
-   "merged_prs": 0,
-   "closed_prs": 0,
-   "claim_comments": 0,
-   "maintainer_comments": 0,
-   "other_comments": 1,
-   "ai_policy": {
-    "banned": false
-   },
-   "enriched": true,
-   "score": 68,
-   "verdict": "deep_review",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:300.0+17",
-    "competition:0+25",
-    "age_days:0+10",
-    "eligibility:open+6",
-    "fit+2"
-   ]
-  },
-  {
-   "key": "xpex-systems-ai/GXEON-AI#452",
-   "url": "https://github.com/xpex-systems-ai/GXEON-AI/issues/452",
-   "repo": "xpex-systems-ai/GXEON-AI",
-   "number": 452,
-   "title": "GXEON PAID-WORK #002 \u2014 TokenGems/Jupiter docs review (research ready, no submission or payout)",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-12T11:59:50Z",
-   "updated_at": "2026-10-29T17:10:10Z",
-   "assignees": [],
-   "comments": 0,
-   "amount_usd": 350.0,
+   "comments": 6,
+   "amount_usd": 200.0,
    "noncash": false,
    "tier": "label_only",
    "eligibility": "open",
@@ -480,464 +330,14 @@
    ],
    "banned_platform": false,
    "excluded": false,
-   "repo_archived": false,
-   "repo_stars": 0,
-   "repo_language": "TypeScript",
-   "repo_pushed_at": "2026-10-29T21:45:11Z",
-   "repo_created_at": "2026-03-25T22:43:39Z",
-   "open_prs": 0,
-   "merged_prs": 0,
-   "closed_prs": 0,
-   "claim_comments": 0,
-   "maintainer_comments": 0,
-   "other_comments": 0,
-   "ai_policy": {
-    "banned": false
-   },
-   "enriched": true,
-   "score": 67,
-   "verdict": "deep_review",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:350.0+17",
-    "competition:0+25",
-    "age_days:17+4",
-    "eligibility:open+6",
-    "fit+7"
-   ]
-  },
-  {
-   "key": "immanueltella-web/quantum-media-os.#1",
-   "url": "https://github.com/immanueltella-web/quantum-media-os./issues/1",
-   "repo": "immanueltella-web/quantum-media-os.",
-   "number": 1,
-   "title": "\ud83d\udcb7 XOOL Penniless Agent \u2014 first \u00a31 target",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-09-13T20:11:52Z",
-   "updated_at": "2026-10-29T16:54:15Z",
-   "assignees": [],
-   "comments": 0,
-   "amount_usd": 250.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_amount_body",
-   "sources": [
-    "bounty_amount_body"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "repo_archived": false,
-   "repo_stars": 0,
-   "repo_language": "Python",
-   "repo_pushed_at": "2026-10-29T21:47:15Z",
-   "repo_created_at": "2026-05-24T20:16:34Z",
-   "open_prs": 0,
-   "merged_prs": 0,
-   "closed_prs": 0,
-   "claim_comments": 0,
-   "maintainer_comments": 0,
-   "other_comments": 0,
-   "ai_policy": {
-    "banned": false
-   },
-   "enriched": true,
-   "score": 67,
-   "verdict": "deep_review",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:250.0+17",
-    "competition:0+25",
-    "age_days:46+4",
-    "eligibility:open+6",
-    "fit+7"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#1258",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1258",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1258,
-   "title": "[BOUNTY] Medium: Missing init_asset_vault, set_asset_deposit_cap, and set_min_token_stake instruction builders, discriminators, and derive_asset_config in bridge::solana",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-28T10:00:20Z",
-   "updated_at": "2026-10-29T21:11:25Z",
-   "assignees": [],
-   "comments": 7,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_amount_body",
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
    "enriched": false,
-   "score": 62,
+   "score": 63,
    "verdict": "watch",
    "reasons": [
     "sponsor:label_only+8",
-    "amount:150.0+13",
+    "amount:200.0+17",
     "competition:0+25",
-    "age_days:1+10",
-    "eligibility:open+6",
-    "fit+0",
-    "not_enriched"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#1230",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1230",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1230,
-   "title": "[BOUNTY] Medium: Merkle root history capacity mismatch between on-chain verifier (64) and off-chain tree (256) causes settlement liveness aborts",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-25T23:54:55Z",
-   "updated_at": "2026-10-29T21:10:43Z",
-   "assignees": [],
-   "comments": 4,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 62,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:3+10",
-    "eligibility:open+6",
-    "fit+0",
-    "not_enriched"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#1242",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1242",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1242,
-   "title": "[BOUNTY] Medium: paraloom validator withdraw-unbonded omits idempotent ATA creation, causing AccountNotInitialized failure and freezing unbonded SOL/token withdrawal (paraloom-core)",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-27T10:02:07Z",
-   "updated_at": "2026-10-29T21:10:41Z",
-   "assignees": [],
-   "comments": 6,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_amount_body",
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 62,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:2+10",
-    "eligibility:open+6",
-    "fit+0",
-    "not_enriched"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-wallet#133",
-   "url": "https://github.com/paraloom-labs/paraloom-wallet/issues/133",
-   "repo": "paraloom-labs/paraloom-wallet",
-   "number": 133,
-   "title": "[BOUNTY] Medium: buildDepositInstruction omits merkle_tree PDA account and uses obsolete DEPOSIT_DISCRIMINATOR, causing 100% on-chain InstructionFallbackNotFound or AccountNotEnoughKeys reverts on SOL deposits (paraloom-wallet)",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-27T11:49:11Z",
-   "updated_at": "2026-10-29T21:10:40Z",
-   "assignees": [],
-   "comments": 4,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_amount_body",
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 62,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:2+10",
-    "eligibility:open+6",
-    "fit+0",
-    "not_enriched"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#1246",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1246",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1246,
-   "title": "[BOUNTY] Low: Case-insensitive shielded address self-transfer bypass dropping payBlind locally, and non-USDC SPL decimals=0 fallback inflating portfolio USD valuation by 10^6x-10^9x (paraloom-wallet#140)",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-27T16:11:39Z",
-   "updated_at": "2026-10-29T18:23:57Z",
-   "assignees": [],
-   "comments": 1,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_amount_body",
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 62,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:2+10",
-    "eligibility:open+6",
-    "fit+0",
-    "not_enriched"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-wallet#127",
-   "url": "https://github.com/paraloom-labs/paraloom-wallet/issues/127",
-   "repo": "paraloom-labs/paraloom-wallet",
-   "number": 127,
-   "title": "[BOUNTY] Medium: routeSwap and swapReconcile cast 64-bit bigint amounts to JavaScript Number, causing IEEE-754 precision loss, InsufficientFunds revert on swap routing, and unverified transaction error status in landed recovery (paraloom-wallet)",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-27T10:10:14Z",
-   "updated_at": "2026-10-29T13:31:35Z",
-   "assignees": [],
-   "comments": 4,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 62,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:2+10",
-    "eligibility:open+6",
-    "fit+0",
-    "not_enriched"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#1236",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1236",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1236,
-   "title": "[BOUNTY] Medium: transact_ingress submit_handler omits duplicate nullifier and canonical field checks, burning consensus rounds on doomed requests (paraloom-core)",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-27T06:46:50Z",
-   "updated_at": "2026-10-29T13:27:06Z",
-   "assignees": [],
-   "comments": 6,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 62,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:2+10",
-    "eligibility:open+6",
-    "fit+0",
-    "not_enriched"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-wallet#173",
-   "url": "https://github.com/paraloom-labs/paraloom-wallet/issues/173",
-   "repo": "paraloom-labs/paraloom-wallet",
-   "number": 173,
-   "title": "[BOUNTY] Medium: Empty-signature note wipe in markNoteSpent and v2 136-hex shielded address rejection in shieldedAddressToBytes",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-28T08:20:49Z",
-   "updated_at": "2026-10-29T07:56:23Z",
-   "assignees": [],
-   "comments": 2,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 62,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:1+10",
-    "eligibility:open+6",
-    "fit+0",
-    "not_enriched"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#1254",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1254",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1254,
-   "title": "[BOUNTY] Medium: NullifierSet::check_batch allows intra-batch duplicate nullifiers and insert_batch returns inflated count",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-28T09:21:59Z",
-   "updated_at": "2026-10-29T07:56:22Z",
-   "assignees": [],
-   "comments": 4,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 62,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:1+10",
-    "eligibility:open+6",
-    "fit+0",
-    "not_enriched"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#1247",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1247",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1247,
-   "title": "[BOUNTY] Medium: transact_ingress submit_handler admits oversized proofs, fee-overflow amounts, and zero recipients, causing consensus DoS and on-chain settlement aborts (paraloom-core)",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-27T18:23:24Z",
-   "updated_at": "2026-10-28T13:39:23Z",
-   "assignees": [],
-   "comments": 4,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 62,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:2+10",
-    "eligibility:open+6",
-    "fit+0",
-    "not_enriched"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-wallet#140",
-   "url": "https://github.com/paraloom-labs/paraloom-wallet/issues/140",
-   "repo": "paraloom-labs/paraloom-wallet",
-   "number": 140,
-   "title": "[BOUNTY] Low: Case-insensitive shielded address self-transfer bypass dropping payBlind locally, and non-USDC SPL decimals=0 fallback inflating portfolio USD valuation by 10^6x-10^9x",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-27T16:11:02Z",
-   "updated_at": "2026-10-28T08:19:21Z",
-   "assignees": [],
-   "comments": 1,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 62,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:2+10",
+    "age_days:9+7",
     "eligibility:open+6",
     "fit+0",
     "not_enriched"
@@ -1055,179 +455,6 @@
     "amount:100.0+13",
     "competition:0+25",
     "age_days:6+7",
-    "eligibility:open+6",
-    "fit+0"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#1215",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1215",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1215,
-   "title": "[BOUNTY] Medium: Unchecked and Uninitialized Validator Token ATA in paraloom-cli validator register and register_validator causes runtime CPI deserialization failure (AccountNotInitialized) and silent gas burn for new validators",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-25T04:24:30Z",
-   "updated_at": "2026-10-29T21:10:45Z",
-   "assignees": [],
-   "comments": 3,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_amount_body",
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 59,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:4+7",
-    "eligibility:open+6",
-    "fit+0"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#1220",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1220",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1220,
-   "title": "[BOUNTY] Medium: Missing slash_validator and update_reputation instruction builders, discriminators, and derive_slashed_funds_vault in bridge::solana::instructions",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-25T09:42:06Z",
-   "updated_at": "2026-10-29T21:10:44Z",
-   "assignees": [],
-   "comments": 6,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 59,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:4+7",
-    "eligibility:open+6",
-    "fit+0"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#1189",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1189",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1189,
-   "title": "[BOUNTY] Medium: CPI ordering violation in slash_validator (SVM balance isolation), unguarded zero-lamport mutation, and omitted dual-stake token telemetry",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-22T04:49:21Z",
-   "updated_at": "2026-10-29T19:59:31Z",
-   "assignees": [],
-   "comments": 9,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_amount_body",
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 59,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:7+7",
-    "eligibility:open+6",
-    "fit+0"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#1218",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1218",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1218,
-   "title": "[BOUNTY] Medium: Missing SPL asset instruction builders (deposit_note_spl, init_asset_vault, set_asset_deposit_cap, set_min_token_stake) and derive_asset_config in bridge::solana::instructions, breaking off-chain client & CLI SPL integration",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-25T07:23:45Z",
-   "updated_at": "2026-10-29T19:27:22Z",
-   "assignees": [],
-   "comments": 8,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 59,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:4+7",
-    "eligibility:open+6",
-    "fit+0"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#1156",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1156",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1156,
-   "title": "[BOUNTY] Medium: peer_id_from_multiaddr extracts the first /p2p/<peer_id> instead of trailing target PeerId on p2p-circuit multiaddrs, suppressing co-validator redials and poisoning Kademlia",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-21T05:12:56Z",
-   "updated_at": "2026-10-29T19:16:33Z",
-   "assignees": [],
-   "comments": 5,
-   "amount_usd": 150.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_amount_body",
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 59,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:150.0+13",
-    "competition:0+25",
-    "age_days:8+7",
     "eligibility:open+6",
     "fit+0"
    ]
@@ -1356,54 +583,6 @@
    ]
   },
   {
-   "key": "paraloom-labs/paraloom-core#1277",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1277",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1277,
-   "title": "[BOUNTY] High: Soundness & Validation Gaps in Mainnet Ceremony Cutover Pipeline (zkey_json_to_arkworks, circom_reduction, and r1cs_export)",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-29T11:53:12Z",
-   "updated_at": "2026-10-29T12:03:21Z",
-   "assignees": [],
-   "comments": 1,
-   "amount_usd": 300.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "repo_archived": false,
-   "repo_stars": 10,
-   "repo_language": "Rust",
-   "repo_pushed_at": "2026-10-29T05:29:05Z",
-   "repo_created_at": "2025-03-16T19:26:09Z",
-   "open_prs": 1,
-   "merged_prs": 0,
-   "closed_prs": 0,
-   "claim_comments": 0,
-   "maintainer_comments": 0,
-   "other_comments": 1,
-   "ai_policy": {
-    "banned": false
-   },
-   "enriched": true,
-   "score": 55,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:300.0+17",
-    "competition:2+12",
-    "age_days:0+10",
-    "eligibility:open+6",
-    "fit+2"
-   ]
-  },
-  {
    "key": "Circadian-agent/agent-collective#1",
    "url": "https://github.com/Circadian-agent/agent-collective/issues/1",
    "repo": "Circadian-agent/agent-collective",
@@ -1521,55 +700,6 @@
     "age_days:7+7",
     "eligibility:open+6",
     "fit+0"
-   ]
-  },
-  {
-   "key": "alston-personal/agentmanager#2003",
-   "url": "https://github.com/alston-personal/agentmanager/issues/2003",
-   "repo": "alston-personal/agentmanager",
-   "number": 2003,
-   "title": "Bounty Golden Path v1: qualified paid-issue discovery \u2192 governed execution \u2192 verified payout",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-15T08:42:58Z",
-   "updated_at": "2026-10-29T16:04:24Z",
-   "assignees": [],
-   "comments": 4,
-   "amount_usd": 3000.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "repo_archived": false,
-   "repo_stars": 0,
-   "repo_language": "Python",
-   "repo_pushed_at": "2026-10-29T09:45:07Z",
-   "repo_created_at": "2026-03-14T02:05:41Z",
-   "open_prs": 0,
-   "merged_prs": 0,
-   "closed_prs": 0,
-   "claim_comments": 1,
-   "maintainer_comments": 0,
-   "other_comments": 4,
-   "ai_policy": {
-    "banned": false
-   },
-   "enriched": true,
-   "score": 54,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:3000.0+20",
-    "competition:1+18",
-    "age_days:14+7",
-    "eligibility:open+6",
-    "fit+7",
-    "maintainer_silent-12"
    ]
   },
   {
@@ -1853,7 +983,6 @@
    "eligibility": "open",
    "program": "generic_bounty_label",
    "sources": [
-    "bounty_dollar_title",
     "generic_bounty_label"
    ],
    "banned_platform": false,
@@ -1977,6 +1106,42 @@
    ]
   },
   {
+   "key": "0xSneaks/ai-coms#13",
+   "url": "https://github.com/0xSneaks/ai-coms/issues/13",
+   "repo": "0xSneaks/ai-coms",
+   "number": 13,
+   "title": "AI COMS health: board needs attention",
+   "labels": [
+    "coms-health"
+   ],
+   "state": "open",
+   "created_at": "2026-10-25T22:44:35Z",
+   "updated_at": "2026-10-29T22:00:23Z",
+   "assignees": [],
+   "comments": 2,
+   "amount_usd": 30.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_amount_body",
+   "sources": [
+    "bounty_amount_body"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 53,
+   "verdict": "watch",
+   "reasons": [
+    "sponsor:label_only+8",
+    "amount:30.0+4",
+    "competition:0+25",
+    "age_days:3+10",
+    "eligibility:open+6",
+    "fit+0"
+   ]
+  },
+  {
    "key": "TokenBrice/pharos-watch#1750",
    "url": "https://github.com/TokenBrice/pharos-watch/issues/1750",
    "repo": "TokenBrice/pharos-watch",
@@ -2008,42 +1173,6 @@
     "amount:5.0+4",
     "competition:0+25",
     "age_days:0+10",
-    "eligibility:open+6",
-    "fit+0"
-   ]
-  },
-  {
-   "key": "0xSneaks/ai-coms#13",
-   "url": "https://github.com/0xSneaks/ai-coms/issues/13",
-   "repo": "0xSneaks/ai-coms",
-   "number": 13,
-   "title": "AI COMS health: board needs attention",
-   "labels": [
-    "coms-health"
-   ],
-   "state": "open",
-   "created_at": "2026-10-25T22:44:35Z",
-   "updated_at": "2026-10-29T21:11:56Z",
-   "assignees": [],
-   "comments": 2,
-   "amount_usd": 30.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_amount_body",
-   "sources": [
-    "bounty_amount_body"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 53,
-   "verdict": "watch",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:30.0+4",
-    "competition:0+25",
-    "age_days:3+10",
     "eligibility:open+6",
     "fit+0"
    ]
@@ -4032,6 +3161,48 @@
    ]
   },
   {
+   "key": "watkast/predictionbots#17",
+   "url": "https://github.com/watkast/predictionbots/issues/17",
+   "repo": "watkast/predictionbots",
+   "number": 17,
+   "title": "[ERROR] bounty-scan: bounty-scan stale (193.4 h, limit 192 h)",
+   "labels": [
+    "type:error",
+    "P0",
+    "stage:Reproduce",
+    "bot:bounty-scan",
+    "fp:health-bounty-scan"
+   ],
+   "state": "open",
+   "created_at": "2026-10-28T13:39:45Z",
+   "updated_at": "2026-10-29T22:07:01Z",
+   "assignees": [],
+   "comments": 6,
+   "amount_usd": null,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_amount_body",
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 49,
+   "verdict": "logged",
+   "reasons": [
+    "sponsor:label_only+8",
+    "amount:None+0",
+    "competition:0+25",
+    "age_days:1+10",
+    "eligibility:open+6",
+    "fit+0",
+    "no_stated_amount"
+   ]
+  },
+  {
    "key": "grwtsk/math#1456",
    "url": "https://github.com/grwtsk/math/issues/1456",
    "repo": "grwtsk/math",
@@ -4106,42 +3277,6 @@
    ]
   },
   {
-   "key": "paraloom-labs/paraloom-core#1244",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1244",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1244,
-   "title": "[BOUNTY] High: Node::record_delivered_notes deduplicates by (output_commitment && ciphertext), allowing 50,000-note scan feed eviction via mutated ciphertexts",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-27T12:10:04Z",
-   "updated_at": "2026-10-29T18:23:31Z",
-   "assignees": [],
-   "comments": 2,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_amount_body",
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 49,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:None+0",
-    "competition:0+25",
-    "age_days:2+10",
-    "eligibility:open+6",
-    "fit+0",
-    "no_stated_amount"
-   ]
-  },
-  {
    "key": "I-am-Esmart/HumanLayer#6",
    "url": "https://github.com/I-am-Esmart/HumanLayer/issues/6",
    "repo": "I-am-Esmart/HumanLayer",
@@ -4162,83 +3297,6 @@
    "program": "bounty_dollar_title",
    "sources": [
     "bounty_amount_body",
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 49,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:None+0",
-    "competition:0+25",
-    "age_days:0+10",
-    "eligibility:open+6",
-    "fit+0",
-    "no_stated_amount"
-   ]
-  },
-  {
-   "key": "watkast/predictionbots#17",
-   "url": "https://github.com/watkast/predictionbots/issues/17",
-   "repo": "watkast/predictionbots",
-   "number": 17,
-   "title": "[ERROR] bounty-scan: bounty-scan stale (193.4 h, limit 192 h)",
-   "labels": [
-    "type:error",
-    "P0",
-    "stage:Reproduce",
-    "bot:bounty-scan",
-    "fp:health-bounty-scan"
-   ],
-   "state": "open",
-   "created_at": "2026-10-28T13:39:45Z",
-   "updated_at": "2026-10-29T17:10:38Z",
-   "assignees": [],
-   "comments": 5,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_amount_body",
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 49,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:None+0",
-    "competition:0+25",
-    "age_days:1+10",
-    "eligibility:open+6",
-    "fit+0",
-    "no_stated_amount"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#1279",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1279",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1279,
-   "title": "[BOUNTY] Low: Direct donations to the vault grief the deposit cap",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-29T17:08:55Z",
-   "updated_at": "2026-10-29T17:08:55Z",
-   "assignees": [],
-   "comments": 0,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
     "bounty_dollar_title"
    ],
    "banned_platform": false,
@@ -4313,7 +3371,6 @@
    "eligibility": "open",
    "program": "bounty_dollar_title",
    "sources": [
-    "bounty_amount_body",
     "bounty_dollar_title"
    ],
    "banned_platform": false,
@@ -4797,41 +3854,6 @@
    ]
   },
   {
-   "key": "Mutagen-Modding/Mutagen.Bethesda.FormKeys#6",
-   "url": "https://github.com/Mutagen-Modding/Mutagen.Bethesda.FormKeys/issues/6",
-   "repo": "Mutagen-Modding/Mutagen.Bethesda.FormKeys",
-   "number": 6,
-   "title": "Starfield FormKeys out of date (Terran Armada, Trackers Alliance Bounties, Free Lanes) and Mutagen 0.54 build changes",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-28T18:58:30Z",
-   "updated_at": "2026-10-28T21:14:24Z",
-   "assignees": [],
-   "comments": 0,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 49,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:None+0",
-    "competition:0+25",
-    "age_days:1+10",
-    "eligibility:open+6",
-    "fit+0",
-    "no_stated_amount"
-   ]
-  },
-  {
    "key": "diogoschwartz/conectaieee#25",
    "url": "https://github.com/diogoschwartz/conectaieee/issues/25",
    "repo": "diogoschwartz/conectaieee",
@@ -5197,111 +4219,6 @@
    ]
   },
   {
-   "key": "paraloom-labs/paraloom-prover-wasm#23",
-   "url": "https://github.com/paraloom-labs/paraloom-prover-wasm/issues/23",
-   "repo": "paraloom-labs/paraloom-prover-wasm",
-   "number": 23,
-   "title": "[BOUNTY] High: mint_to_asset hashes all-zero native SOL mint into stranded SPL asset_id and v3_merkle_path accepts zero, non-canonical, and duplicate leaf commitments",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-28T01:13:42Z",
-   "updated_at": "2026-10-28T07:41:20Z",
-   "assignees": [],
-   "comments": 0,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 49,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:None+0",
-    "competition:0+25",
-    "age_days:1+10",
-    "eligibility:open+6",
-    "fit+0",
-    "no_stated_amount"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-prover-wasm#21",
-   "url": "https://github.com/paraloom-labs/paraloom-prover-wasm/issues/21",
-   "repo": "paraloom-labs/paraloom-prover-wasm",
-   "number": 21,
-   "title": "[BOUNTY] High: prove_transact and prove_transfer_v2 accept degenerate zero spend keys and zero output pubkeys/blindings on positive-value notes, permanently burning note balances",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-28T01:12:08Z",
-   "updated_at": "2026-10-28T07:41:18Z",
-   "assignees": [],
-   "comments": 0,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 49,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:None+0",
-    "competition:0+25",
-    "age_days:1+10",
-    "eligibility:open+6",
-    "fit+0",
-    "no_stated_amount"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-wallet#157",
-   "url": "https://github.com/paraloom-labs/paraloom-wallet/issues/157",
-   "repo": "paraloom-labs/paraloom-wallet",
-   "number": 157,
-   "title": "[BOUNTY] Medium: WSOL_MINT is not treated as native SOL in SwapApprove, resumeSwapAtFreshAddress, and recoverReshields",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-28T00:16:13Z",
-   "updated_at": "2026-10-28T07:41:15Z",
-   "assignees": [],
-   "comments": 2,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 49,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:None+0",
-    "competition:0+25",
-    "age_days:1+10",
-    "eligibility:open+6",
-    "fit+0",
-    "no_stated_amount"
-   ]
-  },
-  {
    "key": "VectoDE/VectoraCloud#14",
    "url": "https://github.com/VectoDE/VectoraCloud/issues/14",
    "repo": "VectoDE/VectoraCloud",
@@ -5375,7 +4292,7 @@
     "sponsor:label_only+8",
     "amount:None+0",
     "competition:0+25",
-    "age_days:2+10",
+    "age_days:3+10",
     "eligibility:open+6",
     "fit+0",
     "no_stated_amount"
@@ -5595,43 +4512,6 @@
     "amount:None+0",
     "competition:0+25",
     "age_days:3+10",
-    "eligibility:open+6",
-    "fit+0",
-    "no_stated_amount"
-   ]
-  },
-  {
-   "key": "xaviercallens/HiveMind#319",
-   "url": "https://github.com/xaviercallens/HiveMind/issues/319",
-   "repo": "xaviercallens/HiveMind",
-   "number": 319,
-   "title": "[HiveMinders Guide] Season 20 Roadmap Progress & Community Contribution Opportunities (S22-S23)",
-   "labels": [
-    "good first issue"
-   ],
-   "state": "open",
-   "created_at": "2026-10-29T06:41:02Z",
-   "updated_at": "2026-10-29T19:55:01Z",
-   "assignees": [],
-   "comments": 6,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_amount_body",
-   "sources": [
-    "bounty_amount_body"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 49,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:None+0",
-    "competition:0+25",
-    "age_days:0+10",
     "eligibility:open+6",
     "fit+0",
     "no_stated_amount"
@@ -6136,7 +5016,6 @@
    "eligibility": "open",
    "program": "generic_bounty_label",
    "sources": [
-    "bounty_dollar_title",
     "generic_bounty_label"
    ],
    "banned_platform": false,
@@ -7837,41 +6716,6 @@
    ]
   },
   {
-   "key": "paraloom-labs/paraloom-core#1162",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1162",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1162,
-   "title": "[BOUNTY] High: WithdrawUnbondedStake unconditionally requires initialized token accounts when token_unbonding_amount == 0 (freezing migrated pre-dual-stake validators' SOL stake & blocking PDA closure) and migrate_validator_account / migrate_bridge_state omit owner & exact legacy size bounds",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-21T09:08:06Z",
-   "updated_at": "2026-10-29T17:10:11Z",
-   "assignees": [],
-   "comments": 3,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 46,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:None+0",
-    "competition:0+25",
-    "age_days:8+7",
-    "eligibility:open+6",
-    "fit+0",
-    "no_stated_amount"
-   ]
-  },
-  {
    "key": "GameNative/gamenative-compat#218",
    "url": "https://github.com/GameNative/gamenative-compat/issues/218",
    "repo": "GameNative/gamenative-compat",
@@ -8094,41 +6938,6 @@
     "amount:None+0",
     "competition:0+25",
     "age_days:8+7",
-    "eligibility:open+6",
-    "fit+0",
-    "no_stated_amount"
-   ]
-  },
-  {
-   "key": "paraloom-labs/paraloom-core#953",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/953",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 953,
-   "title": "[BOUNTY] Medium: BatchVerifier zip-truncation soundness bypass, dropped intermediate Merkle roots in knows_root, ShieldedPool deposit race/overflow, and trailing-byte acceptance in proof_codec",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-16T11:14:22Z",
-   "updated_at": "2026-10-28T15:05:47Z",
-   "assignees": [],
-   "comments": 4,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 46,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:None+0",
-    "competition:0+25",
-    "age_days:13+7",
     "eligibility:open+6",
     "fit+0",
     "no_stated_amount"
@@ -8609,43 +7418,6 @@
     "amount:None+0",
     "competition:0+25",
     "age_days:5+7",
-    "eligibility:open+6",
-    "fit+0",
-    "no_stated_amount"
-   ]
-  },
-  {
-   "key": "jejellyroll-fr/fpdb-3#435",
-   "url": "https://github.com/jejellyroll-fr/fpdb-3/issues/435",
-   "repo": "jejellyroll-fr/fpdb-3",
-   "number": 435,
-   "title": "[Epic] Market gaps and reliability roadmap (audit of 3.9.1)",
-   "labels": [
-    "enhancement"
-   ],
-   "state": "open",
-   "created_at": "2026-10-19T05:48:13Z",
-   "updated_at": "2026-10-29T17:35:06Z",
-   "assignees": [],
-   "comments": 0,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_amount_body",
-   "sources": [
-    "bounty_amount_body"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 46,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:None+0",
-    "competition:0+25",
-    "age_days:10+7",
     "eligibility:open+6",
     "fit+0",
     "no_stated_amount"
@@ -9940,6 +8712,45 @@
    ]
   },
   {
+   "key": "stride3d/stride#24",
+   "url": "https://github.com/stride3d/stride/issues/24",
+   "repo": "stride3d/stride",
+   "number": 24,
+   "title": "Feature: Decals",
+   "labels": [
+    "enhancement",
+    "area-Graphics",
+    "bounty"
+   ],
+   "state": "open",
+   "created_at": "2018-08-03T12:35:56Z",
+   "updated_at": "2026-10-29T22:02:07Z",
+   "assignees": [],
+   "comments": 25,
+   "amount_usd": null,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "generic_bounty_label",
+   "sources": [
+    "generic_bounty_label"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 40,
+   "verdict": "logged",
+   "reasons": [
+    "sponsor:label_only+8",
+    "amount:None+0",
+    "competition:0+25",
+    "age_days:3009+1",
+    "eligibility:open+6",
+    "fit+0",
+    "no_stated_amount"
+   ]
+  },
+  {
    "key": "Arrow-air/website#217",
    "url": "https://github.com/Arrow-air/website/issues/217",
    "repo": "Arrow-air/website",
@@ -10150,45 +8961,6 @@
     "amount:None+0",
     "competition:0+25",
     "age_days:242+1",
-    "eligibility:open+6",
-    "fit+0",
-    "no_stated_amount"
-   ]
-  },
-  {
-   "key": "stride3d/stride#24",
-   "url": "https://github.com/stride3d/stride/issues/24",
-   "repo": "stride3d/stride",
-   "number": 24,
-   "title": "Feature: Decals",
-   "labels": [
-    "enhancement",
-    "area-Graphics",
-    "bounty"
-   ],
-   "state": "open",
-   "created_at": "2018-08-03T12:35:56Z",
-   "updated_at": "2026-10-29T19:05:45Z",
-   "assignees": [],
-   "comments": 24,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "generic_bounty_label",
-   "sources": [
-    "generic_bounty_label"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 40,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:None+0",
-    "competition:0+25",
-    "age_days:3009+1",
     "eligibility:open+6",
     "fit+0",
     "no_stated_amount"
@@ -13978,7 +12750,7 @@
     "sponsor:label_only+8",
     "amount:None+0",
     "competition:0+25",
-    "age_days:1079+1",
+    "age_days:1080+1",
     "eligibility:open+6",
     "fit+0",
     "no_stated_amount"
@@ -14014,43 +12786,6 @@
     "amount:None+0",
     "competition:0+25",
     "age_days:681+1",
-    "eligibility:open+6",
-    "fit+0",
-    "no_stated_amount"
-   ]
-  },
-  {
-   "key": "magefree/mage#15625",
-   "url": "https://github.com/magefree/mage/issues/15625",
-   "repo": "magefree/mage",
-   "number": 15625,
-   "title": "TRK - Star Trek Set Card Implementation Tracking",
-   "labels": [
-    "tracking set"
-   ],
-   "state": "open",
-   "created_at": "2026-07-14T21:57:29Z",
-   "updated_at": "2026-10-29T16:10:22Z",
-   "assignees": [],
-   "comments": 1,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_amount_body",
-   "sources": [
-    "bounty_amount_body"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 40,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:None+0",
-    "competition:0+25",
-    "age_days:106+1",
     "eligibility:open+6",
     "fit+0",
     "no_stated_amount"
@@ -14376,55 +13111,6 @@
    ]
   },
   {
-   "key": "paraloom-labs/paraloom-core#1266",
-   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1266",
-   "repo": "paraloom-labs/paraloom-core",
-   "number": 1266,
-   "title": "[BOUNTY] High: PrivateSwapRelayer::execute drops ephemeral keypair on re-deposit failure, causing irreversible fund loss of swapped assets",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-28T15:17:30Z",
-   "updated_at": "2026-10-29T12:37:21Z",
-   "assignees": [],
-   "comments": 2,
-   "amount_usd": 300.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_dollar_title",
-   "sources": [
-    "bounty_dollar_title"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "repo_archived": false,
-   "repo_stars": 10,
-   "repo_language": "Rust",
-   "repo_pushed_at": "2026-10-29T05:29:05Z",
-   "repo_created_at": "2025-03-16T19:26:09Z",
-   "open_prs": 2,
-   "merged_prs": 0,
-   "closed_prs": 0,
-   "claim_comments": 0,
-   "maintainer_comments": 0,
-   "other_comments": 2,
-   "ai_policy": {
-    "banned": false
-   },
-   "enriched": true,
-   "score": 36,
-   "verdict": "logged",
-   "reasons": [
-    "sponsor:label_only+8",
-    "amount:300.0+17",
-    "competition:4+5",
-    "age_days:1+10",
-    "eligibility:open+6",
-    "fit+2",
-    "maintainer_silent-12"
-   ]
-  },
-  {
    "key": "Spectral-Finance/lux#99",
    "url": "https://github.com/Spectral-Finance/lux/issues/99",
    "repo": "Spectral-Finance/lux",
@@ -14526,6 +13212,59 @@
     "fit+7",
     "maintainer_silent-12",
     "low_trust_new_repo-15"
+   ]
+  },
+  {
+   "key": "Sifchain/sifnode#503",
+   "url": "https://github.com/Sifchain/sifnode/issues/503",
+   "repo": "Sifchain/sifnode",
+   "number": 503,
+   "title": "[sifnode] $1000 bounty for implementing Azure AKS support for sifnode",
+   "labels": [
+    "bounty"
+   ],
+   "state": "open",
+   "created_at": "2021-01-15T18:45:35Z",
+   "updated_at": "2026-10-29T22:01:39Z",
+   "assignees": [],
+   "comments": 6,
+   "amount_usd": 1000.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "generic_bounty_label",
+   "sources": [
+    "bounty_amount_body",
+    "bounty_dollar_title",
+    "generic_bounty_label"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "repo_archived": false,
+   "repo_stars": 107,
+   "repo_language": "Go",
+   "repo_pushed_at": "2025-03-11T09:21:08Z",
+   "repo_created_at": "2020-09-15T21:49:17Z",
+   "open_prs": 5,
+   "merged_prs": 0,
+   "closed_prs": 2,
+   "claim_comments": 3,
+   "maintainer_comments": 0,
+   "other_comments": 7,
+   "ai_policy": {
+    "banned": false
+   },
+   "enriched": true,
+   "score": 31,
+   "verdict": "logged",
+   "reasons": [
+    "sponsor:label_only+8",
+    "amount:1000.0+20",
+    "competition:15+0",
+    "age_days:2113+1",
+    "eligibility:open+6",
+    "fit+8",
+    "maintainer_silent-12"
    ]
   },
   {
@@ -16036,7 +14775,7 @@
    "repo_archived": false,
    "repo_stars": 210,
    "repo_language": "Python",
-   "repo_pushed_at": "2026-10-29T21:43:43Z",
+   "repo_pushed_at": "2026-10-29T22:03:58Z",
    "repo_created_at": "2023-02-06T19:08:46Z",
    "open_prs": 0,
    "merged_prs": 1,
@@ -16082,7 +14821,7 @@
    "repo_archived": false,
    "repo_stars": 210,
    "repo_language": "Python",
-   "repo_pushed_at": "2026-10-29T21:43:43Z",
+   "repo_pushed_at": "2026-10-29T22:03:58Z",
    "repo_created_at": "2023-02-06T19:08:46Z",
    "open_prs": 0,
    "merged_prs": 0,
@@ -16098,6 +14837,94 @@
    "verdict": "rejected",
    "reasons": [
     "assigned_to_other"
+   ]
+  },
+  {
+   "key": "INDIGOAZUL/la-tanda-web#84",
+   "url": "https://github.com/INDIGOAZUL/la-tanda-web/issues/84",
+   "repo": "INDIGOAZUL/la-tanda-web",
+   "number": 84,
+   "title": "\ud83c\udf13 Dark/Light Theme Toggle \u2014 200 LTD Bounty",
+   "labels": [
+    "enhancement",
+    "bounty",
+    "tier-1"
+   ],
+   "state": "open",
+   "created_at": "2026-03-06T01:52:49Z",
+   "updated_at": "2026-10-29T22:02:39Z",
+   "assignees": [],
+   "comments": 31,
+   "amount_usd": null,
+   "noncash": false,
+   "tier": "platform_escrow",
+   "eligibility": "open",
+   "program": "opire_reward_comment",
+   "sources": [
+    "bounty_amount_body",
+    "bounty_dollar_title",
+    "generic_bounty_label",
+    "opire_reward_comment"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "repo_archived": false,
+   "repo_stars": 6,
+   "repo_language": "HTML",
+   "repo_pushed_at": "2026-10-27T17:37:42Z",
+   "repo_created_at": "2025-07-28T04:28:25Z",
+   "open_prs": 1,
+   "merged_prs": 1,
+   "closed_prs": 18,
+   "claim_comments": 5,
+   "maintainer_comments": 2,
+   "other_comments": 30,
+   "ai_policy": {
+    "banned": false
+   },
+   "enriched": true,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "already_solved"
+   ]
+  },
+  {
+   "key": "Scottcjn/rustchain-bounties#421",
+   "url": "https://github.com/Scottcjn/rustchain-bounties/issues/421",
+   "repo": "Scottcjn/rustchain-bounties",
+   "number": 421,
+   "title": "[BOUNTY] Upload Your First BoTTube Video - 2 RTC",
+   "labels": [
+    "help wanted",
+    "good first issue",
+    "bounty",
+    "distribution"
+   ],
+   "state": "open",
+   "created_at": "2026-02-25T02:44:27Z",
+   "updated_at": "2026-10-29T21:59:34Z",
+   "assignees": [],
+   "comments": 26,
+   "amount_usd": null,
+   "noncash": true,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "generic_bounty_label",
+   "sources": [
+    "bounty_amount_body",
+    "bounty_dollar_title",
+    "generic_bounty_label"
+   ],
+   "banned_platform": false,
+   "excluded": true,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "excluded_repo",
+    "noncash_reward",
+    "aggregator_mirror_or_grant"
    ]
   },
   {
@@ -16534,44 +15361,6 @@
    ]
   },
   {
-   "key": "Scottcjn/rustchain-bounties#421",
-   "url": "https://github.com/Scottcjn/rustchain-bounties/issues/421",
-   "repo": "Scottcjn/rustchain-bounties",
-   "number": 421,
-   "title": "[BOUNTY] Upload Your First BoTTube Video - 2 RTC",
-   "labels": [
-    "help wanted",
-    "good first issue",
-    "bounty",
-    "distribution"
-   ],
-   "state": "open",
-   "created_at": "2026-02-25T02:44:27Z",
-   "updated_at": "2026-10-29T21:07:05Z",
-   "assignees": [],
-   "comments": 25,
-   "amount_usd": null,
-   "noncash": true,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "generic_bounty_label",
-   "sources": [
-    "bounty_amount_body",
-    "bounty_dollar_title",
-    "generic_bounty_label"
-   ],
-   "banned_platform": false,
-   "excluded": true,
-   "enriched": false,
-   "score": 0,
-   "verdict": "rejected",
-   "reasons": [
-    "excluded_repo",
-    "noncash_reward",
-    "aggregator_mirror_or_grant"
-   ]
-  },
-  {
    "key": "Scottcjn/rustchain-bounties#1112",
    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/1112",
    "repo": "Scottcjn/rustchain-bounties",
@@ -16644,56 +15433,6 @@
     "excluded_repo",
     "noncash_reward",
     "aggregator_mirror_or_grant"
-   ]
-  },
-  {
-   "key": "INDIGOAZUL/la-tanda-web#84",
-   "url": "https://github.com/INDIGOAZUL/la-tanda-web/issues/84",
-   "repo": "INDIGOAZUL/la-tanda-web",
-   "number": 84,
-   "title": "\ud83c\udf13 Dark/Light Theme Toggle \u2014 200 LTD Bounty",
-   "labels": [
-    "enhancement",
-    "bounty",
-    "tier-1"
-   ],
-   "state": "open",
-   "created_at": "2026-03-06T01:52:49Z",
-   "updated_at": "2026-10-29T20:52:58Z",
-   "assignees": [],
-   "comments": 30,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "platform_escrow",
-   "eligibility": "open",
-   "program": "opire_reward_comment",
-   "sources": [
-    "bounty_amount_body",
-    "bounty_dollar_title",
-    "generic_bounty_label",
-    "opire_reward_comment"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "repo_archived": false,
-   "repo_stars": 6,
-   "repo_language": "HTML",
-   "repo_pushed_at": "2026-10-27T17:37:42Z",
-   "repo_created_at": "2025-07-28T04:28:25Z",
-   "open_prs": 1,
-   "merged_prs": 1,
-   "closed_prs": 18,
-   "claim_comments": 4,
-   "maintainer_comments": 2,
-   "other_comments": 29,
-   "ai_policy": {
-    "banned": false
-   },
-   "enriched": true,
-   "score": 0,
-   "verdict": "rejected",
-   "reasons": [
-    "already_solved"
    ]
   },
   {
@@ -18668,6 +17407,7 @@
    "eligibility": "open",
    "program": "generic_bounty_label",
    "sources": [
+    "bounty_amount_body",
     "bounty_dollar_title",
     "generic_bounty_label"
    ],
@@ -19898,7 +18638,7 @@
    "repo_archived": false,
    "repo_stars": 4799,
    "repo_language": "Haskell",
-   "repo_pushed_at": "2026-10-29T21:45:49Z",
+   "repo_pushed_at": "2026-10-29T22:05:16Z",
    "repo_created_at": "2013-04-08T16:41:47Z",
    "open_prs": 0,
    "merged_prs": 1,
@@ -20313,6 +19053,7 @@
    "eligibility": "open",
    "program": "generic_bounty_label",
    "sources": [
+    "bounty_amount_body",
     "generic_bounty_label"
    ],
    "banned_platform": false,
@@ -20345,6 +19086,7 @@
    "eligibility": "open",
    "program": "generic_bounty_label",
    "sources": [
+    "bounty_amount_body",
     "generic_bounty_label"
    ],
    "banned_platform": false,
@@ -21691,46 +20433,6 @@
    ]
   },
   {
-   "key": "SecureBananaLabs/bug-bounty#1772",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1772",
-   "repo": "SecureBananaLabs/bug-bounty",
-   "number": 1772,
-   "title": "Payment endpoint lacks authentication \u2014 unauthenticated payment creation",
-   "labels": [
-    "bug",
-    "good first issue",
-    "help wanted",
-    "bug bounty",
-    "AI agent friendly",
-    "bounty",
-    "\ud83d\udc8e Bounty",
-    "$430"
-   ],
-   "state": "open",
-   "created_at": "2026-05-30T03:14:45Z",
-   "updated_at": "2026-10-23T22:29:03Z",
-   "assignees": [],
-   "comments": 18,
-   "amount_usd": 430.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "generic_bounty_label",
-   "sources": [
-    "generic_bounty_label"
-   ],
-   "banned_platform": true,
-   "excluded": true,
-   "enriched": false,
-   "score": 0,
-   "verdict": "rejected",
-   "reasons": [
-    "excluded_repo",
-    "platform_bans_ai_agents",
-    "aggregator_mirror_or_grant"
-   ]
-  },
-  {
    "key": "dev-kp-eloper/BountyScout#1696",
    "url": "https://github.com/dev-kp-eloper/BountyScout/issues/1696",
    "repo": "dev-kp-eloper/BountyScout",
@@ -21858,6 +20560,36 @@
    ]
   },
   {
+   "key": "paraloom-labs/paraloom-core#1258",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1258",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1258,
+   "title": "[BOUNTY] Medium: Missing init_asset_vault, set_asset_deposit_cap, and set_min_token_stake instruction builders, discriminators, and derive_asset_config in bridge::solana",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-28T10:00:20Z",
+   "updated_at": "2026-10-29T21:11:25Z",
+   "assignees": [],
+   "comments": 7,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_amount_body",
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
    "key": "dev-kp-eloper/BountyScout#1636",
    "url": "https://github.com/dev-kp-eloper/BountyScout/issues/1636",
    "repo": "dev-kp-eloper/BountyScout",
@@ -21901,6 +20633,154 @@
    "verdict": "rejected",
    "reasons": [
     "aggregator_mirror_or_grant"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-core#1215",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1215",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1215,
+   "title": "[BOUNTY] Medium: Unchecked and Uninitialized Validator Token ATA in paraloom-cli validator register and register_validator causes runtime CPI deserialization failure (AccountNotInitialized) and silent gas burn for new validators",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-25T04:24:30Z",
+   "updated_at": "2026-10-29T21:10:45Z",
+   "assignees": [],
+   "comments": 3,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_amount_body",
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-core#1220",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1220",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1220,
+   "title": "[BOUNTY] Medium: Missing slash_validator and update_reputation instruction builders, discriminators, and derive_slashed_funds_vault in bridge::solana::instructions",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-25T09:42:06Z",
+   "updated_at": "2026-10-29T21:10:44Z",
+   "assignees": [],
+   "comments": 6,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-core#1230",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1230",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1230,
+   "title": "[BOUNTY] Medium: Merkle root history capacity mismatch between on-chain verifier (64) and off-chain tree (256) causes settlement liveness aborts",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-25T23:54:55Z",
+   "updated_at": "2026-10-29T21:10:43Z",
+   "assignees": [],
+   "comments": 4,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-core#1242",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1242",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1242,
+   "title": "[BOUNTY] Medium: paraloom validator withdraw-unbonded omits idempotent ATA creation, causing AccountNotInitialized failure and freezing unbonded SOL/token withdrawal (paraloom-core)",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-27T10:02:07Z",
+   "updated_at": "2026-10-29T21:10:41Z",
+   "assignees": [],
+   "comments": 6,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_amount_body",
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-wallet#133",
+   "url": "https://github.com/paraloom-labs/paraloom-wallet/issues/133",
+   "repo": "paraloom-labs/paraloom-wallet",
+   "number": 133,
+   "title": "[BOUNTY] Medium: buildDepositInstruction omits merkle_tree PDA account and uses obsolete DEPOSIT_DISCRIMINATOR, causing 100% on-chain InstructionFallbackNotFound or AccountNotEnoughKeys reverts on SOL deposits (paraloom-wallet)",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-27T11:49:11Z",
+   "updated_at": "2026-10-29T21:10:40Z",
+   "assignees": [],
+   "comments": 4,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_amount_body",
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
    ]
   },
   {
@@ -21961,6 +20841,128 @@
    "verdict": "rejected",
    "reasons": [
     "aggregator_mirror_or_grant"
+   ]
+  },
+  {
+   "key": "sybil-solutions/local-ai-registry#262",
+   "url": "https://github.com/sybil-solutions/local-ai-registry/issues/262",
+   "repo": "sybil-solutions/local-ai-registry",
+   "number": 262,
+   "title": "Bounty ledger: claims, submissions and payouts",
+   "labels": [
+    "bounty-ledger"
+   ],
+   "state": "open",
+   "created_at": "2026-10-14T22:11:01Z",
+   "updated_at": "2026-10-29T20:22:12Z",
+   "assignees": [],
+   "comments": 0,
+   "amount_usd": 1000.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_amount_body",
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "repo_archived": false,
+   "repo_stars": 279,
+   "repo_language": "HTML",
+   "repo_pushed_at": "2026-10-29T20:22:14Z",
+   "repo_created_at": "2026-08-26T12:39:46Z",
+   "open_prs": 0,
+   "merged_prs": 0,
+   "closed_prs": 0,
+   "claim_comments": 0,
+   "maintainer_comments": 0,
+   "other_comments": 0,
+   "ai_policy": {
+    "banned": false
+   },
+   "enriched": true,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "meta_or_agent_experiment"
+   ]
+  },
+  {
+   "key": "Sidiora-Labs/paxeer-monorepo#1232",
+   "url": "https://github.com/Sidiora-Labs/paxeer-monorepo/issues/1232",
+   "repo": "Sidiora-Labs/paxeer-monorepo",
+   "number": 1232,
+   "title": "Conflicting Security Policies: No Bug Bounty vs. Advertised Rewards ($50k)",
+   "labels": [
+    "bug"
+   ],
+   "state": "open",
+   "created_at": "2026-10-29T20:18:07Z",
+   "updated_at": "2026-10-29T20:21:23Z",
+   "assignees": [],
+   "comments": 1,
+   "amount_usd": 50000.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_amount_body",
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "repo_archived": false,
+   "repo_stars": 544,
+   "repo_language": "Go",
+   "repo_pushed_at": "2026-10-29T22:08:21Z",
+   "repo_created_at": "2026-08-14T19:56:00Z",
+   "open_prs": 0,
+   "merged_prs": 0,
+   "closed_prs": 0,
+   "claim_comments": 0,
+   "maintainer_comments": 0,
+   "other_comments": 1,
+   "ai_policy": {
+    "banned": false
+   },
+   "enriched": true,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "meta_or_agent_experiment"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-core#1189",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1189",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1189,
+   "title": "[BOUNTY] Medium: CPI ordering violation in slash_validator (SVM balance isolation), unguarded zero-lamport mutation, and omitted dual-stake token telemetry",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-22T04:49:21Z",
+   "updated_at": "2026-10-29T19:59:31Z",
+   "assignees": [],
+   "comments": 9,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_amount_body",
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
    ]
   },
   {
@@ -22262,6 +21264,35 @@
    ]
   },
   {
+   "key": "paraloom-labs/paraloom-core#1218",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1218",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1218,
+   "title": "[BOUNTY] Medium: Missing SPL asset instruction builders (deposit_note_spl, init_asset_vault, set_asset_deposit_cap, set_min_token_stake) and derive_asset_config in bridge::solana::instructions, breaking off-chain client & CLI SPL integration",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-25T07:23:45Z",
+   "updated_at": "2026-10-29T19:27:22Z",
+   "assignees": [],
+   "comments": 8,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
    "key": "Scottcjn/rustchain-bounties#9384",
    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/9384",
    "repo": "Scottcjn/rustchain-bounties",
@@ -22557,6 +21588,36 @@
    ]
   },
   {
+   "key": "paraloom-labs/paraloom-core#1156",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1156",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1156,
+   "title": "[BOUNTY] Medium: peer_id_from_multiaddr extracts the first /p2p/<peer_id> instead of trailing target PeerId on p2p-circuit multiaddrs, suppressing co-validator redials and poisoning Kademlia",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-21T05:12:56Z",
+   "updated_at": "2026-10-29T19:16:33Z",
+   "assignees": [],
+   "comments": 5,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_amount_body",
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
    "key": "Scottcjn/rustchain-bounties#9067",
    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/9067",
    "repo": "Scottcjn/rustchain-bounties",
@@ -22751,20 +21812,18 @@
    ]
   },
   {
-   "key": "freedom-winds/BountyScout#1300",
-   "url": "https://github.com/freedom-winds/BountyScout/issues/1300",
-   "repo": "freedom-winds/BountyScout",
-   "number": 1300,
-   "title": "\ud83c\udfaf Bounty Alert: 14 New Opportunityies found",
-   "labels": [
-    "bounty-alert"
-   ],
+   "key": "paraloom-labs/paraloom-core#1246",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1246",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1246,
+   "title": "[BOUNTY] Low: Case-insensitive shielded address self-transfer bypass dropping payBlind locally, and non-USDC SPL decimals=0 fallback inflating portfolio USD valuation by 10^6x-10^9x (paraloom-wallet#140)",
+   "labels": [],
    "state": "open",
-   "created_at": "2026-10-22T18:17:04Z",
-   "updated_at": "2026-10-29T18:26:27Z",
+   "created_at": "2026-10-27T16:11:39Z",
+   "updated_at": "2026-10-29T18:23:57Z",
    "assignees": [],
-   "comments": 2,
-   "amount_usd": 50.0,
+   "comments": 1,
+   "amount_usd": 150.0,
    "noncash": false,
    "tier": "label_only",
    "eligibility": "open",
@@ -22779,7 +21838,37 @@
    "score": 0,
    "verdict": "rejected",
    "reasons": [
-    "aggregator_mirror_or_grant"
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-core#1244",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1244",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1244,
+   "title": "[BOUNTY] High: Node::record_delivered_notes deduplicates by (output_commitment && ciphertext), allowing 50,000-note scan feed eviction via mutated ciphertexts",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-27T12:10:04Z",
+   "updated_at": "2026-10-29T18:23:31Z",
+   "assignees": [],
+   "comments": 2,
+   "amount_usd": null,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_amount_body",
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
    ]
   },
   {
@@ -22810,6 +21899,35 @@
    "verdict": "rejected",
    "reasons": [
     "aggregator_mirror_or_grant"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-core#1162",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1162",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1162,
+   "title": "[BOUNTY] High: WithdrawUnbondedStake unconditionally requires initialized token accounts when token_unbonding_amount == 0 (freezing migrated pre-dual-stake validators' SOL stake & blocking PDA closure) and migrate_validator_account / migrate_bridge_state omit owner & exact legacy size bounds",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-21T09:08:06Z",
+   "updated_at": "2026-10-29T17:10:11Z",
+   "assignees": [],
+   "comments": 3,
+   "amount_usd": null,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
    ]
   },
   {
@@ -22937,6 +22055,35 @@
    ]
   },
   {
+   "key": "paraloom-labs/paraloom-core#1279",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1279",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1279,
+   "title": "[BOUNTY] Low: Direct donations to the vault grief the deposit cap",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-29T17:08:55Z",
+   "updated_at": "2026-10-29T17:08:55Z",
+   "assignees": [],
+   "comments": 0,
+   "amount_usd": null,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
    "key": "dev-kp-eloper/BountyScout#1694",
    "url": "https://github.com/dev-kp-eloper/BountyScout/issues/1694",
    "repo": "dev-kp-eloper/BountyScout",
@@ -23026,6 +22173,107 @@
    "verdict": "rejected",
    "reasons": [
     "aggregator_mirror_or_grant"
+   ]
+  },
+  {
+   "key": "alston-personal/agentmanager#2003",
+   "url": "https://github.com/alston-personal/agentmanager/issues/2003",
+   "repo": "alston-personal/agentmanager",
+   "number": 2003,
+   "title": "Bounty Golden Path v1: qualified paid-issue discovery \u2192 governed execution \u2192 verified payout",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-15T08:42:58Z",
+   "updated_at": "2026-10-29T16:04:24Z",
+   "assignees": [],
+   "comments": 4,
+   "amount_usd": 3000.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "repo_archived": false,
+   "repo_stars": 0,
+   "repo_language": "Python",
+   "repo_pushed_at": "2026-10-29T09:45:07Z",
+   "repo_created_at": "2026-03-14T02:05:41Z",
+   "open_prs": 0,
+   "merged_prs": 0,
+   "closed_prs": 0,
+   "claim_comments": 1,
+   "maintainer_comments": 0,
+   "other_comments": 4,
+   "ai_policy": {
+    "banned": false
+   },
+   "enriched": true,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "meta_or_agent_experiment"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-wallet#127",
+   "url": "https://github.com/paraloom-labs/paraloom-wallet/issues/127",
+   "repo": "paraloom-labs/paraloom-wallet",
+   "number": 127,
+   "title": "[BOUNTY] Medium: routeSwap and swapReconcile cast 64-bit bigint amounts to JavaScript Number, causing IEEE-754 precision loss, InsufficientFunds revert on swap routing, and unverified transaction error status in landed recovery (paraloom-wallet)",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-27T10:10:14Z",
+   "updated_at": "2026-10-29T13:31:35Z",
+   "assignees": [],
+   "comments": 4,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-core#1236",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1236",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1236,
+   "title": "[BOUNTY] Medium: transact_ingress submit_handler omits duplicate nullifier and canonical field checks, burning consensus rounds on doomed requests (paraloom-core)",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-27T06:46:50Z",
+   "updated_at": "2026-10-29T13:27:06Z",
+   "assignees": [],
+   "comments": 6,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
    ]
   },
   {
@@ -23134,6 +22382,49 @@
    ]
   },
   {
+   "key": "paraloom-labs/paraloom-core#1266",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1266",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1266,
+   "title": "[BOUNTY] High: PrivateSwapRelayer::execute drops ephemeral keypair on re-deposit failure, causing irreversible fund loss of swapped assets",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-28T15:17:30Z",
+   "updated_at": "2026-10-29T12:37:21Z",
+   "assignees": [],
+   "comments": 2,
+   "amount_usd": 300.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "repo_archived": false,
+   "repo_stars": 10,
+   "repo_language": "Rust",
+   "repo_pushed_at": "2026-10-29T05:29:05Z",
+   "repo_created_at": "2025-03-16T19:26:09Z",
+   "open_prs": 2,
+   "merged_prs": 0,
+   "closed_prs": 0,
+   "claim_comments": 0,
+   "maintainer_comments": 0,
+   "other_comments": 2,
+   "ai_policy": {
+    "banned": false
+   },
+   "enriched": true,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
    "key": "Rohank143/BountyScout#36",
    "url": "https://github.com/Rohank143/BountyScout/issues/36",
    "repo": "Rohank143/BountyScout",
@@ -23162,6 +22453,92 @@
    "verdict": "rejected",
    "reasons": [
     "aggregator_mirror_or_grant"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-core#1277",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1277",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1277,
+   "title": "[BOUNTY] High: Soundness & Validation Gaps in Mainnet Ceremony Cutover Pipeline (zkey_json_to_arkworks, circom_reduction, and r1cs_export)",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-29T11:53:12Z",
+   "updated_at": "2026-10-29T12:03:21Z",
+   "assignees": [],
+   "comments": 1,
+   "amount_usd": 300.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "repo_archived": false,
+   "repo_stars": 10,
+   "repo_language": "Rust",
+   "repo_pushed_at": "2026-10-29T05:29:05Z",
+   "repo_created_at": "2025-03-16T19:26:09Z",
+   "open_prs": 1,
+   "merged_prs": 0,
+   "closed_prs": 0,
+   "claim_comments": 0,
+   "maintainer_comments": 0,
+   "other_comments": 1,
+   "ai_policy": {
+    "banned": false
+   },
+   "enriched": true,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-core#1276",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1276",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1276,
+   "title": "[BOUNTY] High: Soundness & Validation Gaps in Mainnet Ceremony Cutover Pipeline (zkey_json_to_arkworks, circom_reduction, and r1cs_export)",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-29T11:47:11Z",
+   "updated_at": "2026-10-29T11:51:38Z",
+   "assignees": [],
+   "comments": 1,
+   "amount_usd": 300.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "repo_archived": false,
+   "repo_stars": 10,
+   "repo_language": "Rust",
+   "repo_pushed_at": "2026-10-29T05:29:05Z",
+   "repo_created_at": "2025-03-16T19:26:09Z",
+   "open_prs": 0,
+   "merged_prs": 0,
+   "closed_prs": 0,
+   "claim_comments": 0,
+   "maintainer_comments": 0,
+   "other_comments": 1,
+   "ai_policy": {
+    "banned": false
+   },
+   "enriched": true,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
    ]
   },
   {
@@ -23255,6 +22632,64 @@
    "verdict": "rejected",
    "reasons": [
     "aggregator_mirror_or_grant"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-wallet#173",
+   "url": "https://github.com/paraloom-labs/paraloom-wallet/issues/173",
+   "repo": "paraloom-labs/paraloom-wallet",
+   "number": 173,
+   "title": "[BOUNTY] Medium: Empty-signature note wipe in markNoteSpent and v2 136-hex shielded address rejection in shieldedAddressToBytes",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-28T08:20:49Z",
+   "updated_at": "2026-10-29T07:56:23Z",
+   "assignees": [],
+   "comments": 2,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-core#1254",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1254",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1254,
+   "title": "[BOUNTY] Medium: NullifierSet::check_batch allows intra-batch duplicate nullifiers and insert_batch returns inflated count",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-28T09:21:59Z",
+   "updated_at": "2026-10-29T07:56:22Z",
+   "assignees": [],
+   "comments": 4,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
    ]
   },
   {
@@ -23790,6 +23225,35 @@
    ]
   },
   {
+   "key": "Mutagen-Modding/Mutagen.Bethesda.FormKeys#6",
+   "url": "https://github.com/Mutagen-Modding/Mutagen.Bethesda.FormKeys/issues/6",
+   "repo": "Mutagen-Modding/Mutagen.Bethesda.FormKeys",
+   "number": 6,
+   "title": "Starfield FormKeys out of date (Terran Armada, Trackers Alliance Bounties, Free Lanes) and Mutagen 0.54 build changes",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-28T18:58:30Z",
+   "updated_at": "2026-10-28T21:14:24Z",
+   "assignees": [],
+   "comments": 0,
+   "amount_usd": null,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "meta_or_agent_experiment"
+   ]
+  },
+  {
    "key": "freedom-winds/BountyScout#1315",
    "url": "https://github.com/freedom-winds/BountyScout/issues/1315",
    "repo": "freedom-winds/BountyScout",
@@ -24023,6 +23487,64 @@
    ]
   },
   {
+   "key": "paraloom-labs/paraloom-core#953",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/953",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 953,
+   "title": "[BOUNTY] Medium: BatchVerifier zip-truncation soundness bypass, dropped intermediate Merkle roots in knows_root, ShieldedPool deposit race/overflow, and trailing-byte acceptance in proof_codec",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-16T11:14:22Z",
+   "updated_at": "2026-10-28T15:05:47Z",
+   "assignees": [],
+   "comments": 4,
+   "amount_usd": null,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
+   "key": "paraloom-labs/paraloom-core#1247",
+   "url": "https://github.com/paraloom-labs/paraloom-core/issues/1247",
+   "repo": "paraloom-labs/paraloom-core",
+   "number": 1247,
+   "title": "[BOUNTY] Medium: transact_ingress submit_handler admits oversized proofs, fee-overflow amounts, and zero recipients, causing consensus DoS and on-chain settlement aborts (paraloom-core)",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-27T18:23:24Z",
+   "updated_at": "2026-10-28T13:39:23Z",
+   "assignees": [],
+   "comments": 4,
+   "amount_usd": 150.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_dollar_title",
+   "sources": [
+    "bounty_dollar_title"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "reporter_owned_security_submission"
+   ]
+  },
+  {
    "key": "abdulsalam-create/bounty-watch#186",
    "url": "https://github.com/abdulsalam-create/bounty-watch/issues/186",
    "repo": "abdulsalam-create/bounty-watch",
@@ -24178,6 +23700,173 @@
    ]
   },
   {
+   "key": "airdropia/earn-ops#23",
+   "url": "https://github.com/airdropia/earn-ops/issues/23",
+   "repo": "airdropia/earn-ops",
+   "number": 23,
+   "title": "superteam digest 2026-10-28",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-28T14:04:40Z",
+   "updated_at": "2026-10-29T22:09:49Z",
+   "assignees": [],
+   "comments": 2,
+   "amount_usd": 50000.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_amount_body",
+   "sources": [
+    "bounty_amount_body"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "repo_archived": false,
+   "repo_stars": 1,
+   "repo_language": "JavaScript",
+   "repo_pushed_at": "2026-10-25T17:52:29Z",
+   "repo_created_at": "2026-10-20T14:42:36Z",
+   "open_prs": 0,
+   "merged_prs": 0,
+   "closed_prs": 0,
+   "claim_comments": 0,
+   "maintainer_comments": 0,
+   "other_comments": 2,
+   "ai_policy": {
+    "banned": false
+   },
+   "enriched": true,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "aggregator_mirror_or_grant"
+   ]
+  },
+  {
+   "key": "dev-kp-eloper/BountyScout#1602",
+   "url": "https://github.com/dev-kp-eloper/BountyScout/issues/1602",
+   "repo": "dev-kp-eloper/BountyScout",
+   "number": 1602,
+   "title": "\ud83c\udfaf Bounty Alert: 13 New Opportunityies found",
+   "labels": [
+    "bounty-alert"
+   ],
+   "state": "open",
+   "created_at": "2026-10-16T20:40:55Z",
+   "updated_at": "2026-10-29T22:08:32Z",
+   "assignees": [],
+   "comments": 1,
+   "amount_usd": 105.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_amount_body",
+   "sources": [
+    "bounty_amount_body"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "aggregator_mirror_or_grant"
+   ]
+  },
+  {
+   "key": "freedom-winds/BountyScout#1300",
+   "url": "https://github.com/freedom-winds/BountyScout/issues/1300",
+   "repo": "freedom-winds/BountyScout",
+   "number": 1300,
+   "title": "\ud83c\udfaf Bounty Alert: 14 New Opportunityies found",
+   "labels": [
+    "bounty-alert"
+   ],
+   "state": "open",
+   "created_at": "2026-10-22T18:17:04Z",
+   "updated_at": "2026-10-29T22:08:26Z",
+   "assignees": [],
+   "comments": 2,
+   "amount_usd": 50.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_amount_body",
+   "sources": [
+    "bounty_amount_body"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "aggregator_mirror_or_grant"
+   ]
+  },
+  {
+   "key": "freedom-winds/BountyScout#1233",
+   "url": "https://github.com/freedom-winds/BountyScout/issues/1233",
+   "repo": "freedom-winds/BountyScout",
+   "number": 1233,
+   "title": "\ud83c\udfaf Bounty Alert: 13 New Opportunityies found",
+   "labels": [
+    "bounty-alert"
+   ],
+   "state": "open",
+   "created_at": "2026-10-11T11:12:04Z",
+   "updated_at": "2026-10-29T22:08:19Z",
+   "assignees": [],
+   "comments": 0,
+   "amount_usd": 80.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_amount_body",
+   "sources": [
+    "bounty_amount_body"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "aggregator_mirror_or_grant"
+   ]
+  },
+  {
+   "key": "freedom-winds/BountyScout#1263",
+   "url": "https://github.com/freedom-winds/BountyScout/issues/1263",
+   "repo": "freedom-winds/BountyScout",
+   "number": 1263,
+   "title": "\ud83c\udfaf Bounty Alert: 13 New Opportunityies found",
+   "labels": [
+    "bounty-alert"
+   ],
+   "state": "open",
+   "created_at": "2026-10-16T19:18:15Z",
+   "updated_at": "2026-10-29T22:08:12Z",
+   "assignees": [],
+   "comments": 1,
+   "amount_usd": 75.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_amount_body",
+   "sources": [
+    "bounty_amount_body"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "aggregator_mirror_or_grant"
+   ]
+  },
+  {
    "key": "FuZoe/PD-Hunter#18",
    "url": "https://github.com/FuZoe/PD-Hunter/issues/18",
    "repo": "FuZoe/PD-Hunter",
@@ -24218,49 +23907,6 @@
    "verdict": "rejected",
    "reasons": [
     "platform_bans_ai_agents",
-    "aggregator_mirror_or_grant"
-   ]
-  },
-  {
-   "key": "airdropia/earn-ops#23",
-   "url": "https://github.com/airdropia/earn-ops/issues/23",
-   "repo": "airdropia/earn-ops",
-   "number": 23,
-   "title": "superteam digest 2026-10-28",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-28T14:04:40Z",
-   "updated_at": "2026-10-29T21:28:28Z",
-   "assignees": [],
-   "comments": 2,
-   "amount_usd": 50000.0,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_amount_body",
-   "sources": [
-    "bounty_amount_body"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "repo_archived": false,
-   "repo_stars": 1,
-   "repo_language": "JavaScript",
-   "repo_pushed_at": "2026-10-25T17:52:29Z",
-   "repo_created_at": "2026-10-20T14:42:36Z",
-   "open_prs": 0,
-   "merged_prs": 0,
-   "closed_prs": 0,
-   "claim_comments": 0,
-   "maintainer_comments": 0,
-   "other_comments": 2,
-   "ai_policy": {
-    "banned": false
-   },
-   "enriched": true,
-   "score": 0,
-   "verdict": "rejected",
-   "reasons": [
     "aggregator_mirror_or_grant"
    ]
   },
@@ -24545,6 +24191,37 @@
    "verdict": "rejected",
    "reasons": [
     "aggregator_mirror_or_grant"
+   ]
+  },
+  {
+   "key": "xaviercallens/HiveMind#319",
+   "url": "https://github.com/xaviercallens/HiveMind/issues/319",
+   "repo": "xaviercallens/HiveMind",
+   "number": 319,
+   "title": "[HiveMinders Guide] Season 20 Roadmap Progress & Community Contribution Opportunities (S22-S23)",
+   "labels": [
+    "good first issue"
+   ],
+   "state": "open",
+   "created_at": "2026-10-29T06:41:02Z",
+   "updated_at": "2026-10-29T19:55:01Z",
+   "assignees": [],
+   "comments": 6,
+   "amount_usd": null,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_amount_body",
+   "sources": [
+    "bounty_amount_body"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "meta_or_agent_experiment"
    ]
   },
   {
@@ -25101,6 +24778,37 @@
    ]
   },
   {
+   "key": "jejellyroll-fr/fpdb-3#435",
+   "url": "https://github.com/jejellyroll-fr/fpdb-3/issues/435",
+   "repo": "jejellyroll-fr/fpdb-3",
+   "number": 435,
+   "title": "[Epic] Market gaps and reliability roadmap (audit of 3.9.1)",
+   "labels": [
+    "enhancement"
+   ],
+   "state": "open",
+   "created_at": "2026-10-19T05:48:13Z",
+   "updated_at": "2026-10-29T17:35:06Z",
+   "assignees": [],
+   "comments": 0,
+   "amount_usd": null,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_amount_body",
+   "sources": [
+    "bounty_amount_body"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "enriched": false,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "meta_or_agent_experiment"
+   ]
+  },
+  {
    "key": "FuRongJun-1999/dsh-bounty#2007",
    "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/2007",
    "repo": "FuRongJun-1999/dsh-bounty",
@@ -25231,6 +24939,49 @@
    ]
   },
   {
+   "key": "xpex-systems-ai/GXEON-AI#452",
+   "url": "https://github.com/xpex-systems-ai/GXEON-AI/issues/452",
+   "repo": "xpex-systems-ai/GXEON-AI",
+   "number": 452,
+   "title": "GXEON PAID-WORK #002 \u2014 TokenGems/Jupiter docs review (research ready, no submission or payout)",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-10-12T11:59:50Z",
+   "updated_at": "2026-10-29T17:10:10Z",
+   "assignees": [],
+   "comments": 0,
+   "amount_usd": 350.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_amount_body",
+   "sources": [
+    "bounty_amount_body"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "repo_archived": false,
+   "repo_stars": 0,
+   "repo_language": "TypeScript",
+   "repo_pushed_at": "2026-10-29T21:45:11Z",
+   "repo_created_at": "2026-03-25T22:43:39Z",
+   "open_prs": 0,
+   "merged_prs": 0,
+   "closed_prs": 0,
+   "claim_comments": 0,
+   "maintainer_comments": 0,
+   "other_comments": 0,
+   "ai_policy": {
+    "banned": false
+   },
+   "enriched": true,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "meta_or_agent_experiment"
+   ]
+  },
+  {
    "key": "airdropia/earn-ops#2",
    "url": "https://github.com/airdropia/earn-ops/issues/2",
    "repo": "airdropia/earn-ops",
@@ -25300,6 +25051,49 @@
    "verdict": "rejected",
    "reasons": [
     "platform_bans_ai_agents"
+   ]
+  },
+  {
+   "key": "immanueltella-web/quantum-media-os.#1",
+   "url": "https://github.com/immanueltella-web/quantum-media-os./issues/1",
+   "repo": "immanueltella-web/quantum-media-os.",
+   "number": 1,
+   "title": "\ud83d\udcb7 XOOL Penniless Agent \u2014 first \u00a31 target",
+   "labels": [],
+   "state": "open",
+   "created_at": "2026-09-13T20:11:52Z",
+   "updated_at": "2026-10-29T16:54:15Z",
+   "assignees": [],
+   "comments": 0,
+   "amount_usd": 250.0,
+   "noncash": false,
+   "tier": "label_only",
+   "eligibility": "open",
+   "program": "bounty_amount_body",
+   "sources": [
+    "bounty_amount_body"
+   ],
+   "banned_platform": false,
+   "excluded": false,
+   "repo_archived": false,
+   "repo_stars": 0,
+   "repo_language": "Python",
+   "repo_pushed_at": "2026-10-29T21:47:15Z",
+   "repo_created_at": "2026-05-24T20:16:34Z",
+   "open_prs": 0,
+   "merged_prs": 0,
+   "closed_prs": 0,
+   "claim_comments": 0,
+   "maintainer_comments": 0,
+   "other_comments": 0,
+   "ai_policy": {
+    "banned": false
+   },
+   "enriched": true,
+   "score": 0,
+   "verdict": "rejected",
+   "reasons": [
+    "meta_or_agent_experiment"
    ]
   },
   {
@@ -25436,182 +25230,6 @@
    "verdict": "rejected",
    "reasons": [
     "excluded_repo",
-    "aggregator_mirror_or_grant"
-   ]
-  },
-  {
-   "key": "FuRongJun-1999/dsh-bounty#1998",
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/1998",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 1998,
-   "title": "\u3010intake \u8f93\u5165\u3011lingshu #279\uff1a\u975e dict \u7a7a\u95f4\u5750\u6807\u5199\u5165\u4e0d\u62d2 + v1.7 \u8fc1\u79fb\u53cd\u590d\u642c\u8d70\u65b0 neural_* \u8f74\uff08\u53ef\u590d\u73b0\u3001\u9644\u5b88\u536b\u4e0e\u5b9a\u70b9\u53d8\u5f02\u81ea\u8bc1 \u00b7 **PR #1151**\uff09",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-29T16:29:35Z",
-   "updated_at": "2026-10-29T16:29:35Z",
-   "assignees": [],
-   "comments": 0,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_amount_body",
-   "sources": [
-    "bounty_amount_body"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 0,
-   "verdict": "rejected",
-   "reasons": [
-    "aggregator_mirror_or_grant"
-   ]
-  },
-  {
-   "key": "FuRongJun-1999/dsh-bounty#1997",
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/1997",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 1997,
-   "title": "\u3010intake \u8f93\u5165\u3011lingshu #1106\uff1astructure_service \u4e1a\u52a1\u5f02\u5e38\u7a7f\u8fc7 handler + 1 MiB \u6536\u53d1\u4e0d\u5bf9\u79f0\u2014\u2014\u5199\u5165\u6210\u529f\u5374\u6c38\u4e45\u8bfb\u4e0d\u56de\uff08\u53ef\u590d\u73b0\u3001\u9644\u5b88\u536b\u4e0e\u5b9a\u70b9\u53d8\u5f02\u81ea\u8bc1 \u00b7 **PR #1150**\uff09",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-29T16:22:07Z",
-   "updated_at": "2026-10-29T16:22:07Z",
-   "assignees": [],
-   "comments": 0,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_amount_body",
-   "sources": [
-    "bounty_amount_body"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 0,
-   "verdict": "rejected",
-   "reasons": [
-    "aggregator_mirror_or_grant"
-   ]
-  },
-  {
-   "key": "FuRongJun-1999/dsh-bounty#1996",
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/1996",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 1996,
-   "title": "\u3010intake \u8f93\u5165\u3011lingshu #1107\uff1astructure_service \u4e09\u5904\u8f93\u5165\u6821\u9a8c\u7f3a\u53e3\u2014\u2014\u7c7b\u578b\u9519\u8bef\u8c0e\u62a5 StorageError\u3001grant \u5b57\u7b26\u4e32\u62c6\u5355\u5b57\u7b26\u96c6\uff08\u53ef\u590d\u73b0\u3001\u9644\u5b88\u536b\u4e0e\u5b9a\u70b9\u53d8\u5f02\u81ea\u8bc1 \u00b7 **PR #1149**\uff09",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-29T16:19:40Z",
-   "updated_at": "2026-10-29T16:19:40Z",
-   "assignees": [],
-   "comments": 0,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_amount_body",
-   "sources": [
-    "bounty_amount_body"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 0,
-   "verdict": "rejected",
-   "reasons": [
-    "aggregator_mirror_or_grant"
-   ]
-  },
-  {
-   "key": "FuRongJun-1999/dsh-bounty#1995",
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/1995",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 1995,
-   "title": "\u7b2c\u4e09\u65b9\u72ec\u7acb\u590d\u9a8c\uff1alingshu PR #1137\uff08#1103 next_state_loss \u96f6\u6b65\u8bda\u5b9e\uff09\u2014\u2014\u53cc\u817f\u5077\u8dd1\u2192\u96f6\u63a8\u8fdb+\u5b88\u536b8/\u65cf\u56de\u5f5217\uff08\u7ecf\u4e24\u8f6e\u5b50\u4ee3\u7406\u5ba1\u6838\u4fee\u8ba2\uff09",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-29T16:14:12Z",
-   "updated_at": "2026-10-29T16:14:12Z",
-   "assignees": [],
-   "comments": 0,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_amount_body",
-   "sources": [
-    "bounty_amount_body"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 0,
-   "verdict": "rejected",
-   "reasons": [
-    "aggregator_mirror_or_grant"
-   ]
-  },
-  {
-   "key": "VlcekM/MeitouClient#119",
-   "url": "https://github.com/VlcekM/MeitouClient/issues/119",
-   "repo": "VlcekM/MeitouClient",
-   "number": 119,
-   "title": "Feedback: I was stopped and held at sword point but they still hit me even after i paid",
-   "labels": [
-    "feedback"
-   ],
-   "state": "open",
-   "created_at": "2026-10-29T07:51:08Z",
-   "updated_at": "2026-10-29T16:11:46Z",
-   "assignees": [],
-   "comments": 1,
-   "amount_usd": null,
-   "noncash": true,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_amount_body",
-   "sources": [
-    "bounty_amount_body"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 0,
-   "verdict": "rejected",
-   "reasons": [
-    "noncash_reward"
-   ]
-  },
-  {
-   "key": "FuRongJun-1999/dsh-bounty#1993",
-   "url": "https://github.com/FuRongJun-1999/dsh-bounty/issues/1993",
-   "repo": "FuRongJun-1999/dsh-bounty",
-   "number": 1993,
-   "title": "[intake \u8f93\u5165] lingshu #1145\uff1a--judge \u5224\u636e\u5165\u53e3\u9000\u51fa\u7801\u4e0e\u653e\u884c\u53e3\u5f84\u4ea4\u4ed8",
-   "labels": [],
-   "state": "open",
-   "created_at": "2026-10-29T15:37:14Z",
-   "updated_at": "2026-10-29T16:07:00Z",
-   "assignees": [],
-   "comments": 0,
-   "amount_usd": null,
-   "noncash": false,
-   "tier": "label_only",
-   "eligibility": "open",
-   "program": "bounty_amount_body",
-   "sources": [
-    "bounty_amount_body"
-   ],
-   "banned_platform": false,
-   "excluded": false,
-   "enriched": false,
-   "score": 0,
-   "verdict": "rejected",
-   "reasons": [
     "aggregator_mirror_or_grant"
    ]
   },
@@ -26097,7 +25715,7 @@
    "banned_platform": false,
    "excluded": false,
    "repo_archived": false,
-   "repo_stars": 9771,
+   "repo_stars": 9772,
    "repo_language": "JavaScript",
    "repo_pushed_at": "2025-08-06T22:28:53Z",
    "repo_created_at": "2025-01-10T21:37:05Z",
@@ -26226,7 +25844,7 @@
    "repo_archived": false,
    "repo_stars": 12119,
    "repo_language": "Kotlin",
-   "repo_pushed_at": "2026-10-29T20:54:51Z",
+   "repo_pushed_at": "2026-10-29T22:05:57Z",
    "repo_created_at": "2013-01-20T13:55:53Z",
    "open_prs": 1,
    "merged_prs": 1,
