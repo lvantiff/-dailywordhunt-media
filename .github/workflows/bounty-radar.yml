@@ -23,15 +23,11 @@ jobs:
           python-version: "3.12"
       - name: Unit tests
         run: python -I -m unittest discover -s bounty-radar/tests
-      - name: Scan (results are encrypted; only a count summary and salted hashes are public)
+      - name: Scan
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python -I bounty-radar/bounty_radar.py \
-            --out "$RUNNER_TEMP/radar-plain" \
-            --public-dir bounty-radar/data \
-            --encrypt-cert bounty-radar/radar-public-cert.pem
-      - name: Commit encrypted results
+        run: python -I bounty-radar/bounty_radar.py --out bounty-radar/data
+      - name: Commit results
         run: |
           git config user.name "sovereign-bounty-radar"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

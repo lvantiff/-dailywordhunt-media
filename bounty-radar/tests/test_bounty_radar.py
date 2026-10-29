@@ -33,6 +33,11 @@ class FakeGitHub:
         items = [i for q, its in self.search.items() if q in query for i in its]
         return items, len(items), True
 
+    code = {}
+
+    def search_code(self, query):
+        return self.code.get(query, []), len(self.code.get(query, []))
+
     def get(self, path, params=None, accept=None):
         self.calls += 1
         if "/timeline" in path:
@@ -104,6 +109,12 @@ class ScoreTests(unittest.TestCase):
         self.assertEqual(v, "watch")
         self.assertIn("not_enriched", reasons)
 
+    def test_silent_maintainer_penalised(self):
+        ok, _, _ = br.score(self.base(enriched=True, maintainer_comments=1, other_comments=3), NOW)
+        ghosted, _, reasons = br.score(self.base(enriched=True, maintainer_comments=0, other_comments=3), NOW)
+        self.assertEqual(ok - ghosted, 12)
+        self.assertIn("maintainer_silent-12", reasons)
+
     def test_competition_lowers_score(self):
         clean, _, _ = br.score(self.base(), NOW)
         crowded, _, _ = br.score(self.base(open_prs=4, claim_comments=3), NOW)
@@ -142,6 +153,16 @@ class ScanAndLedgerTests(unittest.TestCase):
         self.assertEqual((h["open_prs"], h["claim_comments"]), (1, 1))
         self.assertEqual(by_key["SecureBananaLabs/bug-bounty#9"]["verdict"], "rejected")
         self.assertIn(">=2026-10-22", run["queries"][1]["query"])
+
+    def test_program_discovery_skips_known_and_excluded(self):
+        gh = FakeGitHub(search={})
+        gh.code = {"filename:X": [
+            {"repository": {"full_name": "new/prog"}, "path": "CONTRIBUTING.md"},
+            {"repository": {"full_name": "HHS/simpler-grants-gov"}, "path": "a"},
+            {"repository": {"full_name": "SecureBananaLabs/bug-bounty"}, "path": "b"}]}
+        cfg = {"program_discovery": [{"id": "q", "query": "filename:X"}], "excluded_owners": ["SecureBananaLabs"]}
+        leads = br.discover_programs(gh, cfg, {"HHS/simpler-grants-gov"})
+        self.assertEqual([l["repo"] for l in leads], ["new/prog"])
 
     def test_algora_issue_flagged(self):
         c = br.build_candidate(issue(body="/bounty $100 via https://algora.io/acme"), {"id": "g", "tier": "label_only"}, self.cfg())

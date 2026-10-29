@@ -113,5 +113,43 @@
     "SecureBananaLabs"
   ],
   "comment_exclusions": "Mirrors revenue/bounty-pipeline/discovery-state.json program_exclusions and team-memory bait verdicts (2026-10-04). Add a repo here only with a written reason in SOURCES.md.",
-  "comment_platforms": "Algora-escrowed bounties (label '💎 Bounty') are not scanned: Algora's terms ban AI agents (bounty/BOUNTY-FIRST-TIME-RIGHT-CHECKLIST-2026-10-03.md). BountyHub requires human authorship. See SOURCES.md."
+  "comment_platforms": "Algora-escrowed bounties (label '💎 Bounty') are not scanned: Algora's terms ban AI agents (bounty/BOUNTY-FIRST-TIME-RIGHT-CHECKLIST-2026-10-03.md). BountyHub requires human authorship. See SOURCES.md.",
+  "program_discovery": [
+    {
+      "id": "paid_contributor_terms_file",
+      "query": "filename:PAID_CONTRIBUTOR_TERMS.md"
+    },
+    {
+      "id": "bounty_md",
+      "query": "filename:BOUNTY.md bounty"
+    },
+    {
+      "id": "bounties_md",
+      "query": "filename:BOUNTIES.md"
+    },
+    {
+      "id": "contrib_bounty_program",
+      "query": "\"bounty program\" filename:CONTRIBUTING.md"
+    },
+    {
+      "id": "contrib_paid_contributor",
+      "query": "\"paid contributor\" filename:CONTRIBUTING.md"
+    },
+    {
+      "id": "contrib_funded_issue",
+      "query": "\"funded issue\" filename:CONTRIBUTING.md"
+    },
+    {
+      "id": "contrib_tremendous",
+      "query": "Tremendous payout bounty filename:CONTRIBUTING.md"
+    },
+    {
+      "id": "contrib_opencollective_bounty",
+      "query": "\"Open Collective\" bounty expense filename:CONTRIBUTING.md"
+    },
+    {
+      "id": "issue_template_bounty",
+      "query": "bounty path:.github/ISSUE_TEMPLATE"
+    }
+  ]
 }

@@ -117,6 +117,13 @@ class GitHub:
                 return None
         return None
 
+    def search_code(self, query):
+        """Return (items, total_count). Code search allows ~10 requests a minute, so callers must pace."""
+        res = self.get("/search/code", {"q": query, "per_page": 50})
+        if res is None:
+            return [], None
+        return res.get("items", []), res.get("total_count", 0)
+
     def search_issues(self, query, max_pages=3):
         """Return (items, total_count, complete)."""
         items, total, complete = [], None, True
@@ -135,6 +142,24 @@ class GitHub:
         if total is not None and len(items) < min(total, 1000):
             complete = False
         return items, total, complete
+
+
+def discover_programs(gh, cfg, known):
+    """Find repos whose own docs describe a paid-contributor or bounty program. Leads for review, not candidates."""
+    leads = {}
+    for q in cfg.get("program_discovery", []):
+        items, total = gh.search_code(q["query"])
+        for it in items:
+            repo = (it.get("repository") or {}).get("full_name")
+            if not repo or repo in known or repo.split("/")[0] in cfg.get("excluded_owners", []):
+                continue
+            lead = leads.setdefault(repo, {"repo": repo, "files": [], "queries": []})
+            if it.get("path") not in lead["files"]:
+                lead["files"].append(it.get("path"))
+            if q["id"] not in lead["queries"]:
+                lead["queries"].append(q["id"])
+        time.sleep(7)
+    return sorted(leads.values(), key=lambda l: (-len(l["queries"]), l["repo"]))
 
 
 def expand(query, now):
@@ -205,11 +230,18 @@ def competition(gh, repo, number):
             open_prs.add(key)
         else:
             closed_prs.add(key)
-    claims = 0
+    claims, maintainer, others = 0, 0, 0
     for ev in timeline:
-        if ev.get("event") == "commented" and CLAIMED_RE.search(ev.get("body") or ""):
+        if ev.get("event") != "commented":
+            continue
+        if CLAIMED_RE.search(ev.get("body") or ""):
             claims += 1
-    return {"open_prs": len(open_prs), "merged_prs": len(merged_prs), "closed_prs": len(closed_prs), "claim_comments": claims}
+        if ev.get("author_association") in ("OWNER", "MEMBER", "COLLABORATOR"):
+            maintainer += 1
+        else:
+            others += 1
+    return {"open_prs": len(open_prs), "merged_prs": len(merged_prs), "closed_prs": len(closed_prs), "claim_comments": claims,
+            "maintainer_comments": maintainer, "other_comments": others}
 
 
 TIER_POINTS = {"sponsor_program": 25, "platform_escrow": 15, "label_only": 8, "unknown": 0}
@@ -286,6 +318,11 @@ def score(c, now):
     pts += fit
     reasons.append(f"fit+{fit}")
 
+    # Field test (Hackernoon, 2026): bounty threads where candidates ask about assignment/payment and no maintainer ever answers.
+    if c.get("enriched") and c.get("maintainer_comments", 1) == 0 and c.get("other_comments", 0) >= 2:
+        pts -= 12
+        reasons.append("maintainer_silent-12")
+
     repo_created = parse_ts(c.get("repo_created_at"))
     if repo_created and (now - repo_created).days < 60 and (c.get("repo_stars") or 0) < 10:
         pts -= 15
@@ -351,6 +388,10 @@ def scan(gh, cfg, now, max_enrich=150):
             else:
                 found[c["key"]] = c
         time.sleep(2.1)
+
+    known = set(cfg.get("excluded_repos", []))
+    known |= {q["query"].split("repo:")[1].split()[0] for q in cfg.get("program_watch", []) if "repo:" in q["query"]}
+    run["program_leads"] = discover_programs(gh, cfg, known)
 
     repo_cache, policy_cache = {}, {}
     # Enrich the most promising first: program-watch, then amount, then freshness.
@@ -472,6 +513,14 @@ def digest(candidates, run, new_keys, now, top=25):
         if c["verdict"] == "rejected":
             for r in c["reasons"]:
                 rej[r] = rej.get(r, 0) + 1
+    leads = run.get("program_leads") or []
+    lines.append(f"## Program leads ({len(leads)}): repos whose docs describe a paid program, not yet reviewed")
+    lines.append("")
+    for l in leads[:40]:
+        lines.append(f"- [{l['repo']}](https://github.com/{l['repo']}) | {', '.join(l['files'][:3])} | via {', '.join(l['queries'])}")
+    if not leads:
+        lines.append("None.")
+    lines.append("")
     lines.append("## Rejections by gate")
     lines.append("")
     lines += [f"- {k}: {v}" for k, v in sorted(rej.items(), key=lambda kv: -kv[1])] or ["None."]
@@ -509,7 +558,7 @@ def main(argv=None):
     with open(os.path.join(args.out, "DIGEST.md"), "w", encoding="utf-8") as f:
         f.write(digest(candidates, run, new_keys, now))
     with open(os.path.join(args.out, "run-log.jsonl"), "w", encoding="utf-8") as f:
-        f.write(json.dumps({k: run[k] for k in ("started_at", "finished_at", "api_calls", "candidates", "new", "queries", "errors")}) + "\n")
+        f.write(json.dumps({k: run[k] for k in ("started_at", "finished_at", "api_calls", "candidates", "new", "queries", "errors", "program_leads")}) + "\n")
     if args.encrypt_cert:
         for name in ("DIGEST.md", "candidates.json", "ledger.csv", "run-log.jsonl"):
             encrypt_file(os.path.join(args.out, name), os.path.join(state_dir, name + ".enc"), args.encrypt_cert)
