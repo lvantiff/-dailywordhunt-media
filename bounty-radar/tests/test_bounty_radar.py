@@ -164,6 +164,43 @@ class ScanAndLedgerTests(unittest.TestCase):
             self.assertEqual(row["last_seen"], "2026-10-30T21:00:00Z")
             self.assertEqual(row["times_seen"], "2")
 
+    def test_seen_state_is_hashed_and_tracks_new(self):
+        c = {"key": "a/b#1"}
+        with tempfile.TemporaryDirectory() as d:
+            path = os.path.join(d, "seen.csv")
+            new, info = br.update_seen(path, [c], NOW)
+            self.assertEqual((new, info["a/b#1"][1]), (["a/b#1"], 1))
+            new, info = br.update_seen(path, [c, {"key": "x/y#2"}], NOW + dt.timedelta(days=1))
+            self.assertEqual(new, ["x/y#2"])
+            self.assertEqual(info["a/b#1"], ("2026-10-29T21:00:00Z", 2))
+            text = open(path).read()
+            self.assertNotIn("a/b", text)
+            self.assertNotIn("x/y", text)
+
+    def test_ledger_first_seen_from_seen_state(self):
+        c = {"key": "a/b#1", "url": "u", "title": "t", "program": "p", "tier": "label_only", "amount_usd": 50.0, "score": 41,
+             "verdict": "watch", "assignees": [], "reasons": ["x"]}
+        with tempfile.TemporaryDirectory() as d:
+            info = {"a/b#1": ("2026-10-20T00:00:00Z", 5)}
+            br.update_ledger(os.path.join(d, "l.csv"), [c], NOW, info)
+            row = next(csv.DictReader(open(os.path.join(d, "l.csv"))))
+            self.assertEqual((row["first_seen"], row["times_seen"]), ("2026-10-20T00:00:00Z", "5"))
+
+    def test_encrypt_roundtrip_needs_private_key(self):
+        import shutil, subprocess
+        if not shutil.which("openssl"):
+            self.skipTest("openssl missing")
+        with tempfile.TemporaryDirectory() as d:
+            key, cert, src, enc = (os.path.join(d, n) for n in ("k.pem", "c.pem", "s.txt", "s.enc"))
+            subprocess.run(["openssl", "req", "-x509", "-newkey", "rsa:2048", "-nodes", "-keyout", key, "-out", cert,
+                            "-days", "2", "-subj", "/CN=test"], check=True, capture_output=True)
+            open(src, "w").write("secret ranking " * 1000)
+            br.encrypt_file(src, enc, cert)
+            self.assertNotIn(b"secret ranking", open(enc, "rb").read())
+            out = subprocess.run(["openssl", "smime", "-decrypt", "-binary", "-in", enc, "-inform", "DER", "-inkey", key],
+                                 check=True, capture_output=True).stdout.decode()
+            self.assertEqual(out, "secret ranking " * 1000)
+
     def test_digest_mentions_no_money(self):
         cands, run = br.scan(FakeGitHub(search={"repo:HHS": [issue()]}), self.cfg(), NOW)
         text = br.digest(cands, run, [cands[0]["key"]], NOW)

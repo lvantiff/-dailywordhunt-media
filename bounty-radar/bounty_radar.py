@@ -14,6 +14,8 @@ It never comments, claims, forks or submits anything. Discovery only.
 """
 import argparse
 import csv
+import hashlib
+import subprocess
 import datetime as dt
 import json
 import os
@@ -377,7 +379,7 @@ LEDGER_FIELDS = ["key", "url", "title", "program", "tier", "amount_usd", "score"
                  "assignees", "ai_banned", "first_seen", "last_seen", "times_seen", "reasons"]
 
 
-def update_ledger(path, candidates, now):
+def update_ledger(path, candidates, now, info=None):
     rows = {}
     if os.path.exists(path):
         with open(path, newline="", encoding="utf-8") as f:
@@ -387,6 +389,9 @@ def update_ledger(path, candidates, now):
     new_keys = []
     for c in candidates:
         prev = rows.get(c["key"])
+        if info is not None:
+            first, times = info[c["key"]]
+            prev = None if times == 1 else {"first_seen": first, "times_seen": times - 1}
         if prev is None:
             new_keys.append(c["key"])
         rows[c["key"]] = {
@@ -404,6 +409,44 @@ def update_ledger(path, candidates, now):
         for row in sorted(rows.values(), key=lambda r: (-int(r["score"] or 0), r["key"])):
             w.writerow(row)
     return new_keys
+
+
+def key_hash(key):
+    return hashlib.sha256(("sovereign-radar:" + key).encode()).hexdigest()[:20]
+
+
+def update_seen(path, candidates, now):
+    """Persist only salted hashes of candidate keys with first/last seen. Safe to publish.
+
+    Returns (new_keys, info) where info maps key -> (first_seen, times_seen)."""
+    seen = {}
+    if os.path.exists(path):
+        with open(path, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                seen[row["hash"]] = row
+    stamp = iso(now)
+    new_keys, info = [], {}
+    for c in candidates:
+        h = key_hash(c["key"])
+        prev = seen.get(h)
+        if prev is None:
+            new_keys.append(c["key"])
+        first = prev["first_seen"] if prev else stamp
+        times = int(prev["times_seen"]) + 1 if prev else 1
+        seen[h] = {"hash": h, "first_seen": first, "last_seen": stamp, "times_seen": times}
+        info[c["key"]] = (first, times)
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["hash", "first_seen", "last_seen", "times_seen"])
+        w.writeheader()
+        for row in sorted(seen.values(), key=lambda r: r["hash"]):
+            w.writerow(row)
+    return new_keys, info
+
+
+def encrypt_file(src, dst, cert):
+    """S/MIME-encrypt src to dst (DER) with the public certificate. Only the private key can read it."""
+    subprocess.run(["openssl", "smime", "-encrypt", "-aes-256-cbc", "-binary", "-in", src, "-out", dst,
+                    "-outform", "DER", cert], check=True)
 
 
 def digest(candidates, run, new_keys, now, top=25):
@@ -441,10 +484,13 @@ def digest(candidates, run, new_keys, now, top=25):
 
 
 def main(argv=None):
+    here = os.path.dirname(os.path.abspath(__file__))
     ap = argparse.ArgumentParser()
-    ap.add_argument("--sources", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "sources.json"))
-    ap.add_argument("--out", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"))
+    ap.add_argument("--sources", default=os.path.join(here, "sources.json"))
+    ap.add_argument("--out", default=os.path.join(here, "data"), help="plaintext results directory")
     ap.add_argument("--max-enrich", type=int, default=150)
+    ap.add_argument("--public-dir", help="with --encrypt-cert: where encrypted results and the hashed seen-state go")
+    ap.add_argument("--encrypt-cert", help="PEM certificate; results are written encrypted to --public-dir")
     args = ap.parse_args(argv)
     with open(args.sources, encoding="utf-8") as f:
         cfg = json.load(f)
@@ -452,15 +498,26 @@ def main(argv=None):
     now = utcnow()
     gh = GitHub(os.environ.get("GITHUB_TOKEN"))
     candidates, run = scan(gh, cfg, now, args.max_enrich)
-    new_keys = update_ledger(os.path.join(args.out, "ledger.csv"), candidates, now)
+    state_dir = args.public_dir or args.out
+    os.makedirs(state_dir, exist_ok=True)
+    new_keys, info = update_seen(os.path.join(state_dir, "seen.csv"), candidates, now)
+    update_ledger(os.path.join(args.out, "ledger.csv"), candidates, now, info)
     run["new"] = new_keys
     run["finished_at"] = iso(utcnow())
     with open(os.path.join(args.out, "candidates.json"), "w", encoding="utf-8") as f:
         json.dump({"generated_at": iso(now), "candidates": candidates}, f, indent=1)
     with open(os.path.join(args.out, "DIGEST.md"), "w", encoding="utf-8") as f:
         f.write(digest(candidates, run, new_keys, now))
-    with open(os.path.join(args.out, "run-log.jsonl"), "a", encoding="utf-8") as f:
+    with open(os.path.join(args.out, "run-log.jsonl"), "w", encoding="utf-8") as f:
         f.write(json.dumps({k: run[k] for k in ("started_at", "finished_at", "api_calls", "candidates", "new", "queries", "errors")}) + "\n")
+    if args.encrypt_cert:
+        for name in ("DIGEST.md", "candidates.json", "ledger.csv", "run-log.jsonl"):
+            encrypt_file(os.path.join(args.out, name), os.path.join(state_dir, name + ".enc"), args.encrypt_cert)
+        counts = {v: sum(1 for c in candidates if c["verdict"] == v) for v in ("deep_review", "watch", "logged", "rejected")}
+        with open(os.path.join(state_dir, "status.json"), "w", encoding="utf-8") as f:
+            json.dump({"last_run": iso(now), "candidates": len(candidates), "new": len(new_keys), "verdicts": counts,
+                       "errors": len(run["errors"])}, f, indent=1)
+            f.write("\n")
     print(f"candidates={len(candidates)} new={len(new_keys)} calls={gh.calls} errors={len(gh.errors)}")
     return 0
 
