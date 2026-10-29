@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-29",
+  "word": "MONKEY",
+  "file": "find-monkey-2026-10-29.mp4",
+  "bytes": 361256,
+  "variable": "grid8",
+  "title": "Can You Find MONKEY in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word MONKEY hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "monkey"
+  ],
+  "grid": [
+    "AHQJEKXR",
+    "IXOVJXBY",
+    "FXZQFREO",
+    "NKGVSKGH",
+    "QMGKNQJP",
+    "KDJOAFKO",
+    "OPMVSPVD",
+    "YMMFRYYS"
+  ],
+  "answer_cells": [
+    [
+      6,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      1,
+      7
+    ]
+  ],
+  "grid_size": 8,
+  "verified_single_occurrence": true
+}
