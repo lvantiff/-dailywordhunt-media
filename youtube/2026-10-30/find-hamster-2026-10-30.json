@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-30",
+  "word": "HAMSTER",
+  "file": "find-hamster-2026-10-30.mp4",
+  "bytes": 379689,
+  "variable": "series_cta+brand_badge",
+  "title": "Word Hunt #15: Can You Find HAMSTER in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word HAMSTER hidden in the grid before the timer runs out? Comment your time! Puzzle #16 drops tomorrow. Subscribe so you don't miss it. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "hamster"
+  ],
+  "grid": [
+    "UHRXFXCMNI",
+    "FXRBINKYXN",
+    "OPWIRPTPNF",
+    "UEELQIXRNE",
+    "FKACXRIWLK",
+    "BENXVKNOTJ",
+    "NXCNJPNQIN",
+    "BUSFQZIUUI",
+    "FGHIFKJACM",
+    "RETSMAHNRM"
+  ],
+  "answer_cells": [
+    [
+      9,
+      6
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      0
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
