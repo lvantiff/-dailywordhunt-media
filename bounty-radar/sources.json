@@ -104,7 +104,12 @@
     "OphirPay/OphirPay",
     "VARUN3WARE/textkit-bounty",
     "LarryE135/dsh-bounty",
-    "claude-builders-bounty/claude-builders-bounty"
+    "claude-builders-bounty/claude-builders-bounty",
+    "Tyaoo/picker",
+    "ruohong2018/ruohong2018.github.io",
+    "chainreactors/picker",
+    "BruceFeIix/picker",
+    "Nish916/revenue-command-runner"
   ],
   "excluded_owners": [
     "UnsafeLabs",
