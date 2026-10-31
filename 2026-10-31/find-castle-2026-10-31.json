@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-31",
+  "word": "CASTLE",
+  "file": "find-castle-2026-10-31.mp4",
+  "bytes": 338306,
+  "variable": "grid8",
+  "title": "Can You Find CASTLE in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word CASTLE hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "castle"
+  ],
+  "grid": [
+    "RYPDCMSS",
+    "UCASTLEC",
+    "JJGQNNSD",
+    "JYIDVLGF",
+    "TJNUFLOI",
+    "OCYGIYST",
+    "UOPRGUNK",
+    "EKNHQMRI"
+  ],
+  "answer_cells": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ]
+  ],
+  "grid_size": 8,
+  "verified_single_occurrence": true
+}
