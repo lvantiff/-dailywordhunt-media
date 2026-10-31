@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-31",
+  "word": "ISLAND",
+  "file": "find-island-2026-10-31.mp4",
+  "bytes": 388337,
+  "variable": "series_cta+brand_badge+grid12",
+  "title": "Word Hunt #16: Can You Find ISLAND in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word ISLAND hidden in the grid before the timer runs out? Comment your time! Puzzle #17 drops tomorrow. Subscribe so you don't miss it. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "island"
+  ],
+  "grid": [
+    "RJZFEGZDOHMD",
+    "ZZKVWKSKWJTB",
+    "RGZVDNALSIJX",
+    "JTYFVODQLLKY",
+    "UWTQTXCLKRYP",
+    "BLWWOVMEPRSA",
+    "KLJNKPKFXLKR",
+    "LCWIUTBIOESA",
+    "GJEHJZPBAKXN",
+    "HZDQKHQHGKPR",
+    "POIFYHPLJTTV",
+    "MVZFCBCKYIAC"
+  ],
+  "answer_cells": [
+    [
+      2,
+      9
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "grid_size": 12,
+  "verified_single_occurrence": true
+}
