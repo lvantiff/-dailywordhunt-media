@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-01",
+  "word": "ISLAND",
+  "file": "find-island-2026-11-01.mp4",
+  "bytes": 341988,
+  "variable": "grid8",
+  "title": "Can You Find ISLAND in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word ISLAND hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "island"
+  ],
+  "grid": [
+    "IKJXTYRJ",
+    "GDSOYPPQ",
+    "TNMTIECT",
+    "VGMQSYYX",
+    "KROZLVMG",
+    "SBLRAUJC",
+    "BMEWNKGT",
+    "GEBEDTDU"
+  ],
+  "answer_cells": [
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      7,
+      4
+    ]
+  ],
+  "grid_size": 8,
+  "verified_single_occurrence": true
+}
