@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-01",
+  "word": "OCTOPUS",
+  "file": "find-octopus-2026-11-01.mp4",
+  "bytes": 401802,
+  "variable": "series_cta+brand_badge+grid12",
+  "title": "Word Hunt #17: Can You Find OCTOPUS in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word OCTOPUS hidden in the grid before the timer runs out? Comment your time! Puzzle #18 drops tomorrow. Subscribe so you don't miss it. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "octopus"
+  ],
+  "grid": [
+    "XQAEJKACQFHB",
+    "LLNEDMPAIBDU",
+    "EJUKROGZCFSK",
+    "BFHSZNMYHXTS",
+    "NVXBQCWTSMJO",
+    "IICPUROUWNPK",
+    "MCPKRAPUQCCC",
+    "TAWJYOEZZFAN",
+    "IKOLTEJRXGLE",
+    "EQJCMFQVTZZU",
+    "LGOQWSYMNJOW",
+    "GYROCOKLZEIC"
+  ],
+  "answer_cells": [
+    [
+      10,
+      2
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      4,
+      8
+    ]
+  ],
+  "grid_size": 12,
+  "verified_single_occurrence": true
+}
