@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lvantiff.github.io/-dailywordhunt-media/sitemap.xml
