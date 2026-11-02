@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-02",
+  "word": "TIGER",
+  "file": "find-tiger-2026-11-02.mp4",
+  "bytes": 342261,
+  "variable": "grid8",
+  "title": "Can You Find TIGER in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word TIGER hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "tiger"
+  ],
+  "grid": [
+    "ESHOBDDT",
+    "PZSBPCRL",
+    "LXRIPEHW",
+    "DQPEIOKO",
+    "QDBRGOSZ",
+    "OXGZWIFQ",
+    "FFKBRCTH",
+    "AJJRHGYF"
+  ],
+  "answer_cells": [
+    [
+      6,
+      6
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "grid_size": 8,
+  "verified_single_occurrence": true
+}
