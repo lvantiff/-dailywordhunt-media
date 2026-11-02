@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-02",
+  "word": "TIGER",
+  "file": "find-tiger-2026-11-02.mp4",
+  "bytes": 390912,
+  "variable": "series_cta+brand_badge+grid12",
+  "title": "Word Hunt #18: Can You Find TIGER in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word TIGER hidden in the grid before the timer runs out? Comment your time! Puzzle #19 drops tomorrow. Subscribe so you don't miss it. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "tiger"
+  ],
+  "grid": [
+    "ENNMESHOBDDT",
+    "PZSBPRRLLXPI",
+    "PEHWDQEZIOKO",
+    "QDBRCOSGOXGZ",
+    "WAFQFFKBICSH",
+    "AJJRHGYFMTSW",
+    "TOPLMRHKPBKA",
+    "ZIHTCWWGZUIL",
+    "CPLEYZPQCSAG",
+    "QAGZJUCAQFAE",
+    "YWMKHHXUPLFJ",
+    "XPPVOZOHFTLN"
+  ],
+  "answer_cells": [
+    [
+      5,
+      9
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "grid_size": 12,
+  "verified_single_occurrence": true
+}
