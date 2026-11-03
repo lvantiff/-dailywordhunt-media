@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-03",
+  "word": "LANTERN",
+  "file": "find-lantern-2026-11-03.mp4",
+  "bytes": 366803,
+  "variable": "brand_badge",
+  "title": "Can You Find LANTERN in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word LANTERN hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "lantern"
+  ],
+  "grid": [
+    "RNRETNALUO",
+    "HUBMRWASKU",
+    "QGGGEIJPSO",
+    "JHQLZTBMNC",
+    "AKFLYSTAZI",
+    "PMXCTSERHI",
+    "PBXKFNMZLI",
+    "XMWNSTLZTP",
+    "VLDJEWHQTM",
+    "YKDDTXMOTV"
+  ],
+  "answer_cells": [
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
