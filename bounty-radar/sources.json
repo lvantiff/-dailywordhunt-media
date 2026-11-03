@@ -48,18 +48,6 @@
       ]
     },
     {
-      "id": "freecad_fpa",
-      "name": "FreeCAD FPA bugfix rewards",
-      "query": "repo:FreeCAD/FreeCAD is:issue is:open label:Bounty",
-      "tier": "sponsor_program",
-      "eligibility": "open",
-      "terms_url": "https://fpa.freecad.org/",
-      "payout": "FPA grant/reward after merge",
-      "label_pages": [
-        "https://github.com/FreeCAD/FreeCAD/labels/Bounty"
-      ]
-    },
-    {
       "id": "opencollective_bounty",
       "name": "Open Collective platform bounties",
       "query": "repo:opencollective/opencollective is:issue is:open label:bounty",
@@ -258,7 +246,10 @@
     "yihui/yihui.org",
     "josedab/chronicle",
     "Trauma-Station/Trauma-Station",
-    "AI-WorkDeck/aiworkdeck"
+    "AI-WorkDeck/aiworkdeck",
+    "chusmias258-dev/solana-validator-tx-ordering",
+    "FreeCAD/FPA",
+    "roomedia/ax-trend"
   ],
   "excluded_owners": [
     "UnsafeLabs",
@@ -271,7 +262,7 @@
     "bujiproject-art"
   ],
   "comment_exclusions": "Mirrors revenue/bounty-pipeline/discovery-state.json program_exclusions and team-memory bait verdicts (2026-10-04). Add a repo here only with a written reason in SOURCES.md.",
-  "comment_platforms": "Algora-escrowed bounties (label '\ud83d\udc8e Bounty') are not scanned: Algora's terms ban AI agents (bounty/BOUNTY-FIRST-TIME-RIGHT-CHECKLIST-2026-10-03.md). BountyHub requires human authorship. See SOURCES.md.",
+  "comment_platforms": "Algora-escrowed bounties (label '💎 Bounty') are not scanned: Algora's terms ban AI agents (bounty/BOUNTY-FIRST-TIME-RIGHT-CHECKLIST-2026-10-03.md). BountyHub requires human authorship. See SOURCES.md.",
   "program_discovery": [
     {
       "id": "paid_contributor_terms_file",
