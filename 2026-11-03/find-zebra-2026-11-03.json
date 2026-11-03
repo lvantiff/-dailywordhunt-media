@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-03",
+  "word": "ZEBRA",
+  "file": "find-zebra-2026-11-03.mp4",
+  "bytes": 341916,
+  "variable": "grid8",
+  "title": "Can You Find ZEBRA in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word ZEBRA hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "zebra"
+  ],
+  "grid": [
+    "LJOUEOSJ",
+    "NUVFIVAK",
+    "CYQSZZFX",
+    "RJZTVHUU",
+    "QVEUAMWQ",
+    "KYBCJDLN",
+    "PJRNBENZ",
+    "MJAAFYRC"
+  ],
+  "answer_cells": [
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      7,
+      2
+    ]
+  ],
+  "grid_size": 8,
+  "verified_single_occurrence": true
+}
