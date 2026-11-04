@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-04",
+  "word": "COMET",
+  "file": "find-comet-2026-11-04.mp4",
+  "bytes": 379518,
+  "variable": "series_cta+brand_badge",
+  "title": "Word Hunt #19: Can You Find COMET in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word COMET hidden in the grid before the timer runs out? Comment your time! Puzzle #20 drops tomorrow. Subscribe so you don't miss it. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "comet"
+  ],
+  "grid": [
+    "NGWANYMJJL",
+    "IBIFUSQKTS",
+    "CVKZTNRBLP",
+    "SHEHKEUBIG",
+    "HFKXJUMIEG",
+    "UOASLXGOAE",
+    "XAXTGEYPCU",
+    "CDZAXZOJNL",
+    "SANAQKHJXA",
+    "FFYINRSGKM"
+  ],
+  "answer_cells": [
+    [
+      6,
+      8
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
