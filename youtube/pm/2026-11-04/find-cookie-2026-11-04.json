@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-04",
+  "word": "COOKIE",
+  "file": "find-cookie-2026-11-04.mp4",
+  "bytes": 376220,
+  "variable": "brand_badge",
+  "title": "Can You Find COOKIE in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word COOKIE hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "cookie"
+  ],
+  "grid": [
+    "QGYWAVHPRC",
+    "INUXWIBFOP",
+    "ZALFDBNOKK",
+    "TQADVOKGGX",
+    "FKLGJIEOMG",
+    "OTEUEAGPEP",
+    "WZPAADUBVQ",
+    "ZSOZSDIJCG",
+    "SVPLCGNQLU",
+    "NHMPVCIDYB"
+  ],
+  "answer_cells": [
+    [
+      0,
+      9
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      4
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
