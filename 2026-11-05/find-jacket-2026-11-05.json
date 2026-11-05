@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-05",
+  "word": "JACKET",
+  "file": "find-jacket-2026-11-05.mp4",
+  "bytes": 340890,
+  "variable": "grid8",
+  "title": "Can You Find JACKET in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word JACKET hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "jacket"
+  ],
+  "grid": [
+    "IHZQETFP",
+    "LIUHLTXB",
+    "HYJGLQGS",
+    "PCSVSWKV",
+    "XOQFPPKR",
+    "IFDDRJGL",
+    "NJACKETJ",
+    "JCBFBPYX"
+  ],
+  "answer_cells": [
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      6
+    ]
+  ],
+  "grid_size": 8,
+  "verified_single_occurrence": true
+}
