@@ -293,7 +293,8 @@
     "meta/hermes",
     "mikejmorgan-ai/openbounty-agent-kit",
     "near/core-contracts-as",
-    "pluto/ronkathon"
+    "pluto/ronkathon",
+    "Senthemodder/aquarium-of-gullibles"
   ],
   "excluded_owners": [
     "UnsafeLabs",
