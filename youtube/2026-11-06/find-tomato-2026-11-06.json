@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-06",
+  "word": "TOMATO",
+  "file": "find-tomato-2026-11-06.mp4",
+  "bytes": 385037,
+  "variable": "series_cta+brand_badge",
+  "title": "Word Hunt #21: Can You Find TOMATO in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word TOMATO hidden in the grid before the timer runs out? Comment your time! Puzzle #22 drops tomorrow. Subscribe so you don't miss it. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "tomato"
+  ],
+  "grid": [
+    "JSNSNIOTTX",
+    "PJEAPMGXMG",
+    "KKXUSKAOVF",
+    "EAXNDRCQLA",
+    "HJWAUIOUDN",
+    "MIGJXYTINW",
+    "XEIISRAZZP",
+    "SKRKFBMLWY",
+    "CEKJLQOYXM",
+    "VYMHSZTBKA"
+  ],
+  "answer_cells": [
+    [
+      9,
+      6
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
