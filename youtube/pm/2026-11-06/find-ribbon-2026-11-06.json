@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-06",
+  "word": "RIBBON",
+  "file": "find-ribbon-2026-11-06.mp4",
+  "bytes": 376762,
+  "variable": "brand_badge",
+  "title": "Can You Find RIBBON in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word RIBBON hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "ribbon"
+  ],
+  "grid": [
+    "ESRPTNTJLY",
+    "UGQMRHWIHS",
+    "BPSLDPFOSS",
+    "RJRWQHUBLD",
+    "KIYVZXERMT",
+    "AMBFOCZTQS",
+    "HZMBEBMHJJ",
+    "NHHKOCTSDS",
+    "ADSODNEWBX",
+    "UXOWVZHAJE"
+  ],
+  "answer_cells": [
+    [
+      3,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      8,
+      5
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
