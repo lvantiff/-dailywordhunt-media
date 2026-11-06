@@ -1,0 +1,562 @@
+{
+  "volume": 1,
+  "theme": "General Knowledge",
+  "file": "trivia-lantern-quiz1.mp4",
+  "bytes": 5335545,
+  "duration_s": 744,
+  "title": "45 General Knowledge Questions: Easy to Hard (Trivia Lantern Quiz #1)",
+  "description": "45 general knowledge questions from easy to hard. You get 12 seconds for each one. Pause any time, keep score, and comment your total!\n\nChapters:\n0:00 Intro\n0:05 Easy questions\n4:08 Medium questions\n8:11 Hard questions\n\nNew quiz every week. Subscribe so you don't miss the next one.\n\n#quiz #trivia #generalknowledge",
+  "tags": [
+    "quiz",
+    "trivia",
+    "general knowledge quiz",
+    "general knowledge quiz",
+    "multiple choice quiz",
+    "trivia questions",
+    "brain games"
+  ],
+  "made_for_kids": false,
+  "answers": [
+    {
+      "n": 1,
+      "level": "EASY",
+      "q": "How many continents are there?",
+      "options": [
+        "8",
+        "5",
+        "7",
+        "6"
+      ],
+      "answer": "7"
+    },
+    {
+      "n": 2,
+      "level": "EASY",
+      "q": "What is the largest planet in our solar system?",
+      "options": [
+        "Neptune",
+        "Saturn",
+        "Earth",
+        "Jupiter"
+      ],
+      "answer": "Jupiter"
+    },
+    {
+      "n": 3,
+      "level": "EASY",
+      "q": "How many legs does a spider have?",
+      "options": [
+        "10",
+        "12",
+        "6",
+        "8"
+      ],
+      "answer": "8"
+    },
+    {
+      "n": 4,
+      "level": "EASY",
+      "q": "Which gas do plants take in from the air to make food?",
+      "options": [
+        "Carbon dioxide",
+        "Nitrogen",
+        "Helium",
+        "Oxygen"
+      ],
+      "answer": "Carbon dioxide"
+    },
+    {
+      "n": 5,
+      "level": "EASY",
+      "q": "At what temperature does water freeze in Fahrenheit?",
+      "options": [
+        "0°F",
+        "212°F",
+        "100°F",
+        "32°F"
+      ],
+      "answer": "32°F"
+    },
+    {
+      "n": 6,
+      "level": "EASY",
+      "q": "Which is the largest ocean on Earth?",
+      "options": [
+        "Atlantic",
+        "Pacific",
+        "Indian",
+        "Arctic"
+      ],
+      "answer": "Pacific"
+    },
+    {
+      "n": 7,
+      "level": "EASY",
+      "q": "How many sides does a hexagon have?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": "6"
+    },
+    {
+      "n": 8,
+      "level": "EASY",
+      "q": "What is the chemical symbol for gold?",
+      "options": [
+        "Ag",
+        "Gd",
+        "Au",
+        "Go"
+      ],
+      "answer": "Au"
+    },
+    {
+      "n": 9,
+      "level": "EASY",
+      "q": "Who painted the Mona Lisa?",
+      "options": [
+        "Leonardo da Vinci",
+        "Raphael",
+        "Michelangelo",
+        "Vincent van Gogh"
+      ],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "n": 10,
+      "level": "EASY",
+      "q": "What is the tallest land animal?",
+      "options": [
+        "Giraffe",
+        "Ostrich",
+        "Camel",
+        "Elephant"
+      ],
+      "answer": "Giraffe"
+    },
+    {
+      "n": 11,
+      "level": "EASY",
+      "q": "How many minutes are in one day?",
+      "options": [
+        "2,400",
+        "1,600",
+        "1,440",
+        "1,200"
+      ],
+      "answer": "1,440"
+    },
+    {
+      "n": 12,
+      "level": "EASY",
+      "q": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Mercury",
+        "Mars",
+        "Jupiter"
+      ],
+      "answer": "Mars"
+    },
+    {
+      "n": 13,
+      "level": "EASY",
+      "q": "What is the largest animal that has ever lived?",
+      "options": [
+        "African elephant",
+        "Megalodon",
+        "Sperm whale",
+        "Blue whale"
+      ],
+      "answer": "Blue whale"
+    },
+    {
+      "n": 14,
+      "level": "EASY",
+      "q": "How many strings does a standard guitar have?",
+      "options": [
+        "7",
+        "5",
+        "4",
+        "6"
+      ],
+      "answer": "6"
+    },
+    {
+      "n": 15,
+      "level": "EASY",
+      "q": "Which planet is closest to the Sun?",
+      "options": [
+        "Mars",
+        "Mercury",
+        "Earth",
+        "Venus"
+      ],
+      "answer": "Mercury"
+    },
+    {
+      "n": 16,
+      "level": "MEDIUM",
+      "q": "What is the hardest natural substance?",
+      "options": [
+        "Diamond",
+        "Granite",
+        "Iron",
+        "Quartz"
+      ],
+      "answer": "Diamond"
+    },
+    {
+      "n": 17,
+      "level": "MEDIUM",
+      "q": "In which country are the Pyramids of Giza?",
+      "options": [
+        "Mexico",
+        "Peru",
+        "Sudan",
+        "Egypt"
+      ],
+      "answer": "Egypt"
+    },
+    {
+      "n": 18,
+      "level": "MEDIUM",
+      "q": "What is the smallest prime number?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "0"
+      ],
+      "answer": "2"
+    },
+    {
+      "n": 19,
+      "level": "MEDIUM",
+      "q": "Which element has atomic number 1?",
+      "options": [
+        "Carbon",
+        "Helium",
+        "Hydrogen",
+        "Oxygen"
+      ],
+      "answer": "Hydrogen"
+    },
+    {
+      "n": 20,
+      "level": "MEDIUM",
+      "q": "Who wrote 'Romeo and Juliet'?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Mark Twain",
+        "Jane Austen"
+      ],
+      "answer": "William Shakespeare"
+    },
+    {
+      "n": 21,
+      "level": "MEDIUM",
+      "q": "What is the longest bone in the human body?",
+      "options": [
+        "Tibia",
+        "Femur",
+        "Fibula",
+        "Humerus"
+      ],
+      "answer": "Femur"
+    },
+    {
+      "n": 22,
+      "level": "MEDIUM",
+      "q": "What is the square root of 144?",
+      "options": [
+        "11",
+        "14",
+        "16",
+        "12"
+      ],
+      "answer": "12"
+    },
+    {
+      "n": 23,
+      "level": "MEDIUM",
+      "q": "Which language has the most native speakers?",
+      "options": [
+        "Hindi",
+        "English",
+        "Spanish",
+        "Mandarin Chinese"
+      ],
+      "answer": "Mandarin Chinese"
+    },
+    {
+      "n": 24,
+      "level": "MEDIUM",
+      "q": "How many bones does an adult human have?",
+      "options": [
+        "186",
+        "256",
+        "212",
+        "206"
+      ],
+      "answer": "206"
+    },
+    {
+      "n": 25,
+      "level": "MEDIUM",
+      "q": "What is the capital of Australia?",
+      "options": [
+        "Perth",
+        "Canberra",
+        "Melbourne",
+        "Sydney"
+      ],
+      "answer": "Canberra"
+    },
+    {
+      "n": 26,
+      "level": "MEDIUM",
+      "q": "In what year did humans first land on the Moon?",
+      "options": [
+        "1969",
+        "1965",
+        "1959",
+        "1972"
+      ],
+      "answer": "1969"
+    },
+    {
+      "n": 27,
+      "level": "MEDIUM",
+      "q": "What is the main ingredient in guacamole?",
+      "options": [
+        "Green pea",
+        "Avocado",
+        "Tomato",
+        "Lime"
+      ],
+      "answer": "Avocado"
+    },
+    {
+      "n": 28,
+      "level": "MEDIUM",
+      "q": "How many players does a soccer team have on the field?",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "9"
+      ],
+      "answer": "11"
+    },
+    {
+      "n": 29,
+      "level": "MEDIUM",
+      "q": "What is the currency of Japan?",
+      "options": [
+        "Won",
+        "Yuan",
+        "Yen",
+        "Baht"
+      ],
+      "answer": "Yen"
+    },
+    {
+      "n": 30,
+      "level": "MEDIUM",
+      "q": "Which organ pumps blood around the body?",
+      "options": [
+        "Heart",
+        "Liver",
+        "Kidneys",
+        "Lungs"
+      ],
+      "answer": "Heart"
+    },
+    {
+      "n": 31,
+      "level": "HARD",
+      "q": "What is the largest hot desert in the world?",
+      "options": [
+        "Kalahari",
+        "Arabian",
+        "Gobi",
+        "Sahara"
+      ],
+      "answer": "Sahara"
+    },
+    {
+      "n": 32,
+      "level": "HARD",
+      "q": "Which blood type is the universal red-cell donor?",
+      "options": [
+        "B positive",
+        "O negative",
+        "AB positive",
+        "A negative"
+      ],
+      "answer": "O negative"
+    },
+    {
+      "n": 33,
+      "level": "HARD",
+      "q": "How many hearts does an octopus have?",
+      "options": [
+        "8",
+        "1",
+        "3",
+        "2"
+      ],
+      "answer": "3"
+    },
+    {
+      "n": 34,
+      "level": "HARD",
+      "q": "Roughly how fast does light travel?",
+      "options": [
+        "3,000 km per second",
+        "300,000 km per second",
+        "30,000 km per second",
+        "3,000,000 km per second"
+      ],
+      "answer": "300,000 km per second"
+    },
+    {
+      "n": 35,
+      "level": "HARD",
+      "q": "What is the only mammal capable of true flight?",
+      "options": [
+        "Flying squirrel",
+        "Bat",
+        "Colugo",
+        "Sugar glider"
+      ],
+      "answer": "Bat"
+    },
+    {
+      "n": 36,
+      "level": "HARD",
+      "q": "Which element has the chemical symbol K?",
+      "options": [
+        "Potassium",
+        "Krypton",
+        "Calcium",
+        "Sodium"
+      ],
+      "answer": "Potassium"
+    },
+    {
+      "n": 37,
+      "level": "HARD",
+      "q": "What is the largest organ of the human body?",
+      "options": [
+        "Skin",
+        "Lungs",
+        "Liver",
+        "Brain"
+      ],
+      "answer": "Skin"
+    },
+    {
+      "n": 38,
+      "level": "HARD",
+      "q": "In what year did the Titanic sink?",
+      "options": [
+        "1912",
+        "1905",
+        "1915",
+        "1921"
+      ],
+      "answer": "1912"
+    },
+    {
+      "n": 39,
+      "level": "HARD",
+      "q": "Which planet rotates on its side?",
+      "options": [
+        "Uranus",
+        "Neptune",
+        "Saturn",
+        "Venus"
+      ],
+      "answer": "Uranus"
+    },
+    {
+      "n": 40,
+      "level": "HARD",
+      "q": "How many keys are on a standard piano?",
+      "options": [
+        "100",
+        "88",
+        "76",
+        "92"
+      ],
+      "answer": "88"
+    },
+    {
+      "n": 41,
+      "level": "HARD",
+      "q": "What is the smallest country in the world by area?",
+      "options": [
+        "San Marino",
+        "Vatican City",
+        "Liechtenstein",
+        "Monaco"
+      ],
+      "answer": "Vatican City"
+    },
+    {
+      "n": 42,
+      "level": "HARD",
+      "q": "What is the most abundant gas in Earth's atmosphere?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Carbon dioxide",
+        "Argon"
+      ],
+      "answer": "Nitrogen"
+    },
+    {
+      "n": 43,
+      "level": "HARD",
+      "q": "Who developed the theory of general relativity?",
+      "options": [
+        "Albert Einstein",
+        "Niels Bohr",
+        "Galileo Galilei",
+        "Isaac Newton"
+      ],
+      "answer": "Albert Einstein"
+    },
+    {
+      "n": 44,
+      "level": "HARD",
+      "q": "What is the longest river in South America?",
+      "options": [
+        "Amazon",
+        "Orinoco",
+        "Paraná",
+        "São Francisco"
+      ],
+      "answer": "Amazon"
+    },
+    {
+      "n": 45,
+      "level": "HARD",
+      "q": "Which metal is liquid at room temperature?",
+      "options": [
+        "Aluminium",
+        "Mercury",
+        "Lead",
+        "Tin"
+      ],
+      "answer": "Mercury"
+    }
+  ],
+  "facts_checked_by": "Claude, by hand, 2026-11-06"
+}

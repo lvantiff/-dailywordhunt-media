@@ -1,0 +1,562 @@
+{
+  "volume": 2,
+  "theme": "World Capitals",
+  "file": "trivia-lantern-quiz2.mp4",
+  "bytes": 5259415,
+  "duration_s": 744,
+  "title": "World Capitals Quiz: 45 Countries, Easy to Hard (Trivia Lantern Quiz #2)",
+  "description": "45 world capitals questions from easy to hard. You get 12 seconds for each one. Pause any time, keep score, and comment your total!\n\nChapters:\n0:00 Intro\n0:05 Easy questions\n4:08 Medium questions\n8:11 Hard questions\n\nNew quiz every week. Subscribe so you don't miss the next one.\n\n#quiz #trivia #generalknowledge",
+  "tags": [
+    "quiz",
+    "trivia",
+    "general knowledge quiz",
+    "world capitals quiz",
+    "multiple choice quiz",
+    "trivia questions",
+    "brain games"
+  ],
+  "made_for_kids": false,
+  "answers": [
+    {
+      "n": 1,
+      "level": "EASY",
+      "q": "What is the capital of France?",
+      "options": [
+        "Paris",
+        "Nice",
+        "Marseille",
+        "Lyon"
+      ],
+      "answer": "Paris"
+    },
+    {
+      "n": 2,
+      "level": "EASY",
+      "q": "What is the capital of Italy?",
+      "options": [
+        "Naples",
+        "Venice",
+        "Rome",
+        "Milan"
+      ],
+      "answer": "Rome"
+    },
+    {
+      "n": 3,
+      "level": "EASY",
+      "q": "What is the capital of Spain?",
+      "options": [
+        "Seville",
+        "Madrid",
+        "Barcelona",
+        "Valencia"
+      ],
+      "answer": "Madrid"
+    },
+    {
+      "n": 4,
+      "level": "EASY",
+      "q": "What is the capital of Germany?",
+      "options": [
+        "Hamburg",
+        "Berlin",
+        "Munich",
+        "Frankfurt"
+      ],
+      "answer": "Berlin"
+    },
+    {
+      "n": 5,
+      "level": "EASY",
+      "q": "What is the capital of Japan?",
+      "options": [
+        "Kyoto",
+        "Osaka",
+        "Tokyo",
+        "Hiroshima"
+      ],
+      "answer": "Tokyo"
+    },
+    {
+      "n": 6,
+      "level": "EASY",
+      "q": "What is the capital of the United Kingdom?",
+      "options": [
+        "Manchester",
+        "Edinburgh",
+        "London",
+        "Liverpool"
+      ],
+      "answer": "London"
+    },
+    {
+      "n": 7,
+      "level": "EASY",
+      "q": "What is the capital of Russia?",
+      "options": [
+        "Novosibirsk",
+        "Moscow",
+        "Kazan",
+        "Saint Petersburg"
+      ],
+      "answer": "Moscow"
+    },
+    {
+      "n": 8,
+      "level": "EASY",
+      "q": "What is the capital of China?",
+      "options": [
+        "Guangzhou",
+        "Beijing",
+        "Shenzhen",
+        "Shanghai"
+      ],
+      "answer": "Beijing"
+    },
+    {
+      "n": 9,
+      "level": "EASY",
+      "q": "What is the capital of Egypt?",
+      "options": [
+        "Cairo",
+        "Luxor",
+        "Alexandria",
+        "Giza"
+      ],
+      "answer": "Cairo"
+    },
+    {
+      "n": 10,
+      "level": "EASY",
+      "q": "What is the capital of Greece?",
+      "options": [
+        "Corinth",
+        "Thessaloniki",
+        "Athens",
+        "Sparta"
+      ],
+      "answer": "Athens"
+    },
+    {
+      "n": 11,
+      "level": "EASY",
+      "q": "What is the capital of Mexico?",
+      "options": [
+        "Guadalajara",
+        "Cancún",
+        "Mexico City",
+        "Monterrey"
+      ],
+      "answer": "Mexico City"
+    },
+    {
+      "n": 12,
+      "level": "EASY",
+      "q": "What is the capital of Ireland?",
+      "options": [
+        "Limerick",
+        "Dublin",
+        "Galway",
+        "Cork"
+      ],
+      "answer": "Dublin"
+    },
+    {
+      "n": 13,
+      "level": "EASY",
+      "q": "What is the capital of Portugal?",
+      "options": [
+        "Porto",
+        "Lisbon",
+        "Braga",
+        "Faro"
+      ],
+      "answer": "Lisbon"
+    },
+    {
+      "n": 14,
+      "level": "EASY",
+      "q": "What is the capital of Norway?",
+      "options": [
+        "Bergen",
+        "Stavanger",
+        "Oslo",
+        "Trondheim"
+      ],
+      "answer": "Oslo"
+    },
+    {
+      "n": 15,
+      "level": "EASY",
+      "q": "What is the capital of Sweden?",
+      "options": [
+        "Malmö",
+        "Gothenburg",
+        "Stockholm",
+        "Uppsala"
+      ],
+      "answer": "Stockholm"
+    },
+    {
+      "n": 16,
+      "level": "MEDIUM",
+      "q": "What is the capital of Canada?",
+      "options": [
+        "Vancouver",
+        "Montreal",
+        "Toronto",
+        "Ottawa"
+      ],
+      "answer": "Ottawa"
+    },
+    {
+      "n": 17,
+      "level": "MEDIUM",
+      "q": "What is the capital of Australia?",
+      "options": [
+        "Melbourne",
+        "Canberra",
+        "Sydney",
+        "Brisbane"
+      ],
+      "answer": "Canberra"
+    },
+    {
+      "n": 18,
+      "level": "MEDIUM",
+      "q": "What is the capital of Brazil?",
+      "options": [
+        "Rio de Janeiro",
+        "Brasília",
+        "Salvador",
+        "São Paulo"
+      ],
+      "answer": "Brasília"
+    },
+    {
+      "n": 19,
+      "level": "MEDIUM",
+      "q": "What is the capital of Turkey?",
+      "options": [
+        "Ankara",
+        "Antalya",
+        "Istanbul",
+        "Izmir"
+      ],
+      "answer": "Ankara"
+    },
+    {
+      "n": 20,
+      "level": "MEDIUM",
+      "q": "What is the capital of Belgium?",
+      "options": [
+        "Antwerp",
+        "Bruges",
+        "Ghent",
+        "Brussels"
+      ],
+      "answer": "Brussels"
+    },
+    {
+      "n": 21,
+      "level": "MEDIUM",
+      "q": "What is the capital of India?",
+      "options": [
+        "Bengaluru",
+        "Kolkata",
+        "Mumbai",
+        "New Delhi"
+      ],
+      "answer": "New Delhi"
+    },
+    {
+      "n": 22,
+      "level": "MEDIUM",
+      "q": "What is the capital of South Korea?",
+      "options": [
+        "Daegu",
+        "Incheon",
+        "Seoul",
+        "Busan"
+      ],
+      "answer": "Seoul"
+    },
+    {
+      "n": 23,
+      "level": "MEDIUM",
+      "q": "What is the capital of Argentina?",
+      "options": [
+        "Rosario",
+        "Córdoba",
+        "Mendoza",
+        "Buenos Aires"
+      ],
+      "answer": "Buenos Aires"
+    },
+    {
+      "n": 24,
+      "level": "MEDIUM",
+      "q": "What is the capital of Poland?",
+      "options": [
+        "Warsaw",
+        "Wrocław",
+        "Kraków",
+        "Gdańsk"
+      ],
+      "answer": "Warsaw"
+    },
+    {
+      "n": 25,
+      "level": "MEDIUM",
+      "q": "What is the capital of New Zealand?",
+      "options": [
+        "Auckland",
+        "Wellington",
+        "Queenstown",
+        "Christchurch"
+      ],
+      "answer": "Wellington"
+    },
+    {
+      "n": 26,
+      "level": "MEDIUM",
+      "q": "What is the capital of Morocco?",
+      "options": [
+        "Rabat",
+        "Casablanca",
+        "Fez",
+        "Marrakesh"
+      ],
+      "answer": "Rabat"
+    },
+    {
+      "n": 27,
+      "level": "MEDIUM",
+      "q": "What is the capital of Vietnam?",
+      "options": [
+        "Ho Chi Minh City",
+        "Hanoi",
+        "Huế",
+        "Da Nang"
+      ],
+      "answer": "Hanoi"
+    },
+    {
+      "n": 28,
+      "level": "MEDIUM",
+      "q": "What is the capital of Thailand?",
+      "options": [
+        "Bangkok",
+        "Phuket",
+        "Chiang Mai",
+        "Pattaya"
+      ],
+      "answer": "Bangkok"
+    },
+    {
+      "n": 29,
+      "level": "MEDIUM",
+      "q": "What is the capital of Peru?",
+      "options": [
+        "Arequipa",
+        "Trujillo",
+        "Cusco",
+        "Lima"
+      ],
+      "answer": "Lima"
+    },
+    {
+      "n": 30,
+      "level": "MEDIUM",
+      "q": "What is the capital of Austria?",
+      "options": [
+        "Graz",
+        "Salzburg",
+        "Vienna",
+        "Innsbruck"
+      ],
+      "answer": "Vienna"
+    },
+    {
+      "n": 31,
+      "level": "HARD",
+      "q": "What is the capital of Kenya?",
+      "options": [
+        "Mombasa",
+        "Nairobi",
+        "Kisumu",
+        "Nakuru"
+      ],
+      "answer": "Nairobi"
+    },
+    {
+      "n": 32,
+      "level": "HARD",
+      "q": "What is the capital of Pakistan?",
+      "options": [
+        "Peshawar",
+        "Lahore",
+        "Karachi",
+        "Islamabad"
+      ],
+      "answer": "Islamabad"
+    },
+    {
+      "n": 33,
+      "level": "HARD",
+      "q": "What is the capital of Nigeria?",
+      "options": [
+        "Ibadan",
+        "Abuja",
+        "Lagos",
+        "Kano"
+      ],
+      "answer": "Abuja"
+    },
+    {
+      "n": 34,
+      "level": "HARD",
+      "q": "What is the capital of Kazakhstan?",
+      "options": [
+        "Almaty",
+        "Aktobe",
+        "Astana",
+        "Shymkent"
+      ],
+      "answer": "Astana"
+    },
+    {
+      "n": 35,
+      "level": "HARD",
+      "q": "What is the capital of Myanmar?",
+      "options": [
+        "Naypyidaw",
+        "Mandalay",
+        "Bago",
+        "Yangon"
+      ],
+      "answer": "Naypyidaw"
+    },
+    {
+      "n": 36,
+      "level": "HARD",
+      "q": "What is the capital of Mongolia?",
+      "options": [
+        "Choibalsan",
+        "Darkhan",
+        "Ulaanbaatar",
+        "Erdenet"
+      ],
+      "answer": "Ulaanbaatar"
+    },
+    {
+      "n": 37,
+      "level": "HARD",
+      "q": "What is the capital of Iceland?",
+      "options": [
+        "Reykjavík",
+        "Akureyri",
+        "Höfn",
+        "Vík"
+      ],
+      "answer": "Reykjavík"
+    },
+    {
+      "n": 38,
+      "level": "HARD",
+      "q": "What is the capital of Finland?",
+      "options": [
+        "Turku",
+        "Helsinki",
+        "Oulu",
+        "Tampere"
+      ],
+      "answer": "Helsinki"
+    },
+    {
+      "n": 39,
+      "level": "HARD",
+      "q": "What is the capital of Colombia?",
+      "options": [
+        "Cali",
+        "Medellín",
+        "Bogotá",
+        "Cartagena"
+      ],
+      "answer": "Bogotá"
+    },
+    {
+      "n": 40,
+      "level": "HARD",
+      "q": "What is the capital of Saudi Arabia?",
+      "options": [
+        "Dammam",
+        "Riyadh",
+        "Mecca",
+        "Jeddah"
+      ],
+      "answer": "Riyadh"
+    },
+    {
+      "n": 41,
+      "level": "HARD",
+      "q": "What is the capital of the Philippines?",
+      "options": [
+        "Iloilo City",
+        "Manila",
+        "Davao City",
+        "Cebu City"
+      ],
+      "answer": "Manila"
+    },
+    {
+      "n": 42,
+      "level": "HARD",
+      "q": "What is the capital of Ethiopia?",
+      "options": [
+        "Gondar",
+        "Dire Dawa",
+        "Mekelle",
+        "Addis Ababa"
+      ],
+      "answer": "Addis Ababa"
+    },
+    {
+      "n": 43,
+      "level": "HARD",
+      "q": "What is the capital of Hungary?",
+      "options": [
+        "Budapest",
+        "Pécs",
+        "Debrecen",
+        "Szeged"
+      ],
+      "answer": "Budapest"
+    },
+    {
+      "n": 44,
+      "level": "HARD",
+      "q": "What is the capital of Chile?",
+      "options": [
+        "Concepción",
+        "Antofagasta",
+        "Valparaíso",
+        "Santiago"
+      ],
+      "answer": "Santiago"
+    },
+    {
+      "n": 45,
+      "level": "HARD",
+      "q": "What is the capital of Ghana?",
+      "options": [
+        "Tamale",
+        "Takoradi",
+        "Kumasi",
+        "Accra"
+      ],
+      "answer": "Accra"
+    }
+  ],
+  "facts_checked_by": "Claude, by hand, 2026-11-06"
+}
