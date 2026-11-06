@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-06",
+  "word": "QUILT",
+  "file": "find-quilt-2026-11-06.mp4",
+  "bytes": 344693,
+  "variable": "grid8",
+  "title": "Can You Find QUILT in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word QUILT hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "quilt"
+  ],
+  "grid": [
+    "NHJDAYLN",
+    "PNWUGZLQ",
+    "THBQFCJU",
+    "ODKFCYEI",
+    "MWKMAWFL",
+    "FTTFWZJT",
+    "YIXXWNIO",
+    "TNPGAMPD"
+  ],
+  "answer_cells": [
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      7
+    ]
+  ],
+  "grid_size": 8,
+  "verified_single_occurrence": true
+}
