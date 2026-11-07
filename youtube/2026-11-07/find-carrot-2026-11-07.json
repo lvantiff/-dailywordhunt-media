@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-07",
+  "word": "CARROT",
+  "file": "find-carrot-2026-11-07.mp4",
+  "bytes": 383096,
+  "variable": "series_cta+brand_badge",
+  "title": "Word Hunt #22: Can You Find CARROT in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word CARROT hidden in the grid before the timer runs out? Comment your time! Puzzle #23 drops tomorrow. Subscribe so you don't miss it. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "carrot"
+  ],
+  "grid": [
+    "FCVHBSCRPL",
+    "TBUBCZGEXE",
+    "DVUCWZYOKO",
+    "YDLBYLEKKA",
+    "WHJMCDCEMG",
+    "HMIDKXNDZU",
+    "TYDNKKLRCG",
+    "RQBCJIPHFG",
+    "BMNVEENMKW",
+    "KLTORRACSG"
+  ],
+  "answer_cells": [
+    [
+      9,
+      7
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      2
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
