@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-07",
+  "word": "SQUIRREL",
+  "file": "find-squirrel-2026-11-07.mp4",
+  "bytes": 372996,
+  "variable": "brand_badge",
+  "title": "Can You Find SQUIRREL in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word SQUIRREL hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "squirrel"
+  ],
+  "grid": [
+    "ZKTRFHZRWN",
+    "SDGZASQENH",
+    "QVZTMRKCLG",
+    "UGCPDUACJX",
+    "IDYUZXDXRW",
+    "RSQQMRMITG",
+    "RHMNXCVZPF",
+    "ETZDPYZTJI",
+    "LCFCKBWDQA",
+    "TOFYHHWRLD"
+  ],
+  "answer_cells": [
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
