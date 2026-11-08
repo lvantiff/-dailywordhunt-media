@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-08",
+  "word": "RABBIT",
+  "file": "find-rabbit-2026-11-08.mp4",
+  "bytes": 375527,
+  "variable": "brand_badge",
+  "title": "Can You Find RABBIT in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word RABBIT hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "rabbit"
+  ],
+  "grid": [
+    "RHBQJPKJTD",
+    "RTOKESVQTD",
+    "PJDIWMOHQJ",
+    "LOROWKSETS",
+    "NGXATGGPBT",
+    "TOWVBSLECI",
+    "OFXYCBXLZZ",
+    "SXZMSBIVSZ",
+    "HBVPZKNTFU",
+    "WUFQXVOPWS"
+  ],
+  "answer_cells": [
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      8,
+      7
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
