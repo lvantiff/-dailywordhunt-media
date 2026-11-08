@@ -147,6 +147,7 @@
   "excluded_repos": [
     "letsbecool9792/sereno-demo",
     "mfaulk/zeebra",
+    "paraloom-labs/paraloom-core",
     "tenstorrent/tt-metal",
     "SecureBananaLabs/bug-bounty",
     "Scottcjn/rustchain-bounties",
