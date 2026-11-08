@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-08",
+  "word": "SPIDER",
+  "file": "find-spider-2026-11-08.mp4",
+  "bytes": 383370,
+  "variable": "series_cta+brand_badge",
+  "title": "Word Hunt #23: Can You Find SPIDER in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word SPIDER hidden in the grid before the timer runs out? Comment your time! Puzzle #24 drops tomorrow. Subscribe so you don't miss it. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "spider"
+  ],
+  "grid": [
+    "DZWQRVSESL",
+    "DXJIKYPNVB",
+    "UMTFFZIJBD",
+    "QOQEQNDGRA",
+    "MCJOQYESRA",
+    "NYWOTDRXWN",
+    "BJVEDBFCTW",
+    "HIHYHXBHYG",
+    "VDIQRQIIAB",
+    "ZDUBVOVOXK"
+  ],
+  "answer_cells": [
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
