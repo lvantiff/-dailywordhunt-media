@@ -328,7 +328,10 @@
     "usetrmnl/plugins",
     "winston0410/bevy-nixos",
     "yangmiok/photoprismnew",
-    "yuzu-mirror/yuzu-mirror.github.io"
+    "yuzu-mirror/yuzu-mirror.github.io",
+    "OurCreativity/ourcreativity",
+    "PhanKhoa95/oss-bot-trap-benchmark",
+    "chiuhehe1-design/conm"
   ],
   "excluded_owners": [
     "UnsafeLabs",
