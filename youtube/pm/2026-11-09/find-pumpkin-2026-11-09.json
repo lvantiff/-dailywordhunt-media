@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-09",
+  "word": "PUMPKIN",
+  "file": "find-pumpkin-2026-11-09.mp4",
+  "bytes": 375930,
+  "variable": "brand_badge+hook_daily",
+  "title": "Today's Word Is PUMPKIN. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word PUMPKIN hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "pumpkin"
+  ],
+  "grid": [
+    "ZKZBMROQAS",
+    "RNQBRNJNAZ",
+    "OBGVIROANW",
+    "DHNIKPMUPC",
+    "WJYWXZOOJV",
+    "OUVPMOVDND",
+    "MQUGRFKZYM",
+    "ZSCMFSCZJM",
+    "FGXBQHZGYL",
+    "OXZLSIVRIA"
+  ],
+  "answer_cells": [
+    [
+      3,
+      8
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
