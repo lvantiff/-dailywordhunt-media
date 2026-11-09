@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-09",
+  "word": "SHARK",
+  "file": "find-shark-2026-11-09.mp4",
+  "bytes": 387115,
+  "variable": "series_cta+brand_badge+hook_daily",
+  "title": "Word Hunt #24: Today's Word Is SHARK. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word SHARK hidden in the grid before the timer runs out? Comment your time! Puzzle #25 drops tomorrow. Subscribe so you don't miss it. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "shark"
+  ],
+  "grid": [
+    "LMCCOCHGEE",
+    "OCQEFGTQOP",
+    "ZHJSGKFBSP",
+    "QMNLAVKJDJ",
+    "NFEMGMFLXP",
+    "UOSBMUJJST",
+    "LTHHKCAVBG",
+    "LMOKAIZQBC",
+    "EUPJURUXJP",
+    "VKVBNMKEFS"
+  ],
+  "answer_cells": [
+    [
+      5,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      9,
+      6
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
