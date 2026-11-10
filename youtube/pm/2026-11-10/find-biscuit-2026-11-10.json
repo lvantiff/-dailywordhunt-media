@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-10",
+  "word": "BISCUIT",
+  "file": "find-biscuit-2026-11-10.mp4",
+  "bytes": 374584,
+  "variable": "brand_badge+hook_daily",
+  "title": "Today's Word Is BISCUIT. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word BISCUIT hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "biscuit"
+  ],
+  "grid": [
+    "EUUIOPBQLG",
+    "HVSKOIIOFX",
+    "WKKWSOXJAQ",
+    "AOTCTTRBBV",
+    "HHUXRAHFRV",
+    "CIVBLDURWI",
+    "TRCNFEENIR",
+    "SIDXTPNYDN",
+    "NQYEKOCFBP",
+    "PNOPEMNENC"
+  ],
+  "answer_cells": [
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      6,
+      0
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
