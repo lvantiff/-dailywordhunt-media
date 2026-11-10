@@ -331,7 +331,9 @@
     "yuzu-mirror/yuzu-mirror.github.io",
     "OurCreativity/ourcreativity",
     "PhanKhoa95/oss-bot-trap-benchmark",
-    "chiuhehe1-design/conm"
+    "chiuhehe1-design/conm",
+    "limitlessprojects/Go-Hybrid",
+    "blackcode-ch/tmx-go-public"
   ],
   "excluded_owners": [
     "UnsafeLabs",
