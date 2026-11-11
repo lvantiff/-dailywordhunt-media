@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-11",
+  "word": "PIRATE",
+  "file": "find-pirate-2026-11-11.mp4",
+  "bytes": 383252,
+  "variable": "series_cta+brand_badge+hook_daily",
+  "title": "Word Hunt #26: Today's Word Is PIRATE. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word PIRATE hidden in the grid before the timer runs out? Comment your time! Puzzle #27 drops tomorrow. Subscribe so you don't miss it. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "pirate"
+  ],
+  "grid": [
+    "TAKFVAQKON",
+    "ESNCDNHQOB",
+    "DLXCJASUJZ",
+    "DSNVUQHANE",
+    "QHEMSYEKWT",
+    "WQYBTPDVOA",
+    "SNURTOJEWR",
+    "FVCVANOJFI",
+    "PMUIQZCZNP",
+    "RKSUBHRTMR"
+  ],
+  "answer_cells": [
+    [
+      8,
+      9
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      3,
+      9
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
