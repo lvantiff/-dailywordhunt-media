@@ -147,6 +147,9 @@
   "excluded_repos": [
     "letsbecool9792/sereno-demo",
     "mfaulk/zeebra",
+    "ilhamraduanbis-source/toyol-digital",
+    "thedelph/quell-contracts",
+    "nmc192-ux/agentx",
     "paraloom-labs/paraloom-core",
     "tenstorrent/tt-metal",
     "SecureBananaLabs/bug-bounty",
