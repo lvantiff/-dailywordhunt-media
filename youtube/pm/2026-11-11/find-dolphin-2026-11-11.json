@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-11",
+  "word": "DOLPHIN",
+  "file": "find-dolphin-2026-11-11.mp4",
+  "bytes": 377704,
+  "variable": "brand_badge+hook_daily",
+  "title": "Today's Word Is DOLPHIN. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word DOLPHIN hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "dolphin"
+  ],
+  "grid": [
+    "QVVCVYYISE",
+    "EELBPLCNHR",
+    "BQYACKIIFU",
+    "ZNVAAHVBSS",
+    "LWHEPEHWDF",
+    "AYELCXXITB",
+    "GMOBBUADKE",
+    "LDMOZYMBHW",
+    "NJCTBRARYF",
+    "HXFQDXUSQM"
+  ],
+  "answer_cells": [
+    [
+      7,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      1,
+      7
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
