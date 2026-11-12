@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-12",
+  "word": "DOLPHIN",
+  "file": "find-dolphin-2026-11-12.mp4",
+  "bytes": 343670,
+  "variable": "grid8",
+  "title": "Can You Find DOLPHIN in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word DOLPHIN hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "dolphin"
+  ],
+  "grid": [
+    "EHBDRUGY",
+    "HZXKFJNG",
+    "XEVQQWQL",
+    "SKTUDBYZ",
+    "CDOLPHIN",
+    "EROIOLQO",
+    "NSSLMPUB",
+    "PGHKSLBO"
+  ],
+  "answer_cells": [
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "grid_size": 8,
+  "verified_single_occurrence": true
+}
