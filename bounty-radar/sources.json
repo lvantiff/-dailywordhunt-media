@@ -336,7 +336,16 @@
     "PhanKhoa95/oss-bot-trap-benchmark",
     "chiuhehe1-design/conm",
     "limitlessprojects/Go-Hybrid",
-    "blackcode-ch/tmx-go-public"
+    "blackcode-ch/tmx-go-public",
+    "theselfish/SlopStation13",
+    "codebird-n4vnt/sealed",
+    "JamieFrame/The-Gavel-Protocol",
+    "Aqua0-fi/Pitchday",
+    "Ayoshiss/lattice",
+    "DASMAC-com/dropset",
+    "Quantillon-Labs/smart-contracts",
+    "MeetCivitas/Civitas-SOL",
+    "Tarsnap/tarsnap"
   ],
   "excluded_owners": [
     "UnsafeLabs",
