@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-12",
+  "word": "SCARF",
+  "file": "find-scarf-2026-11-12.mp4",
+  "bytes": 365884,
+  "variable": "brand_badge+hook_daily",
+  "title": "Today's Word Is SCARF. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word SCARF hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "scarf"
+  ],
+  "grid": [
+    "FRKSVNWAHU",
+    "HOSEAYEHPE",
+    "VLHQBPSZOM",
+    "OMPKHLCLWX",
+    "OEIORTALME",
+    "SLCYJIRBKZ",
+    "WKRUHAFWGN",
+    "TVNTBLLFUA",
+    "HXVEHRZJJH",
+    "PABRDATTLT"
+  ],
+  "answer_cells": [
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      6
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
