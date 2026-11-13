@@ -1,10 +1,10 @@
-# Bounty radar digest 2026-11-12 18:23Z
+# Bounty radar digest 2026-11-13 17:50Z
 
 Discovery only. A listing here is not a claim, a submission or money. Deep-review items still need the submission gate (sponsor terms, claim rules, competing PRs, payout path) before anyone works them.
 
-Candidates: 763. New this run: 241. API calls: 406.
+Candidates: 827. New this run: 161. API calls: 387.
 
-## Deep Review (5)
+## Deep Review (4)
 
 - 94 | [HHS/simpler-grants-protocol#1369](https://github.com/HHS/simpler-grants-protocol/issues/1369) | $500 | sponsor_program | open PRs 0, claims 0  
   [Implementation] Build a CommonGrants plugin for a grants system (Python or TypeScript)
@@ -12,31 +12,21 @@ Candidates: 763. New this run: 241. API calls: 406.
   [Implementation] Build a CommonGrants API for a grants data source
 - 79 | [HHS/simpler-grants-protocol#1228](https://github.com/HHS/simpler-grants-protocol/issues/1228) | $50 | sponsor_program | open PRs 0, claims 0  
   [Dev tool] Validate settings at startup and add `DATABASE_URL` to the Hono.js API template
-- 70 | [enjoy-digital/litepcie#20](https://github.com/enjoy-digital/litepcie/issues/20) | $837 | label_only | open PRs 0, claims 0 **NEW**  
-  Support LitePCIe on Lattice ECP5 SERDES (with open toolchain)
 - 67 | [HHS/simpler-grants-protocol#1352](https://github.com/HHS/simpler-grants-protocol/issues/1352) | amount unknown | sponsor_program | open PRs 0, claims 0  
   [Catch-all] Implementation issues
 
-## Watch (44)
+## Watch (36)
 
-- 66 | [MergeFi/contracts#775](https://github.com/MergeFi/contracts/issues/775) | $400 | label_only | open PRs ?, claims ? **NEW**  
-  escrow::fund re-funding a Paid/Refunded issue_id leaves the previous round's `Contribution(issue_id, 1..n)` records on-l
-- 62 | [MergeFi/frontend#843](https://github.com/MergeFi/frontend/issues/843) | $100 | label_only | open PRs ?, claims ? **NEW**  
-  Bounty pages have a per-bounty Open Graph image but no twitter-image, so every Twitter/X share falls back to the generic
-- 60 | [trade-marketplace/main#141](https://github.com/trade-marketplace/main/issues/141) | $259 | label_only | open PRs ?, claims ? **NEW**  
-  Job map on the phone (Uber-style) + available switch
-- 57 | [illbnm/homelab-stack#10](https://github.com/illbnm/homelab-stack/issues/10) | $280 | label_only | open PRs ?, claims ?  
-  [BOUNTY $280] Observability — Prometheus + Grafana + Loki + Alerting
 - 57 | [illbnm/homelab-stack#8](https://github.com/illbnm/homelab-stack/issues/8) | $250 | label_only | open PRs ?, claims ?  
   [BOUNTY $250] Robustness — 国内网络适配 + 环境鲁棒性
 - 57 | [illbnm/homelab-stack#9](https://github.com/illbnm/homelab-stack/issues/9) | $300 | label_only | open PRs ?, claims ?  
   [BOUNTY $300] SSO — Authentik 统一身份认证
-- 57 | [ariahendrawan-sudo/project-a#24](https://github.com/ariahendrawan-sudo/project-a/issues/24) | $50 | label_only | open PRs ?, claims ?  
-  Bounty Scout — 2026-11-09
 - 56 | [illbnm/homelab-stack#14](https://github.com/illbnm/homelab-stack/issues/14) | $200 | platform_escrow | open PRs 0, claims 0  
   [BOUNTY $200] Testing — 自动化测试套件
 - 55 | [Circadian-agent/agent-collective#1](https://github.com/Circadian-agent/agent-collective/issues/1) | $83 | platform_escrow | open PRs 0, claims 0  
   Introductions: who you are, what you are selling, one thing you measured
+- 54 | [ariahendrawan-sudo/project-a#24](https://github.com/ariahendrawan-sudo/project-a/issues/24) | $50 | label_only | open PRs ?, claims ?  
+  Bounty Scout — 2026-11-09
 - 53 | [illbnm/homelab-stack#3](https://github.com/illbnm/homelab-stack/issues/3) | $150 | label_only | open PRs ?, claims ?  
   [BOUNTY $150] Storage Stack — Nextcloud + MinIO + FileBrowser
 - 53 | [illbnm/homelab-stack#11](https://github.com/illbnm/homelab-stack/issues/11) | $130 | label_only | open PRs ?, claims ?  
@@ -49,26 +39,34 @@ Candidates: 763. New this run: 241. API calls: 406.
   [BOUNTY $170] Productivity Stack — Gitea + Vaultwarden + Outline + BookStack
 - 53 | [illbnm/homelab-stack#1](https://github.com/illbnm/homelab-stack/issues/1) | $180 | label_only | open PRs ?, claims ?  
   [BOUNTY $180] Base Infrastructure — Traefik + Portainer + Watchtower
-- 53 | [HCTDIP/corps-jobs#185](https://github.com/HCTDIP/corps-jobs/issues/185) | $10 | label_only | open PRs ?, claims ? **NEW**  
-  Railway 赏金：有 4 条值得抢
-- 53 | [FreeCAD/FPA-grant-proposals#132](https://github.com/FreeCAD/FPA-grant-proposals/issues/132) | $27 | label_only | open PRs ?, claims ? **NEW**  
-  Time Commitment Grant Proposal — Python interface documentation + automated testing for FreeCAD
-- 53 | [trade-marketplace/main#534](https://github.com/trade-marketplace/main/issues/534) | $45 | label_only | open PRs ?, claims ? **NEW**  
-  Map kit: expose job navigation and dismissible legend in MapListLayout
+- 52 | [markabramov1993/arbitr#8](https://github.com/markabramov1993/arbitr/issues/8) | $2000 | label_only | open PRs 1, claims 0  
+  [RADAR] High-value blockchain bounty discovery
 - 51 | [sybil-solutions/local-ai-registry#223](https://github.com/sybil-solutions/local-ai-registry/issues/223) | $50 | label_only | open PRs ?, claims ?  
   Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)
 - 51 | [sybil-solutions/local-ai-registry#216](https://github.com/sybil-solutions/local-ai-registry/issues/216) | $50 | label_only | open PRs ?, claims ?  
   Bounty $50: recipe for Intel Arc B580 12 GB
 - 51 | [sybil-solutions/local-ai-registry#219](https://github.com/sybil-solutions/local-ai-registry/issues/219) | $50 | label_only | open PRs ?, claims ?  
   Bounty $50: recipe for RX 7900 XTX 24 GB
-- 51 | [vouchlabsio/humanvouch#65](https://github.com/vouchlabsio/humanvouch/issues/65) | $85 | label_only | open PRs ?, claims ?  
-  [Bounty: $85] Make circom-to-soroban-hex parse a BLS12-381 verifying key
 - 50 | [openai/codex#37585](https://github.com/openai/codex/issues/37585) | amount unknown | sponsor_program | open PRs 0, claims 0  
   [Contributor Credits] Reward substantial verified bug-reporting work with additional Work/Codex usage
+- 50 | [frankxai/frankx.ai-vercel-website#1149](https://github.com/frankxai/frankx.ai-vercel-website/issues/1149) | $12 | label_only | open PRs ?, claims ?  
+  Refresh comparison guides from reproducible product tests and verified affiliate terms
+- 48 | [weilixiong/TentOfTrials#1](https://github.com/weilixiong/TentOfTrials/issues/1) | $50 | label_only | open PRs ?, claims ?  
+  [$50 BOUNTY] [Python] Add cross-platform health check fallbacks
 - 48 | [maaltarifi97-maker/aioa-playground#1](https://github.com/maaltarifi97-maker/aioa-playground/issues/1) | $50 | label_only | open PRs ?, claims ?  
   [Bounty: $50] slugify() leaves double and trailing hyphens
 - 48 | [illbnm/homelab-stack#13](https://github.com/illbnm/homelab-stack/issues/13) | $80 | label_only | open PRs ?, claims ?  
   [BOUNTY $80] Notifications — 统一通知中心 (Gotify + Apprise)
+- 48 | [microg/GmsCore#2851](https://github.com/microg/GmsCore/issues/2851) | $85 | label_only | open PRs ?, claims ?  
+  [BOUNTY] Support Play Integrity over remote DroidGuard + Server/Guide [$85]
+- 48 | [byward-dev/byward#268](https://github.com/byward-dev/byward/issues/268) | $50000 | label_only | open PRs 1, claims 0 **NEW**  
+  chore: independent security assurance: self-assessments, then a fixed-scope audit
+- 47 | [MyZubster-Ecosystem/myzubster#1440](https://github.com/MyZubster-Ecosystem/myzubster/issues/1440) | $20 | label_only | open PRs ?, claims ?  
+  [GOOD FIRST ISSUE · PROPOSED REWARD] Add bounty API funding-state filter tests
+- 47 | [MyZubster-Ecosystem/myzubster#1443](https://github.com/MyZubster-Ecosystem/myzubster/issues/1443) | $15 | label_only | open PRs ?, claims ?  
+  [GOOD FIRST ISSUE · PROPOSED REWARD] Add empty/error states to Paid Bounties UI
+- 44 | [illbnm/homelab-stack#10](https://github.com/illbnm/homelab-stack/issues/10) | $280 | platform_escrow | open PRs 11, claims 0  
+  [BOUNTY $280] Observability — Prometheus + Grafana + Loki + Alerting
 
 ## Program leads (0): repos whose docs describe a paid program, not yet reviewed
 
@@ -76,14 +74,14 @@ None.
 
 ## Rejections by gate
 
-- aggregator_mirror_or_grant: 221
-- excluded_repo: 191
-- platform_bans_ai_agents: 81
-- noncash_reward: 50
-- reporter_owned_security_submission: 16
+- aggregator_mirror_or_grant: 308
+- excluded_repo: 214
+- platform_bans_ai_agents: 89
+- noncash_reward: 47
 - already_solved: 12
+- reporter_owned_security_submission: 12
 - assigned_to_other: 7
-- meta_or_agent_experiment: 3
+- meta_or_agent_experiment: 4
 
 ## Source coverage
 
@@ -99,10 +97,10 @@ None.
 - copycat_open_bounty_label: total 0, retrieved 0, complete True
 - size_bounty_labels: total 11, retrieved 11, complete True
 - paid_contributor_program_text: total 8, retrieved 8, complete True
-- generic_bounty_label: total 437, retrieved 300, complete False
-- bounty_dollar_title: total 762, retrieved 299, complete False
-- bounty_amount_body: total 3231, retrieved 300, complete False
-- opire_reward_comment: total 87, retrieved 87, complete True
+- generic_bounty_label: total 441, retrieved 300, complete False
+- bounty_dollar_title: total 772, retrieved 300, complete False
+- bounty_amount_body: total 3211, retrieved 300, complete False
+- opire_reward_comment: total 91, retrieved 91, complete True
 
 ## Errors
 
