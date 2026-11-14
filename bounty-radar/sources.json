@@ -345,7 +345,8 @@
     "DASMAC-com/dropset",
     "Quantillon-Labs/smart-contracts",
     "MeetCivitas/Civitas-SOL",
-    "Tarsnap/tarsnap"
+    "Tarsnap/tarsnap",
+    "paraspell/xcm-tools"
   ],
   "excluded_owners": [
     "UnsafeLabs",
@@ -357,7 +358,9 @@
     "SlopDotCash",
     "bujiproject-art",
     "MergeFi",
-    "trade-marketplace"
+    "trade-marketplace",
+    "s-os-agency",
+    "kwesigaamon8-web"
   ],
   "comment_exclusions": "Mirrors revenue/bounty-pipeline/discovery-state.json program_exclusions and team-memory bait verdicts (2026-10-04). Add a repo here only with a written reason in SOURCES.md.",
   "comment_platforms": "Algora-escrowed bounties (label '💎 Bounty') are not scanned: Algora's terms ban AI agents (bounty/BOUNTY-FIRST-TIME-RIGHT-CHECKLIST-2026-10-03.md). BountyHub requires human authorship. See SOURCES.md.",
