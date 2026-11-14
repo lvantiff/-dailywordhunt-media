@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-14",
+  "word": "VOLCANO",
+  "file": "find-volcano-2026-11-14.mp4",
+  "bytes": 346785,
+  "variable": "grid8",
+  "title": "Can You Find VOLCANO in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word VOLCANO hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "volcano"
+  ],
+  "grid": [
+    "ITMFSJQF",
+    "PPPVBPLR",
+    "LCGOJAFS",
+    "EUSLYNZX",
+    "RYNCVKUQ",
+    "EZHANADW",
+    "NEMNIHFI",
+    "ALIOJXKU"
+  ],
+  "answer_cells": [
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      7,
+      3
+    ]
+  ],
+  "grid_size": 8,
+  "verified_single_occurrence": true
+}
