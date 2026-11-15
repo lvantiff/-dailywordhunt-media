@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-15",
+  "word": "JAGUAR",
+  "file": "find-jaguar-2026-11-15.mp4",
+  "bytes": 343853,
+  "variable": "grid8",
+  "title": "Can You Find JAGUAR in 10 Seconds? 🔍 #shorts",
+  "description": "Can you spot the word JAGUAR hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "jaguar"
+  ],
+  "grid": [
+    "GLEDCTXT",
+    "DEMUJYEA",
+    "HBANWNBA",
+    "XIKELQJI",
+    "ONJAGUAR",
+    "EBWKKSZX",
+    "BIMWDVKL",
+    "TGAZRKRM"
+  ],
+  "answer_cells": [
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "grid_size": 8,
+  "verified_single_occurrence": true
+}
