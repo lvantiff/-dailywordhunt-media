@@ -1,8 +1,8 @@
-# Bounty radar digest 2026-11-14 16:38Z
+# Bounty radar digest 2026-11-15 17:15Z
 
 Discovery only. A listing here is not a claim, a submission or money. Deep-review items still need the submission gate (sponsor terms, claim rules, competing PRs, payout path) before anyone works them.
 
-Candidates: 768. New this run: 168. API calls: 397.
+Candidates: 736. New this run: 204. API calls: 414.
 
 ## Deep Review (5)
 
@@ -12,29 +12,53 @@ Candidates: 768. New this run: 168. API calls: 397.
   [Implementation] Build a CommonGrants API for a grants data source
 - 79 | [HHS/simpler-grants-protocol#1228](https://github.com/HHS/simpler-grants-protocol/issues/1228) | $50 | sponsor_program | open PRs 0, claims 0  
   [Dev tool] Validate settings at startup and add `DATABASE_URL` to the Hono.js API template
-- 76 | [s-os-agency/agents#8](https://github.com/s-os-agency/agents/issues/8) | $13000 | label_only | open PRs 0, claims 0 **NEW**  
-  [MON-20261114-04] Agent-ready engineering, documentation and crypto-paid creative task pack
+- 70 | [xqq/mpegts.js#44](https://github.com/xqq/mpegts.js/issues/44) | $1000 | label_only | open PRs 0, claims 0 **NEW**  
+  Support non HTML-5 devices
 - 67 | [HHS/simpler-grants-protocol#1352](https://github.com/HHS/simpler-grants-protocol/issues/1352) | amount unknown | sponsor_program | open PRs 0, claims 0  
   [Catch-all] Implementation issues
 
-## Watch (42)
+## Watch (67)
 
-- 66 | [kwesigaamon8-web/Amon-Kwesiga#13](https://github.com/kwesigaamon8-web/Amon-Kwesiga/issues/13) | $300 | label_only | open PRs ?, claims ? **NEW**  
-  Funding partners wanted — open crypto payment safety toolkit pilot (proposal; not an NGO)
-- 62 | [paraspell/xcm-tools#2525](https://github.com/paraspell/xcm-tools/issues/2525) | $100 | label_only | open PRs ?, claims ? **NEW**  
-  [Bug bounty] Execute-path transfer: createDirectExecuteXcm omits depositFeeAsset, permanently trapping leftover feeAsset
-- 58 | [whoiwts110217-creator/CF-0#16](https://github.com/whoiwts110217-creator/CF-0/issues/16) | $5000 | label_only | open PRs 0, claims 0  
-  AI AGENTS WANTED: get in early, prove one real CF-0 automation improvement
+- 69 | [bad-antics/lateralus-lang#67](https://github.com/bad-antics/lateralus-lang/issues/67) | $500 | label_only | open PRs ?, claims ? **NEW**  
+  [bounty] aoc-2024-all-25
+- 66 | [bad-antics/lateralus-lang#86](https://github.com/bad-antics/lateralus-lang/issues/86) | $300 | label_only | open PRs ?, claims ? **NEW**  
+  [bounty] wasm-playground-live
+- 66 | [bad-antics/lateralus-lang#84](https://github.com/bad-antics/lateralus-lang/issues/84) | $300 | label_only | open PRs ?, claims ? **NEW**  
+  [bounty] lsp-hover-signatures
+- 66 | [bad-antics/lateralus-lang#58](https://github.com/bad-antics/lateralus-lang/issues/58) | $350 | label_only | open PRs ?, claims ? **NEW**  
+  [bounty] lt-logs-shipper
+- 66 | [bad-antics/lateralus-lang#69](https://github.com/bad-antics/lateralus-lang/issues/69) | $400 | label_only | open PRs ?, claims ? **NEW**  
+  [bounty] package-registry-mvp
+- 66 | [bad-antics/lateralus-lang#52](https://github.com/bad-antics/lateralus-lang/issues/52) | $250 | label_only | open PRs ?, claims ? **NEW**  
+  [bounty] benchmark-ingest
+- 66 | [bad-antics/lateralus-lang#46](https://github.com/bad-antics/lateralus-lang/issues/46) | $250 | label_only | open PRs ?, claims ? **NEW**  
+  Question: benchmark-ingest bounty availability and acceptance
+- 66 | [bad-antics/lateralus-lang#43](https://github.com/bad-antics/lateralus-lang/issues/43) | $300 | label_only | open PRs ?, claims ? **NEW**  
+  Question: lsp-hover-signatures bounty eligibility and payout
+- 62 | [bad-antics/lateralus-lang#81](https://github.com/bad-antics/lateralus-lang/issues/81) | $150 | label_only | open PRs ?, claims ? **NEW**  
+  [bounty] rosetta-20 — 23 tasks, PR ready
+- 62 | [bad-antics/lateralus-lang#56](https://github.com/bad-antics/lateralus-lang/issues/56) | $150 | label_only | open PRs ?, claims ? **NEW**  
+  [bounty] rosetta-20
 - 57 | [illbnm/homelab-stack#8](https://github.com/illbnm/homelab-stack/issues/8) | $250 | label_only | open PRs ?, claims ?  
   [BOUNTY $250] Robustness — 国内网络适配 + 环境鲁棒性
 - 57 | [illbnm/homelab-stack#9](https://github.com/illbnm/homelab-stack/issues/9) | $300 | label_only | open PRs ?, claims ?  
   [BOUNTY $300] SSO — Authentik 统一身份认证
-- 57 | [devlux76/vortex#110](https://github.com/devlux76/vortex/issues/110) | $50 | label_only | open PRs ?, claims ? **NEW**  
+- 57 | [tscircuit/tscircuit-autorouter#3824](https://github.com/tscircuit/tscircuit-autorouter/issues/3824) | $50 | label_only | open PRs ?, claims ? **NEW**  
+  Question: tscircuit/autorouting is archived - is the #92 bounty still claimable?
+- 57 | [devlux76/vortex#110](https://github.com/devlux76/vortex/issues/110) | $50 | label_only | open PRs ?, claims ?  
   Vote: criteria for the first paid VORTEX bounty pilot
 - 56 | [illbnm/homelab-stack#14](https://github.com/illbnm/homelab-stack/issues/14) | $200 | platform_escrow | open PRs 0, claims 0  
   [BOUNTY $200] Testing — 自动化测试套件
 - 55 | [Circadian-agent/agent-collective#1](https://github.com/Circadian-agent/agent-collective/issues/1) | $83 | platform_escrow | open PRs 0, claims 0  
   Introductions: who you are, what you are selling, one thing you measured
+- 53 | [Fractal-Neurons/pacta#24](https://github.com/Fractal-Neurons/pacta/issues/24) | $25 | label_only | open PRs ?, claims ? **NEW**  
+  [$25 USDC Bounty] Live Chain-Feed Drift Catch (53 Indexed Protocols) or 4th Unindexed (>=$15M TVL) Control-Plane Mismatc
+- 53 | [Fractal-Neurons/pacta#23](https://github.com/Fractal-Neurons/pacta/issues/23) | $25 | label_only | open PRs ?, claims ? **NEW**  
+  [$25 USDC Bounty] Chain-Feed Control-Plane Mismatch #3 — Base (8453) or Arbitrum One (42161) (>=$10M TVL Unindexed Proto
+- 53 | [Fractal-Neurons/pacta#22](https://github.com/Fractal-Neurons/pacta/issues/22) | $25 | label_only | open PRs ?, claims ? **NEW**  
+  [$25 USDC Bounty] Chain-Feed Control-Plane Mismatch #2 — Ethereum Mainnet (>=$25M TVL Unindexed Protocol)
+- 53 | [Fractal-Neurons/pacta#21](https://github.com/Fractal-Neurons/pacta/issues/21) | $25 | label_only | open PRs ?, claims ? **NEW**  
+  [$25 USDC Bounty] Chain-Feed Control-Plane Mismatch #1 — Ethereum Mainnet (>=$25M TVL Unindexed Protocol)
 - 53 | [illbnm/homelab-stack#3](https://github.com/illbnm/homelab-stack/issues/3) | $150 | label_only | open PRs ?, claims ?  
   [BOUNTY $150] Storage Stack — Nextcloud + MinIO + FileBrowser
 - 53 | [illbnm/homelab-stack#11](https://github.com/illbnm/homelab-stack/issues/11) | $130 | label_only | open PRs ?, claims ?  
@@ -45,59 +69,21 @@ Candidates: 768. New this run: 168. API calls: 397.
   [BOUNTY $160] Media Stack — Jellyfin + Sonarr + Radarr + qBittorrent
 - 53 | [illbnm/homelab-stack#5](https://github.com/illbnm/homelab-stack/issues/5) | $170 | label_only | open PRs ?, claims ?  
   [BOUNTY $170] Productivity Stack — Gitea + Vaultwarden + Outline + BookStack
-- 53 | [illbnm/homelab-stack#1](https://github.com/illbnm/homelab-stack/issues/1) | $180 | label_only | open PRs ?, claims ?  
-  [BOUNTY $180] Base Infrastructure — Traefik + Portainer + Watchtower
-- 53 | [FreeCAD/FPA-grant-proposals#132](https://github.com/FreeCAD/FPA-grant-proposals/issues/132) | $27 | label_only | open PRs ?, claims ?  
-  Time Commitment Grant Proposal — Python interface documentation + automated testing for FreeCAD
-- 53 | [yeheskieltame/claudelance#645](https://github.com/yeheskieltame/claudelance/issues/645) | $15 | label_only | open PRs ?, claims ? **NEW**  
-  Stats bountyCount reports resolved tasks instead of posted tasks
-- 53 | [HCTDIP/corps-jobs#191](https://github.com/HCTDIP/corps-jobs/issues/191) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Railway 赏金：有 6 条值得抢
-- 53 | [eltociear/awesome-molt-ecosystem#46](https://github.com/eltociear/awesome-molt-ecosystem/issues/46) | $27 | label_only | open PRs ?, claims ? **NEW**  
-  Data exchange: first-hand agent sign-up/payout tests (21 platforms), and may I cite your measured numbers?
-- 53 | [tscircuit/schematic-trace-solver#34](https://github.com/tscircuit/schematic-trace-solver/issues/34) | $100 | label_only | open PRs ?, claims ?  
-  Merge same-net trace lines that are close together (make at the same Y or same X)
-- 52 | [markabramov1993/arbitr#8](https://github.com/markabramov1993/arbitr/issues/8) | $2000 | label_only | open PRs 1, claims 0  
-  [RADAR] High-value blockchain bounty discovery
-- 51 | [sybil-solutions/local-ai-registry#219](https://github.com/sybil-solutions/local-ai-registry/issues/219) | $50 | label_only | open PRs ?, claims ?  
-  Bounty $50: recipe for RX 7900 XTX 24 GB
-- 51 | [Signpost-Labs/signpost-app#45](https://github.com/Signpost-Labs/signpost-app/issues/45) | $75 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty: $75] Use `npm ci` in `contract-integration.yml`
-- 51 | [sampled-labs/sampled#66](https://github.com/sampled-labs/sampled/issues/66) | $75 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty: $75] Replace the client-side `hasPurchased` scan in `PurchaseSampleTab.tsx`
-- 51 | [sampled-labs/sampled#65](https://github.com/sampled-labs/sampled/issues/65) | $70 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty: $70] Make `useUploadSample` fail loudly when no signer is present
-- 51 | [sampled-labs/sampled#67](https://github.com/sampled-labs/sampled/issues/67) | $75 | label_only | open PRs ?, claims ? **NEW**  
-  [Bounty: $75] Filter `MarketPlace` results by the `:id` route param
 
-## Program leads (15): repos whose docs describe a paid program, not yet reviewed
+## Program leads (0): repos whose docs describe a paid program, not yet reviewed
 
-- [ethberlinzwei/KnowledgeBase](https://github.com/ethberlinzwei/KnowledgeBase) | bounties.md | via bounties_md
-- [facebookincubator/Battery-Metrics](https://github.com/facebookincubator/Battery-Metrics) | CONTRIBUTING.md | via contrib_bounty_program
-- [facebookresearch/MobileLLM](https://github.com/facebookresearch/MobileLLM) | CONTRIBUTING.md | via contrib_bounty_program
-- [facebookresearch/ShapeR](https://github.com/facebookresearch/ShapeR) | CONTRIBUTING.md | via contrib_bounty_program
-- [facebookresearch/fairscale](https://github.com/facebookresearch/fairscale) | CONTRIBUTING.md | via contrib_bounty_program
-- [facebookresearch/home-robot](https://github.com/facebookresearch/home-robot) | CONTRIBUTING.md | via contrib_bounty_program
-- [facebookresearch/localrf](https://github.com/facebookresearch/localrf) | CONTRIBUTING.md | via contrib_bounty_program
-- [facebookresearch/scenescript](https://github.com/facebookresearch/scenescript) | CONTRIBUTING.md | via contrib_bounty_program
-- [irsdl/webhacklist](https://github.com/irsdl/webhacklist) | archived-references/md/2016-17/2016-portswigger-research-exploiting-cors-misconfigurations-bitcoins-bounties.md | via bounties_md
-- [mazaclub/EasyGitianBuilder](https://github.com/mazaclub/EasyGitianBuilder) | BOUNTIES.md | via bounties_md
-- [meta-llama/prompt-ops](https://github.com/meta-llama/prompt-ops) | CONTRIBUTING.md | via contrib_bounty_program
-- [meta-llama/synthetic-data-kit](https://github.com/meta-llama/synthetic-data-kit) | CONTRIBUTING.md | via contrib_bounty_program
-- [meta/facebook-nodejs-business-sdk](https://github.com/meta/facebook-nodejs-business-sdk) | CONTRIBUTING.md | via contrib_bounty_program
-- [meta/pyre2](https://github.com/meta/pyre2) | CONTRIBUTING.md | via contrib_bounty_program
-- [moby/swarmkit](https://github.com/moby/swarmkit) | CONTRIBUTING.md | via contrib_bounty_program
+None.
 
 ## Rejections by gate
 
-- aggregator_mirror_or_grant: 252
-- excluded_repo: 218
-- platform_bans_ai_agents: 84
-- noncash_reward: 45
-- reporter_owned_security_submission: 12
+- aggregator_mirror_or_grant: 215
+- excluded_repo: 204
+- platform_bans_ai_agents: 69
+- noncash_reward: 38
 - already_solved: 10
-- assigned_to_other: 6
+- reporter_owned_security_submission: 7
 - meta_or_agent_experiment: 6
+- assigned_to_other: 5
 
 ## Source coverage
 
@@ -113,14 +99,14 @@ Candidates: 768. New this run: 168. API calls: 397.
 - copycat_open_bounty_label: total 0, retrieved 0, complete True
 - size_bounty_labels: total 11, retrieved 11, complete True
 - paid_contributor_program_text: total 8, retrieved 8, complete True
-- generic_bounty_label: total 458, retrieved 300, complete False
-- bounty_dollar_title: total 781, retrieved 300, complete False
-- bounty_amount_body: total 3023, retrieved 300, complete False
-- opire_reward_comment: total 91, retrieved 91, complete True
+- generic_bounty_label: total 411, retrieved 300, complete False
+- bounty_dollar_title: total 724, retrieved 300, complete False
+- bounty_amount_body: total 2926, retrieved 300, complete False
+- opire_reward_comment: total 92, retrieved 92, complete True
 
 ## Errors
 
 - {"url": "https://api.github.com/search/code?q=filename%3APAID_CONTRIBUTOR_TERMS.md&per_page=50", "status": 429}
 - {"url": "https://api.github.com/search/code?q=filename%3APAID_CONTRIBUTOR_TERMS.md&per_page=50", "status": 429}
-- {"url": "https://api.github.com/search/code?q=%22paid+contributor%22+filename%3ACONTRIBUTING.md&per_page=50", "status": 429}
-- {"url": "https://api.github.com/search/code?q=%22paid+contributor%22+filename%3ACONTRIBUTING.md&per_page=50", "status": 429}
+- {"url": "https://api.github.com/search/code?q=filename%3ABOUNTIES.md&per_page=50", "status": 429}
+- {"url": "https://api.github.com/search/code?q=filename%3ABOUNTIES.md&per_page=50", "status": 429}
