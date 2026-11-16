@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-16",
+  "word": "LOBSTER",
+  "file": "find-lobster-2026-11-16.mp4",
+  "bytes": 373269,
+  "variable": "brand_badge+hook_daily",
+  "title": "Today's Word Is LOBSTER. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word LOBSTER hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "lobster"
+  ],
+  "grid": [
+    "ODTEPHKUTE",
+    "PIGSOPQXBS",
+    "MVBWIEFFQG",
+    "LOIJUQTEGT",
+    "ISDHMNQMQL",
+    "RHYYQKEUQD",
+    "YWVZXIIBPH",
+    "NOXKIUUHTX",
+    "QWESOVZENT",
+    "IOHLOBSTER"
+  ],
+  "answer_cells": [
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      9,
+      8
+    ],
+    [
+      9,
+      9
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
