@@ -347,7 +347,8 @@
     "MeetCivitas/Civitas-SOL",
     "Tarsnap/tarsnap",
     "paraspell/xcm-tools",
-    "xqq/mpegts.js"
+    "xqq/mpegts.js",
+    "overturn-ai/overturn"
   ],
   "excluded_owners": [
     "UnsafeLabs",
@@ -363,7 +364,10 @@
     "s-os-agency",
     "kwesigaamon8-web",
     "bad-antics",
-    "Fractal-Neurons"
+    "Fractal-Neurons",
+    "WholeTroutMedia",
+    "pokerclubhq",
+    "yosemite01"
   ],
   "comment_exclusions": "Mirrors revenue/bounty-pipeline/discovery-state.json program_exclusions and team-memory bait verdicts (2026-10-04). Add a repo here only with a written reason in SOURCES.md.",
   "comment_platforms": "Algora-escrowed bounties (label '💎 Bounty') are not scanned: Algora's terms ban AI agents (bounty/BOUNTY-FIRST-TIME-RIGHT-CHECKLIST-2026-10-03.md). BountyHub requires human authorship. See SOURCES.md.",
