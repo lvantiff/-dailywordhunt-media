@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-17",
+  "word": "DRAGON",
+  "file": "find-dragon-2026-11-17.mp4",
+  "bytes": 378907,
+  "variable": "brand_badge+hook_daily",
+  "title": "Today's Word Is DRAGON. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word DRAGON hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "dragon"
+  ],
+  "grid": [
+    "QRXLLTHNDO",
+    "QHBJASRVZZ",
+    "MIQGYJWVSD",
+    "TYWIOJONTE",
+    "EBXNYYMQHB",
+    "DVGGOQXQRF",
+    "ZQSNCGLECF",
+    "HXECODARBZ",
+    "ZONZUJHRLN",
+    "TSVKLKFWDX"
+  ],
+  "answer_cells": [
+    [
+      9,
+      8
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
