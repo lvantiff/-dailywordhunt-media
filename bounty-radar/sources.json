@@ -348,7 +348,8 @@
     "Tarsnap/tarsnap",
     "paraspell/xcm-tools",
     "xqq/mpegts.js",
-    "overturn-ai/overturn"
+    "overturn-ai/overturn",
+    "liana-banyan/librarian-mcp"
   ],
   "excluded_owners": [
     "UnsafeLabs",
@@ -367,7 +368,10 @@
     "Fractal-Neurons",
     "WholeTroutMedia",
     "pokerclubhq",
-    "yosemite01"
+    "yosemite01",
+    "Ayush441-python",
+    "HCTDIP",
+    "panoskokmotos"
   ],
   "comment_exclusions": "Mirrors revenue/bounty-pipeline/discovery-state.json program_exclusions and team-memory bait verdicts (2026-10-04). Add a repo here only with a written reason in SOURCES.md.",
   "comment_platforms": "Algora-escrowed bounties (label '💎 Bounty') are not scanned: Algora's terms ban AI agents (bounty/BOUNTY-FIRST-TIME-RIGHT-CHECKLIST-2026-10-03.md). BountyHub requires human authorship. See SOURCES.md.",
