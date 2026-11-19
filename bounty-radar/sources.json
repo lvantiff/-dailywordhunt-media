@@ -349,7 +349,8 @@
     "paraspell/xcm-tools",
     "xqq/mpegts.js",
     "overturn-ai/overturn",
-    "liana-banyan/librarian-mcp"
+    "liana-banyan/librarian-mcp",
+    "FreezingMoon/AncientBeast"
   ],
   "excluded_owners": [
     "UnsafeLabs",
