@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-19",
+  "word": "GHOST",
+  "file": "find-ghost-2026-11-19.mp4",
+  "bytes": 374387,
+  "variable": "brand_badge+hook_daily",
+  "title": "Today's Word Is GHOST. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word GHOST hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "ghost"
+  ],
+  "grid": [
+    "ZGNYNXZCBQ",
+    "RDAAKBPLWR",
+    "XSGSASKLZO",
+    "PVUHPIJJFZ",
+    "NYIGZAUVCF",
+    "VBZDHUMGVC",
+    "AWMXQOJMVI",
+    "OUFARVSELN",
+    "UIUIADJTCS",
+    "GPGCQOYEFC"
+  ],
+  "answer_cells": [
+    [
+      4,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      8,
+      7
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
