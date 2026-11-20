@@ -1,89 +1,86 @@
-# Bounty radar digest 2026-11-19 19:02Z
+# Bounty radar digest 2026-11-20 18:38Z
 
 Discovery only. A listing here is not a claim, a submission or money. Deep-review items still need the submission gate (sponsor terms, claim rules, competing PRs, payout path) before anyone works them.
 
-Candidates: 773. New this run: 345. API calls: 410.
+Candidates: 737. New this run: 247. API calls: 409.
 
-## Deep Review (5)
+## Deep Review (7)
 
 - 91 | [HHS/simpler-grants-protocol#1370](https://github.com/HHS/simpler-grants-protocol/issues/1370) | $500 | sponsor_program | open PRs 0, claims 0  
   [Implementation] Build a CommonGrants API for a grants data source
-- 76 | [Devansh-awat/kyto#263](https://github.com/Devansh-awat/kyto/issues/263) | $10000 | label_only | open PRs 0, claims 0 **NEW**  
-  [kevinton] improvement: batch getPermalink calls for multi-message citations (turns run 8+ serial permalink lookups)
-- 69 | [frolvanya/omni-rebalancer#2](https://github.com/frolvanya/omni-rebalancer/issues/2) | $50000 | label_only | open PRs 0, claims 0 **NEW**  
-  DAO proposal #335 filed for the omni.bridge replay — 10% bounty ($200k) to execute
+- 69 | [jejellyroll-fr/fpdb-3#872](https://github.com/jejellyroll-fr/fpdb-3/issues/872) | $135 | label_only | open PRs 0, claims 0 **NEW**  
+  [Enhancement] Replayer: Improve decision analysis panel for Cash Games, MTT, ICM and Bounty
 - 67 | [HHS/simpler-grants-protocol#1352](https://github.com/HHS/simpler-grants-protocol/issues/1352) | amount unknown | sponsor_program | open PRs 0, claims 0  
   [Catch-all] Implementation issues
-- 61 | [karagemop466-tech/Poker1#114](https://github.com/karagemop466-tech/Poker1/issues/114) | $8000 | label_only | open PRs 0, claims 0 **NEW**  
-  Source check 2026-11-19
+- 61 | [StoaDex/Stoa#14](https://github.com/StoaDex/Stoa/issues/14) | $530 | label_only | open PRs 0, claims 0 **NEW**  
+  Bounty #3 entry: Public Stoa swaps dashboard (Robinhood Chain)
+- 61 | [StoaDex/Stoa#13](https://github.com/StoaDex/Stoa/issues/13) | $634 | label_only | open PRs 0, claims 0 **NEW**  
+  Bounty: Public dashboard of Stoa swaps on Robinhood Chain
+- 61 | [StoaDex/Stoa#9](https://github.com/StoaDex/Stoa/issues/9) | $635 | label_only | open PRs 0, claims 0 **NEW**  
+  Bounty: Public dashboard for Stoa swaps on Robinhood Chain
+- 61 | [StoaDex/Stoa#10](https://github.com/StoaDex/Stoa/issues/10) | $639 | label_only | open PRs 0, claims 0 **NEW**  
+  Bounty: Public dashboard — Stoa swaps on Robinhood Chain (volume, traders, routes per venue)
 
-## Watch (38)
+## Watch (19)
 
-- 57 | [Soroban-escrow/escrow-backend#141](https://github.com/Soroban-escrow/escrow-backend/issues/141) | $50 | label_only | open PRs ?, claims ? **NEW**  
-  Update or remove the bounty label once a bounty is closed
+- 57 | [Soroban-escrow/escrow-app#178](https://github.com/Soroban-escrow/escrow-app/issues/178) | $50 | label_only | open PRs ?, claims ? **NEW**  
+  Paid or refunded issues keep their "bounty: …" label
 - 56 | [illbnm/homelab-stack#14](https://github.com/illbnm/homelab-stack/issues/14) | $200 | platform_escrow | open PRs 0, claims 0  
   [BOUNTY $200] Testing — 自动化测试套件
 - 55 | [Circadian-agent/agent-collective#1](https://github.com/Circadian-agent/agent-collective/issues/1) | $83 | platform_escrow | open PRs 0, claims 0  
   Introductions: who you are, what you are selling, one thing you measured
-- 53 | [ADT-community/trans_sport#5](https://github.com/ADT-community/trans_sport/issues/5) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Backend v1: data model and API for pings, fares and earnings
-- 53 | [ADT-community/locallity_ai#4](https://github.com/ADT-community/locallity_ai/issues/4) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Core API v1 with a safety prompt
-- 53 | [ADT-community/adt-community.github.io#1](https://github.com/ADT-community/adt-community.github.io/issues/1) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Internal: update the website's bounty section to the $20 model
-- 53 | [ADT-community/adt-community.github.io#12](https://github.com/ADT-community/adt-community.github.io/issues/12) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Partner sales kit: getting companies to post tasks
-- 53 | [ADT-community/content_feed#4](https://github.com/ADT-community/content_feed/issues/4) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Backend v1: accounts, profiles and follows
-- 53 | [ADT-community/trans_sport#8](https://github.com/ADT-community/trans_sport/issues/8) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Mobile money fares in a sandbox
-- 53 | [ADT-community/locallity_ai#2](https://github.com/ADT-community/locallity_ai/issues/2) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Implement the app UI from the Figma and connect it to the core API
-- 53 | [ADT-community/ADT_agent#2](https://github.com/ADT-community/ADT_agent/issues/2) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Detect stalled bounty tasks and comment on them
-- 53 | [ADT-community/trans_sport#9](https://github.com/ADT-community/trans_sport/issues/9) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Market research: pilot city, 3 owner interviews and pricing
-- 53 | [ADT-community/adt-community.github.io#2](https://github.com/ADT-community/adt-community.github.io/issues/2) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Launch kit: posts, 60-second video and 20 communities
-- 53 | [ADT-community/trans_sport#26](https://github.com/ADT-community/trans_sport/issues/26) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Sales kit: owner pitch and pricing page
-- 53 | [ADT-community/locallity_ai#3](https://github.com/ADT-community/locallity_ai/issues/3) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Language research: pick our first language
-- 53 | [ADT-community/locallity_ai#28](https://github.com/ADT-community/locallity_ai/issues/28) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Business API: keys, usage metering and docs
-- 53 | [ADT-community/content_feed#3](https://github.com/ADT-community/content_feed/issues/3) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Launch research: video costs, country and niche
-- 53 | [ADT-community/adt-community.github.io#7](https://github.com/ADT-community/adt-community.github.io/issues/7) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Payout operations: platform, private form and process
-- 53 | [ADT-community/ADT_agent#6](https://github.com/ADT-community/ADT_agent/issues/6) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Payout ledger: what's owed, and marking it paid
-- 53 | [ADT-community/adt-community.github.io#5](https://github.com/ADT-community/adt-community.github.io/issues/5) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Community set-up: Discord and weekly updates
-- 53 | [ADT-community/adt-community.github.io#9](https://github.com/ADT-community/adt-community.github.io/issues/9) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Figma: design ADT Work, the task platform
-- 53 | [ADT-community/content_feed#10](https://github.com/ADT-community/content_feed/issues/10) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Figma: design the creator app
-- 53 | [ADT-community/locallity_ai#7](https://github.com/ADT-community/locallity_ai/issues/7) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Knowledge base: trusted sources and grounded answers
-- 53 | [ADT-community/locallity_ai#14](https://github.com/ADT-community/locallity_ai/issues/14) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Figma: design the voice assistant app
-- 53 | [ADT-community/trans_sport#4](https://github.com/ADT-community/trans_sport/issues/4) | $20 | label_only | open PRs ?, claims ? **NEW**  
-  Connect the driver app and owner dashboard to the backend
+- 53 | [jdhart81/viridis-canon#155](https://github.com/jdhart81/viridis-canon/issues/155) | $50 | label_only | open PRs 0, claims 0 **NEW**  
+  [theorem bounty] Run-139 C2's box-and-budget optimiser is absent from its four certified algebraic targets
+- 53 | [jdhart81/viridis-canon#154](https://github.com/jdhart81/viridis-canon/issues/154) | $50 | label_only | open PRs 0, claims 0  
+  [theorem bounty] Run-135 C4 asserts a fair-bit finite-law witness but certifies only supplied entropy numbers
+- 53 | [jdhart81/viridis-canon#151](https://github.com/jdhart81/viridis-canon/issues/151) | $50 | label_only | open PRs 0, claims 0 **NEW**  
+  [theorem bounty] Run-138 C5 maps a sharpness-and-cancellation claim to a cancellation-only theorem
+- 51 | [jdhart81/viridis-canon#150](https://github.com/jdhart81/viridis-canon/issues/150) | $50 | label_only | open PRs ?, claims ? **NEW**  
+  [theorem bounty] Run-131 C131-01 maps objective-derived switch thresholds to an ordering-only Lean theorem
+- 51 | [jdhart81/viridis-canon#149](https://github.com/jdhart81/viridis-canon/issues/149) | $50 | label_only | open PRs ?, claims ? **NEW**  
+  [bounty] Run-123: C1 maps KL decomposition to a definitional ledger identity
+- 50 | [openai/codex#37585](https://github.com/openai/codex/issues/37585) | amount unknown | sponsor_program | open PRs 0, claims 0  
+  [Contributor Credits] Reward substantial verified bug-reporting work with additional Work/Codex usage
+- 45 | [translate/pootle#6187](https://github.com/translate/pootle/issues/6187) | $400 | label_only | open PRs 2, claims 1 **NEW**  
+  $ 400 bounty to add user permission to allow projects creation in Pootle
+- 44 | [cuentaprueba244w-dotcom/TentOfTrials#12](https://github.com/cuentaprueba244w-dotcom/TentOfTrials/issues/12) | $6 | label_only | open PRs ?, claims ?  
+  [$6 BOUNTY] [Python] Enforce uppercase LEGACY comments
+- 44 | [illbnm/homelab-stack#6](https://github.com/illbnm/homelab-stack/issues/6) | $220 | platform_escrow | open PRs 6, claims 0  
+  [BOUNTY $220] AI Stack — Ollama + Open WebUI + Stable Diffusion
+- 44 | [openstreetmap-ng/openstreetmap-ng#126](https://github.com/openstreetmap-ng/openstreetmap-ng/issues/126) | $20 | label_only | open PRs ?, claims ? **NEW**  
+  Automatic note closing on changeset close
+- 44 | [illbnm/homelab-stack#10](https://github.com/illbnm/homelab-stack/issues/10) | $280 | platform_escrow | open PRs 11, claims 0  
+  [BOUNTY $280] Observability — Prometheus + Grafana + Loki + Alerting
+- 43 | [Sottara-Labs/sottara#65](https://github.com/Sottara-Labs/sottara/issues/65) | $70 | label_only | open PRs 0, claims 0 **NEW**  
+  [Bounty: $70] Stop swallowing all errors in readOnChainPostage
+- 43 | [Settla-Labs/settla-app#64](https://github.com/Settla-Labs/settla-app/issues/64) | $80 | label_only | open PRs 0, claims 0 **NEW**  
+  [Bounty: $80] Fix the bare `?` and draft desync in `useOfferFilters`
+- 42 | [Norbyte/bg3se#162](https://github.com/Norbyte/bg3se/issues/162) | $350 | label_only | open PRs 0, claims 3  
+  [Feature Bounty - $350] MacOS Supported Version of BG3 SE
+- 40 | [illbnm/homelab-stack#7](https://github.com/illbnm/homelab-stack/issues/7) | $130 | platform_escrow | open PRs 5, claims 2  
+  [BOUNTY $130] Home Automation — Home Assistant + Node-RED + Zigbee2MQTT
+- 40 | [illbnm/homelab-stack#12](https://github.com/illbnm/homelab-stack/issues/12) | $150 | platform_escrow | open PRs 9, claims 0  
+  [BOUNTY $150] Backup & DR — 自动备份 + 灾难恢复
 
-## Program leads (0): repos whose docs describe a paid program, not yet reviewed
+## Program leads (6): repos whose docs describe a paid program, not yet reviewed
 
-None.
+- [BankkRoll/pumpfun-apis](https://github.com/BankkRoll/pumpfun-apis) | captures/2026-06-17/endpoints/GET-go-bounties.md | via bounties_md
+- [Ghost-xDD/memforks](https://github.com/Ghost-xDD/memforks) | docs/guides/bounties.md | via bounties_md
+- [RoamCN/roamcult.vip](https://github.com/RoamCN/roamcult.vip) | formatted/bounties.md | via bounties_md
+- [ethberlinzwei/KnowledgeBase](https://github.com/ethberlinzwei/KnowledgeBase) | bounties.md | via bounties_md
+- [irsdl/webhacklist](https://github.com/irsdl/webhacklist) | archived-references/md/2016-17/2016-portswigger-research-exploiting-cors-misconfigurations-bitcoins-bounties.md | via bounties_md
+- [mazaclub/EasyGitianBuilder](https://github.com/mazaclub/EasyGitianBuilder) | BOUNTIES.md | via bounties_md
 
 ## Rejections by gate
 
-- excluded_repo: 175
-- aggregator_mirror_or_grant: 157
-- noncash_reward: 48
-- platform_bans_ai_agents: 40
-- already_solved: 8
-- assigned_to_other: 6
-- meta_or_agent_experiment: 4
-- reporter_owned_security_submission: 2
+- excluded_repo: 185
+- aggregator_mirror_or_grant: 115
+- noncash_reward: 47
+- platform_bans_ai_agents: 44
+- already_solved: 9
+- assigned_to_other: 8
+- reporter_owned_security_submission: 1
+- meta_or_agent_experiment: 1
 
 ## Source coverage
 
@@ -99,14 +96,14 @@ None.
 - copycat_open_bounty_label: total 0, retrieved 0, complete True
 - size_bounty_labels: total 11, retrieved 11, complete True
 - paid_contributor_program_text: total 9, retrieved 9, complete True
-- generic_bounty_label: total 661, retrieved 299, complete False
-- bounty_dollar_title: total 947, retrieved 300, complete False
-- bounty_amount_body: total 3480, retrieved 300, complete False
-- opire_reward_comment: total 72, retrieved 72, complete True
+- generic_bounty_label: total 655, retrieved 299, complete False
+- bounty_dollar_title: total 1033, retrieved 300, complete False
+- bounty_amount_body: total 3515, retrieved 300, complete False
+- opire_reward_comment: total 69, retrieved 69, complete True
 
 ## Errors
 
 - {"url": "https://api.github.com/search/code?q=filename%3APAID_CONTRIBUTOR_TERMS.md&per_page=50", "status": 429}
 - {"url": "https://api.github.com/search/code?q=filename%3APAID_CONTRIBUTOR_TERMS.md&per_page=50", "status": 429}
-- {"url": "https://api.github.com/search/code?q=filename%3ABOUNTIES.md&per_page=50", "status": 429}
-- {"url": "https://api.github.com/search/code?q=filename%3ABOUNTIES.md&per_page=50", "status": 429}
+- {"url": "https://api.github.com/search/code?q=%22bounty+program%22+filename%3ACONTRIBUTING.md&per_page=50", "status": 429}
+- {"url": "https://api.github.com/search/code?q=%22bounty+program%22+filename%3ACONTRIBUTING.md&per_page=50", "status": 429}
