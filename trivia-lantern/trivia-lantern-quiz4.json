@@ -1,0 +1,562 @@
+{
+  "volume": 4,
+  "theme": "World History",
+  "file": "trivia-lantern-quiz4.mp4",
+  "bytes": 5514031,
+  "duration_s": 744,
+  "title": "Can You Score 30/45? World History Quiz, Easy to Hard (Trivia Lantern Quiz #4)",
+  "description": "45 world history questions from easy to hard. You get 12 seconds for each one. Pause any time, keep score, and comment your total!\n\nChapters:\n0:00 Intro\n0:05 Easy questions\n4:08 Medium questions\n8:11 Hard questions\n\nNew quiz every week. Subscribe so you don't miss the next one.\n\n#quiz #trivia #generalknowledge",
+  "tags": [
+    "quiz",
+    "trivia",
+    "general knowledge quiz",
+    "world history quiz",
+    "multiple choice quiz",
+    "trivia questions",
+    "brain games"
+  ],
+  "made_for_kids": false,
+  "answers": [
+    {
+      "n": 1,
+      "level": "EASY",
+      "q": "Who was the first President of the United States?",
+      "options": [
+        "George Washington",
+        "John Adams",
+        "Thomas Jefferson",
+        "Abraham Lincoln"
+      ],
+      "answer": "George Washington"
+    },
+    {
+      "n": 2,
+      "level": "EASY",
+      "q": "In which country are the ancient pyramids of Giza?",
+      "options": [
+        "Peru",
+        "Egypt",
+        "Mexico",
+        "Greece"
+      ],
+      "answer": "Egypt"
+    },
+    {
+      "n": 3,
+      "level": "EASY",
+      "q": "Who was the first person to walk on the Moon?",
+      "options": [
+        "John Glenn",
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Yuri Gagarin"
+      ],
+      "answer": "Neil Armstrong"
+    },
+    {
+      "n": 4,
+      "level": "EASY",
+      "q": "Which ship sank on its first voyage in 1912?",
+      "options": [
+        "Titanic",
+        "Lusitania",
+        "Bismarck",
+        "Mayflower"
+      ],
+      "answer": "Titanic"
+    },
+    {
+      "n": 5,
+      "level": "EASY",
+      "q": "In which city was the Colosseum built?",
+      "options": [
+        "Athens",
+        "Paris",
+        "Rome",
+        "Istanbul"
+      ],
+      "answer": "Rome"
+    },
+    {
+      "n": 6,
+      "level": "EASY",
+      "q": "Which wall came down in 1989?",
+      "options": [
+        "Great Wall",
+        "Hadrian's Wall",
+        "Western Wall",
+        "Berlin Wall"
+      ],
+      "answer": "Berlin Wall"
+    },
+    {
+      "n": 7,
+      "level": "EASY",
+      "q": "Who painted the Mona Lisa?",
+      "options": [
+        "Raphael",
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Pablo Picasso"
+      ],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "n": 8,
+      "level": "EASY",
+      "q": "In what year did World War II end?",
+      "options": [
+        "1939",
+        "1918",
+        "1950",
+        "1945"
+      ],
+      "answer": "1945"
+    },
+    {
+      "n": 9,
+      "level": "EASY",
+      "q": "Which country gave the Statue of Liberty to the United States?",
+      "options": [
+        "Britain",
+        "France",
+        "Italy",
+        "Spain"
+      ],
+      "answer": "France"
+    },
+    {
+      "n": 10,
+      "level": "EASY",
+      "q": "Which explorer reached the Americas in 1492?",
+      "options": [
+        "Vasco da Gama",
+        "Christopher Columbus",
+        "James Cook",
+        "Ferdinand Magellan"
+      ],
+      "answer": "Christopher Columbus"
+    },
+    {
+      "n": 11,
+      "level": "EASY",
+      "q": "Which ancient civilization built Machu Picchu?",
+      "options": [
+        "The Maya",
+        "The Inca",
+        "The Aztecs",
+        "The Romans"
+      ],
+      "answer": "The Inca"
+    },
+    {
+      "n": 12,
+      "level": "EASY",
+      "q": "Who gave the 'I Have a Dream' speech?",
+      "options": [
+        "Malcolm X",
+        "John F. Kennedy",
+        "Nelson Mandela",
+        "Martin Luther King Jr."
+      ],
+      "answer": "Martin Luther King Jr."
+    },
+    {
+      "n": 13,
+      "level": "EASY",
+      "q": "What was the name of the ship that carried the Pilgrims in 1620?",
+      "options": [
+        "Santa Maria",
+        "Mayflower",
+        "Beagle",
+        "Endeavour"
+      ],
+      "answer": "Mayflower"
+    },
+    {
+      "n": 14,
+      "level": "EASY",
+      "q": "Which country was ruled by pharaohs?",
+      "options": [
+        "India",
+        "China",
+        "Persia",
+        "Egypt"
+      ],
+      "answer": "Egypt"
+    },
+    {
+      "n": 15,
+      "level": "EASY",
+      "q": "Which country first used paper money?",
+      "options": [
+        "China",
+        "Egypt",
+        "Italy",
+        "England"
+      ],
+      "answer": "China"
+    },
+    {
+      "n": 16,
+      "level": "MEDIUM",
+      "q": "In what year did World War I begin?",
+      "options": [
+        "1905",
+        "1918",
+        "1914",
+        "1923"
+      ],
+      "answer": "1914"
+    },
+    {
+      "n": 17,
+      "level": "MEDIUM",
+      "q": "Who was the first Emperor of Rome?",
+      "options": [
+        "Augustus",
+        "Constantine",
+        "Julius Caesar",
+        "Nero"
+      ],
+      "answer": "Augustus"
+    },
+    {
+      "n": 18,
+      "level": "MEDIUM",
+      "q": "Which French leader was defeated at Waterloo?",
+      "options": [
+        "Louis XIV",
+        "Louis XVI",
+        "Charles de Gaulle",
+        "Napoleon Bonaparte"
+      ],
+      "answer": "Napoleon Bonaparte"
+    },
+    {
+      "n": 19,
+      "level": "MEDIUM",
+      "q": "Who was the British Prime Minister for most of World War II?",
+      "options": [
+        "Winston Churchill",
+        "David Lloyd George",
+        "Neville Chamberlain",
+        "Clement Attlee"
+      ],
+      "answer": "Winston Churchill"
+    },
+    {
+      "n": 20,
+      "level": "MEDIUM",
+      "q": "In what year did the United States declare independence?",
+      "options": [
+        "1789",
+        "1812",
+        "1607",
+        "1776"
+      ],
+      "answer": "1776"
+    },
+    {
+      "n": 21,
+      "level": "MEDIUM",
+      "q": "Which empire was ruled by Genghis Khan?",
+      "options": [
+        "Mongol Empire",
+        "Byzantine Empire",
+        "Persian Empire",
+        "Ottoman Empire"
+      ],
+      "answer": "Mongol Empire"
+    },
+    {
+      "n": 22,
+      "level": "MEDIUM",
+      "q": "Who was the first woman to win a Nobel Prize?",
+      "options": [
+        "Rosalind Franklin",
+        "Florence Nightingale",
+        "Ada Lovelace",
+        "Marie Curie"
+      ],
+      "answer": "Marie Curie"
+    },
+    {
+      "n": 23,
+      "level": "MEDIUM",
+      "q": "Which city was destroyed by Mount Vesuvius in 79 AD?",
+      "options": [
+        "Sparta",
+        "Pompeii",
+        "Troy",
+        "Carthage"
+      ],
+      "answer": "Pompeii"
+    },
+    {
+      "n": 24,
+      "level": "MEDIUM",
+      "q": "Who became South Africa's first Black president in 1994?",
+      "options": [
+        "Thabo Mbeki",
+        "Nelson Mandela",
+        "Jacob Zuma",
+        "Desmond Tutu"
+      ],
+      "answer": "Nelson Mandela"
+    },
+    {
+      "n": 25,
+      "level": "MEDIUM",
+      "q": "Which country launched Sputnik, the first artificial satellite?",
+      "options": [
+        "Germany",
+        "United States",
+        "China",
+        "Soviet Union"
+      ],
+      "answer": "Soviet Union"
+    },
+    {
+      "n": 26,
+      "level": "MEDIUM",
+      "q": "The Magna Carta was signed in which country?",
+      "options": [
+        "England",
+        "France",
+        "Scotland",
+        "Spain"
+      ],
+      "answer": "England"
+    },
+    {
+      "n": 27,
+      "level": "MEDIUM",
+      "q": "Which queen ruled England from 1558 to 1603?",
+      "options": [
+        "Elizabeth I",
+        "Mary I",
+        "Anne",
+        "Victoria"
+      ],
+      "answer": "Elizabeth I"
+    },
+    {
+      "n": 28,
+      "level": "MEDIUM",
+      "q": "Which famous document begins 'We the People'?",
+      "options": [
+        "The U.S. Constitution",
+        "The Magna Carta",
+        "The Declaration of Independence",
+        "The Bill of Rights"
+      ],
+      "answer": "The U.S. Constitution"
+    },
+    {
+      "n": 29,
+      "level": "MEDIUM",
+      "q": "Who invented the movable-type printing press in Europe?",
+      "options": [
+        "Johannes Gutenberg",
+        "Galileo Galilei",
+        "Isaac Newton",
+        "William Caxton"
+      ],
+      "answer": "Johannes Gutenberg"
+    },
+    {
+      "n": 30,
+      "level": "MEDIUM",
+      "q": "Which city was divided into East and West during the Cold War?",
+      "options": [
+        "Vienna",
+        "Prague",
+        "Warsaw",
+        "Berlin"
+      ],
+      "answer": "Berlin"
+    },
+    {
+      "n": 31,
+      "level": "HARD",
+      "q": "In what year did the Western Roman Empire fall?",
+      "options": [
+        "410 AD",
+        "1066 AD",
+        "312 AD",
+        "476 AD"
+      ],
+      "answer": "476 AD"
+    },
+    {
+      "n": 32,
+      "level": "HARD",
+      "q": "Which battle in 1066 made William the Conqueror king of England?",
+      "options": [
+        "Battle of Hastings",
+        "Battle of Stamford Bridge",
+        "Battle of Bosworth",
+        "Battle of Agincourt"
+      ],
+      "answer": "Battle of Hastings"
+    },
+    {
+      "n": 33,
+      "level": "HARD",
+      "q": "Who was the Soviet leader during the Cuban Missile Crisis?",
+      "options": [
+        "Mikhail Gorbachev",
+        "Nikita Khrushchev",
+        "Leonid Brezhnev",
+        "Joseph Stalin"
+      ],
+      "answer": "Nikita Khrushchev"
+    },
+    {
+      "n": 34,
+      "level": "HARD",
+      "q": "Which city was the capital of the Byzantine Empire?",
+      "options": [
+        "Athens",
+        "Alexandria",
+        "Rome",
+        "Constantinople"
+      ],
+      "answer": "Constantinople"
+    },
+    {
+      "n": 35,
+      "level": "HARD",
+      "q": "The Hundred Years' War was fought between England and which country?",
+      "options": [
+        "Spain",
+        "France",
+        "Scotland",
+        "the Netherlands"
+      ],
+      "answer": "France"
+    },
+    {
+      "n": 36,
+      "level": "HARD",
+      "q": "Who was the last tsar of Russia?",
+      "options": [
+        "Alexander III",
+        "Ivan IV",
+        "Nicholas II",
+        "Peter the Great"
+      ],
+      "answer": "Nicholas II"
+    },
+    {
+      "n": 37,
+      "level": "HARD",
+      "q": "In what year did the French Revolution begin?",
+      "options": [
+        "1848",
+        "1815",
+        "1776",
+        "1789"
+      ],
+      "answer": "1789"
+    },
+    {
+      "n": 38,
+      "level": "HARD",
+      "q": "Which Aztec capital stood where Mexico City is today?",
+      "options": [
+        "Teotihuacan",
+        "Chichen Itza",
+        "Tenochtitlan",
+        "Cusco"
+      ],
+      "answer": "Tenochtitlan"
+    },
+    {
+      "n": 39,
+      "level": "HARD",
+      "q": "Which Indian leader led the Salt March in 1930?",
+      "options": [
+        "B. R. Ambedkar",
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Subhas Chandra Bose"
+      ],
+      "answer": "Mahatma Gandhi"
+    },
+    {
+      "n": 40,
+      "level": "HARD",
+      "q": "Which empire was ruled from Istanbul until 1922?",
+      "options": [
+        "Persian Empire",
+        "Austro-Hungarian Empire",
+        "Mughal Empire",
+        "Ottoman Empire"
+      ],
+      "answer": "Ottoman Empire"
+    },
+    {
+      "n": 41,
+      "level": "HARD",
+      "q": "Who was the first Emperor of China?",
+      "options": [
+        "Emperor Wu",
+        "Qin Shi Huang",
+        "Sun Yat-sen",
+        "Kublai Khan"
+      ],
+      "answer": "Qin Shi Huang"
+    },
+    {
+      "n": 42,
+      "level": "HARD",
+      "q": "The Treaty of Versailles ended which war?",
+      "options": [
+        "World War II",
+        "World War I",
+        "The Crimean War",
+        "The Napoleonic Wars"
+      ],
+      "answer": "World War I"
+    },
+    {
+      "n": 43,
+      "level": "HARD",
+      "q": "Which pharaoh's nearly intact tomb was found in 1922?",
+      "options": [
+        "Cleopatra",
+        "Khufu",
+        "Tutankhamun",
+        "Ramses II"
+      ],
+      "answer": "Tutankhamun"
+    },
+    {
+      "n": 44,
+      "level": "HARD",
+      "q": "Which Carthaginian general crossed the Alps with elephants?",
+      "options": [
+        "Scipio",
+        "Hannibal",
+        "Hamilcar",
+        "Spartacus"
+      ],
+      "answer": "Hannibal"
+    },
+    {
+      "n": 45,
+      "level": "HARD",
+      "q": "In what year did the Berlin Wall go up?",
+      "options": [
+        "1968",
+        "1956",
+        "1949",
+        "1961"
+      ],
+      "answer": "1961"
+    }
+  ],
+  "facts_checked_by": "Claude, by hand, 2026-11-06"
+}
