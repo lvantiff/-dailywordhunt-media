@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-22",
+  "word": "ORANGE",
+  "file": "find-orange-2026-11-22.mp4",
+  "bytes": 375124,
+  "variable": "brand_badge+hook_daily",
+  "title": "Today's Word Is ORANGE. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word ORANGE hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "orange"
+  ],
+  "grid": [
+    "BBSCKVXAEP",
+    "HTDFGTJRUM",
+    "LDVKSFKTIQ",
+    "YOFRCJOFEV",
+    "HLVWKZVXCY",
+    "TBILOKWTBW",
+    "BEQEGNAROR",
+    "IRIGSEUZBH",
+    "EMZQZJSTYS",
+    "DQVZPQBPYM"
+  ],
+  "answer_cells": [
+    [
+      6,
+      8
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      3
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
