@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-23",
+  "word": "PRETZEL",
+  "file": "find-pretzel-2026-11-23.mp4",
+  "bytes": 364914,
+  "variable": "brand_badge+hook_daily",
+  "title": "Today's Word Is PRETZEL. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word PRETZEL hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "pretzel"
+  ],
+  "grid": [
+    "HQYPLTLEHN",
+    "ELDSEJYPWI",
+    "SNPRZWQILG",
+    "RJULTYGOCO",
+    "ZKGAEQKBQD",
+    "RDGZRJVQCH",
+    "SQIGPCHBNX",
+    "IWDQOHXHBB",
+    "DCACHZIWXD",
+    "YLSHCWXIVG"
+  ],
+  "answer_cells": [
+    [
+      6,
+      4
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
