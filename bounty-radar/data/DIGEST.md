@@ -1,40 +1,38 @@
-# Bounty radar digest 2026-11-23 22:05Z
+# Bounty radar digest 2026-11-24 20:41Z
 
 Discovery only. A listing here is not a claim, a submission or money. Deep-review items still need the submission gate (sponsor terms, claim rules, competing PRs, payout path) before anyone works them.
 
-Candidates: 783. New this run: 214. API calls: 469.
+Candidates: 709. New this run: 233. API calls: 490.
 
 ## Deep Review (6)
 
 - 91 | [HHS/simpler-grants-protocol#1370](https://github.com/HHS/simpler-grants-protocol/issues/1370) | $500 | sponsor_program | open PRs 0, claims 0  
   [Implementation] Build a CommonGrants API for a grants data source
-- 71 | [rsksmart/rskj#3846](https://github.com/rsksmart/rskj/issues/3846) | $300 | label_only | open PRs 0, claims 0 **NEW**  
-  Stop Pay2Win
+- 71 | [1337isnot1337/solved-conjectures#228](https://github.com/1337isnot1337/solved-conjectures/issues/228) | $1676 | label_only | open PRs 0, claims 0  
+  Cash-bounty research: Erdős151 clique-transversal conjecture
+- 71 | [EthereumCommonwealth/Dex223-contracts#223](https://github.com/EthereumCommonwealth/Dex223-contracts/issues/223) | $750 | label_only | open PRs 0, claims 0 **NEW**  
+  Notes on main before the next mainnet deploy: enableFees order, ERC-223 origin swap revert, line endings
 - 67 | [HHS/simpler-grants-protocol#1352](https://github.com/HHS/simpler-grants-protocol/issues/1352) | amount unknown | sponsor_program | open PRs 0, claims 0  
   [Catch-all] Implementation issues
-- 65 | [fireblocks/fireblocks-sdk-js#349](https://github.com/fireblocks/fireblocks-sdk-js/issues/349) | $50000 | label_only | open PRs 0, claims 0  
-  Propuesta: Fireblocks Agent Execution
-- 62 | [nick-transition/fitapp#101](https://github.com/nick-transition/fitapp/issues/101) | $100 | label_only | open PRs 0, claims 0 **NEW**  
-  [Bounty Proposal] Validate YouTube hosts and video IDs before normalizing reference links
+- 64 | [nextlevelbuilder/dewee-web-v2#187](https://github.com/nextlevelbuilder/dewee-web-v2/issues/187) | $50 | label_only | open PRs 0, claims 0 **NEW**  
+  feat: Dewee Builders public website, contributor onboarding & documentation
 - 60 | [sybil-solutions/local-ai-registry#479](https://github.com/sybil-solutions/local-ai-registry/issues/479) | $50 | label_only | open PRs 0, claims 0  
   Recipe request: Inkling-2-Mini (26.4B looped) on 2x RTX 3060 12 GB at 128K+ — and does it need a bounty?
 
-## Watch (16)
+## Watch (14)
 
-- 57 | [ariahendrawan-sudo/project-a#30](https://github.com/ariahendrawan-sudo/project-a/issues/30) | $50 | label_only | open PRs ?, claims ? **NEW**  
-  Bounty Scout — 2026-11-23
 - 56 | [illbnm/homelab-stack#14](https://github.com/illbnm/homelab-stack/issues/14) | $200 | platform_escrow | open PRs 0, claims 0  
   [BOUNTY $200] Testing — 自动化测试套件
 - 55 | [Circadian-agent/agent-collective#1](https://github.com/Circadian-agent/agent-collective/issues/1) | $83 | platform_escrow | open PRs 0, claims 0  
   Introductions: who you are, what you are selling, one thing you measured
-- 54 | [Soroban-escrow/escrow-backend#141](https://github.com/Soroban-escrow/escrow-backend/issues/141) | $50 | label_only | open PRs ?, claims ?  
-  Update or remove the bounty label once a bounty is closed
+- 53 | [viniciusscience/fishid-studio#9](https://github.com/viniciusscience/fishid-studio/issues/9) | $5 | label_only | open PRs ?, claims ? **NEW**  
+  [Sponsor-Funded Bounty $5] feat(qa & api): automated pytest suite, batch prediction, EXIF privacy & CI
 - 53 | [blake-guthrie/GLASS#67](https://github.com/blake-guthrie/GLASS/issues/67) | $15 | label_only | open PRs ?, claims ?  
   Bounty proposal: dated Bybit reserve-address attribution
 - 53 | [zardoy/space-squid#60](https://github.com/zardoy/space-squid/issues/60) | $15 | label_only | open PRs ?, claims ?  
   Survival/PvP bounty proposal: isolate melee attacks by world
-- 51 | [sybil-solutions/local-ai-registry#223](https://github.com/sybil-solutions/local-ai-registry/issues/223) | $50 | label_only | open PRs ?, claims ?  
-  Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)
+- 53 | [zymphoto/makefun-excuse-agent-loses#1](https://github.com/zymphoto/makefun-excuse-agent-loses/issues/1) | $5 | label_only | open PRs ?, claims ? **NEW**  
+  Build make.fun entry: one-line excuse program (Node/TypeScript, no dependencies)
 - 50 | [openai/codex#37585](https://github.com/openai/codex/issues/37585) | amount unknown | sponsor_program | open PRs 0, claims 0  
   [Contributor Credits] Reward substantial verified bug-reporting work with additional Work/Codex usage
 - 45 | [translate/pootle#6187](https://github.com/translate/pootle/issues/6187) | $400 | label_only | open PRs 1, claims 1  
@@ -45,8 +43,6 @@ Candidates: 783. New this run: 214. API calls: 469.
   [BOUNTY $280] Observability — Prometheus + Grafana + Loki + Alerting
 - 43 | [NashKara96/fx#1](https://github.com/NashKara96/fx/issues/1) | $10 | platform_escrow | open PRs 0, claims 0  
   🎯 Ensure all OnStop hooks execute during Lifecycle.Stop() even if a prior hook returns context.Canceled or context.Deadl
-- 43 | [rohan2pt0/ai-cloud-cyber-range#127](https://github.com/rohan2pt0/ai-cloud-cyber-range/issues/127) | $95 | label_only | open PRs 0, claims 0  
-  Backlog: what is not finished
 - 42 | [XHToken/Spark-X2.6#32](https://github.com/XHToken/Spark-X2.6/issues/32) | $100 | label_only | open PRs 1, claims 0  
   HER Hack-Astron #8 | Spark × SkillHub Agent Skills Challenge｜Agent 技能实战挑战赛
 - 40 | [illbnm/homelab-stack#7](https://github.com/illbnm/homelab-stack/issues/7) | $130 | platform_escrow | open PRs 5, claims 2  
@@ -60,14 +56,14 @@ None.
 
 ## Rejections by gate
 
-- excluded_repo: 314
-- aggregator_mirror_or_grant: 129
-- noncash_reward: 50
-- platform_bans_ai_agents: 39
+- excluded_repo: 263
+- aggregator_mirror_or_grant: 113
+- platform_bans_ai_agents: 32
+- noncash_reward: 24
 - assigned_to_other: 9
 - already_solved: 9
-- reporter_owned_security_submission: 7
-- meta_or_agent_experiment: 6
+- meta_or_agent_experiment: 7
+- reporter_owned_security_submission: 5
 
 ## Source coverage
 
@@ -83,10 +79,10 @@ None.
 - copycat_open_bounty_label: total 0, retrieved 0, complete True
 - size_bounty_labels: total 11, retrieved 11, complete True
 - paid_contributor_program_text: total 11, retrieved 11, complete True
-- generic_bounty_label: total 574, retrieved 300, complete False
-- bounty_dollar_title: total 1017, retrieved 300, complete False
-- bounty_amount_body: total 3426, retrieved 300, complete False
-- opire_reward_comment: total 74, retrieved 74, complete True
+- generic_bounty_label: total 476, retrieved 198, complete False
+- bounty_dollar_title: total 960, retrieved 300, complete False
+- bounty_amount_body: total 3317, retrieved 300, complete False
+- opire_reward_comment: total 72, retrieved 72, complete True
 
 ## Errors
 
