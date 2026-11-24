@@ -357,7 +357,10 @@
     "gmsol-labs/gmx-solana",
     "Rezacrown/cakesplit-bch-submission",
     "Fishers-Founders-United/Swapatron5000",
-    "monkey-trading/engine"
+    "monkey-trading/engine",
+    "rsksmart/rskj",
+    "nick-transition/fitapp",
+    "coreguard-global/CoreGuard"
   ],
   "excluded_owners": [
     "UnsafeLabs",
