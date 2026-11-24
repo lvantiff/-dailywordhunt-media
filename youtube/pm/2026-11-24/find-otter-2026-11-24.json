@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-24",
+  "word": "OTTER",
+  "file": "find-otter-2026-11-24.mp4",
+  "bytes": 378176,
+  "variable": "brand_badge+hook_daily",
+  "title": "Today's Word Is OTTER. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word OTTER hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "otter"
+  ],
+  "grid": [
+    "YFHJBDWPSI",
+    "ZEMCJLHWCZ",
+    "IGYZXCCABZ",
+    "NMKQAZRRJE",
+    "OERMXICSGS",
+    "RPCESFWNJR",
+    "ISFBTOTEZH",
+    "OQLGJTGRBY",
+    "SRDVXZOOOB",
+    "IOIJCXAZOC"
+  ],
+  "answer_cells": [
+    [
+      8,
+      6
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      4,
+      2
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
