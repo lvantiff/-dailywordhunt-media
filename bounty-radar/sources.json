@@ -145,6 +145,8 @@
     }
   ],
   "excluded_repos": [
+    "EthereumCommonwealth/Dex223-contracts",
+    "nextlevelbuilder/dewee-web-v2",
     "letsbecool9792/sereno-demo",
     "mfaulk/zeebra",
     "ilhamraduanbis-source/toyol-digital",
