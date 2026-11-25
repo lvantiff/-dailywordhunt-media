@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-25",
+  "word": "PENCIL",
+  "file": "find-pencil-2026-11-25.mp4",
+  "bytes": 366598,
+  "variable": "brand_badge+hook_daily",
+  "title": "Today's Word Is PENCIL. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word PENCIL hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "pencil"
+  ],
+  "grid": [
+    "QNUIYIOPLS",
+    "CCHITHLIRF",
+    "WUQDUFCTSW",
+    "EXKVANGCLG",
+    "KGTWEEBXBP",
+    "BAVPQDUVFK",
+    "ASMIAHUNIF",
+    "PVLQGMUMII",
+    "XCJBWLSIIG",
+    "VCWSTIFPRF"
+  ],
+  "answer_cells": [
+    [
+      5,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
