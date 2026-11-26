@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-26",
+  "word": "WAFFLE",
+  "file": "find-waffle-2026-11-26.mp4",
+  "bytes": 372892,
+  "variable": "brand_badge+hook_daily",
+  "title": "Today's Word Is WAFFLE. Find It in 10 Seconds 🔍 #shorts",
+  "description": "Can you spot the word WAFFLE hidden in the grid before the timer runs out? Comment your time! A new word search puzzle every day. #wordsearch #puzzle #brainteaser",
+  "tags": [
+    "word search",
+    "find the word",
+    "puzzle",
+    "brain teaser",
+    "can you find it",
+    "waffle"
+  ],
+  "grid": [
+    "SAFJRUXMVZ",
+    "VQBBSKDSUM",
+    "SKTDLPECZH",
+    "SOVVJAPDCF",
+    "HUWAFFLEQB",
+    "RCUDIAWDHX",
+    "KSBOMFSNUJ",
+    "GUFZCVIZAE",
+    "PVNVBBWRLR",
+    "FQSVZKQRGC"
+  ],
+  "answer_cells": [
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "grid_size": 10,
+  "verified_single_occurrence": true
+}
