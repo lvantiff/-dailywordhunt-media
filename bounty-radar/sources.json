@@ -145,6 +145,7 @@
     }
   ],
   "excluded_repos": [
+    "g-leech/argmin-gravitas",
     "EthereumCommonwealth/Dex223-contracts",
     "nextlevelbuilder/dewee-web-v2",
     "letsbecool9792/sereno-demo",
