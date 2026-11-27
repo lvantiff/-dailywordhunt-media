@@ -145,6 +145,7 @@
     }
   ],
   "excluded_repos": [
+    "aeyakovenko/percolator-cli",
     "g-leech/argmin-gravitas",
     "EthereumCommonwealth/Dex223-contracts",
     "nextlevelbuilder/dewee-web-v2",
